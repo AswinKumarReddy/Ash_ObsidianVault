@@ -8,3 +8,4 @@ https://www.youtube.com/watch?v=Cu4-BPcveBI
 
 Additionally in iPhone for auto commit on Opne/Close of app, create a shortcut of `sync now` and setup an automation to trigger it on open/close of Obsidian app.
 
+https://gitsync.viscouspotenti.al/wiki/sync-options/background/app-based#gitsync-openclose-sync
