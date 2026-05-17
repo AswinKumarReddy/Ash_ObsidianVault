@@ -9,3 +9,5 @@ Sync test end to end
 Another test for sync form PC
 
  Sync test from iphone 12.41
+
+Update test form PC - Push test -1.07
