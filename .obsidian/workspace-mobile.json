@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cognitive Core/1. Projects/Sketch drawing - first 20 hours plan.md",
+                "file": "Cognitive Core/Test file.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sketch drawing - first 20 hours plan"
+              "title": "Test file"
             }
           }
         ]
@@ -168,8 +168,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "2a190fda0bfa5eca",
+  "active": "159a8cbf2df0fcf9",
   "lastOpenFiles": [
+    "Cognitive Core/1. Projects/Sketch drawing - first 20 hours plan.md",
     "Cognitive Core/Test file.md",
     "Cognitive Core/4. Archives/Place holder.md",
     "Cognitive Core/4. Archives",
@@ -204,7 +205,6 @@
     "Cognitive Core/3. Resources/Custom Resources/Fields.md",
     "Cognitive Core/3. Resources/Templates/Podcast Entry.md",
     "Cognitive Core/1. Projects/Alcohol Sketching",
-    "Cognitive Core/1. Projects/Sketch drawing - first 20 hours plan.md",
     "Cognitive Core/1. Projects/Building a Second Brain",
     "Cognitive Core/1. Projects/Obsidian Optimization"
   ]
