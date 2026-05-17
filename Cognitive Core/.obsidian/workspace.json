@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "b14fcd282fa87241",
+    "id": "26b391c6a0732df7",
     "type": "split",
     "children": [
       {
-        "id": "47acbc74c54f04ed",
+        "id": "a8d1695dcf1cf3c9",
         "type": "tabs",
         "children": [
           {
-            "id": "ac092a728891727f",
+            "id": "0e84c404b3538224",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "0. Daily notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "0. Daily notes"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e774afa749163989",
+    "id": "fcdd8172a3b23069",
     "type": "split",
     "children": [
       {
-        "id": "ef9d58272a9eb81c",
+        "id": "f3c646384ce108cb",
         "type": "tabs",
         "children": [
           {
-            "id": "e7114dfa5c479439",
+            "id": "91c6e00ff053d8ae",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "c1ab1250880bf374",
+            "id": "87d4b6317ced87f5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "53752d4679dd1ab6",
+            "id": "236358884a65dcb5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "a53a21b3a2d6c6f2",
+    "id": "82e8076c88f3d134",
     "type": "split",
     "children": [
       {
-        "id": "8ced3b6b44b94713",
+        "id": "004446d4da4dccd0",
         "type": "tabs",
         "children": [
           {
-            "id": "b9382170309ad1b0",
+            "id": "0daac438582aa7d0",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "0. Daily notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for 0. Daily notes"
             }
           },
           {
-            "id": "67a9e5d00d4c129e",
+            "id": "cc02724c03e86fe1",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "0. Daily notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from 0. Daily notes"
             }
           },
           {
-            "id": "8ae31a02d72f3645",
+            "id": "c45a15c2512e7565",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +137,7 @@
             }
           },
           {
-            "id": "a22757e187fa9fab",
+            "id": "a69bcd25bcabc95a",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,22 +151,22 @@
             }
           },
           {
-            "id": "e15b4a67a94affb1",
+            "id": "808f7c8a207789e6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "0. Daily notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of 0. Daily notes"
             }
           },
           {
-            "id": "6f4378a0e9808edb",
+            "id": "1a62463e16a8e142",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -194,44 +194,8 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7114dfa5c479439",
+  "active": "0e84c404b3538224",
   "lastOpenFiles": [
-    "Cognitive Core/Thought Capture",
-    "Cognitive Core/RecycleBin~9b4b.ffs_tmp/Test file.md",
-    "Cognitive Core/RecycleBin~9b4b.ffs_tmp",
-    "Cognitive Core/RecycleBin~4eed.ffs_tmp/Test file.md",
-    "Cognitive Core/RecycleBin~4eed.ffs_tmp",
-    "Cognitive Core/RecycleBin~0f65.ffs_tmp/Test file.md",
-    "Cognitive Core/RecycleBin~0f65.ffs_tmp",
-    "Cognitive Core/4. Archives",
-    "Cognitive Core/3. Resources/Templates/Podcast Entry.md",
-    "Cognitive Core/3. Resources/Templates",
-    "Cognitive Core/3. Resources/Custom Resources/Fields.md",
-    "Cognitive Core/3. Resources/Custom Resources",
-    "Cognitive Core/3. Resources",
-    "Cognitive Core/2. Areas/Untitled",
-    "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Attachments/pexels-artosuraj-28762053.jpg",
-    "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Attachments/Confirmation_for_Booking_ID_ _1989379666.pdf",
-    "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Attachments/Blr to Agra 12-3-26 eticket_1748033.pdf",
-    "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Agra Visit.md",
-    "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Agra day 2.md",
-    "Cognitive Core/2. Areas/Travel log/Travel Kit - to be updated.md",
-    "Cognitive Core/2. Areas/Self Development/The first 20 hours how to learn anything - Josh Kaufman.md",
-    "Cognitive Core/2. Areas/Self Development/Ted Talks to watch.md",
-    "Cognitive Core/2. Areas/Reading List/Self Help - Reading List.md",
-    "Cognitive Core/2. Areas/Reading List/Reading List.md",
-    "Cognitive Core/2. Areas/Reading List/Programming - Reading List.md",
-    "Cognitive Core/2. Areas/Reading List/Fiction - Reading List.md",
-    "Cognitive Core/2. Areas/Podcasts/Tech Podcast Entries/Hyperscaling SQL with Sam Lambert.md",
-    "Cognitive Core/2. Areas/Podcasts/Tech Podcast Entries/Designing A Data-Intensive Future • Martin Kleppmann.md",
-    "Cognitive Core/2. Areas/Podcasts/Tech Podcast Entries/DeepMinds RAG System.md",
-    "Cognitive Core/2. Areas/Podcasts/Tech Podcast Entries/Cilium, eBPF, and Modern Kubernetes Networking.md",
-    "Cognitive Core/2. Areas/Podcasts/Tech Podcast Entries/Apache Iceberg - The Definitive Table Format.md",
-    "Cognitive Core/2. Areas/Podcasts/Podcast Dashboard.md",
-    "Cognitive Core/1. Projects/Personal Gallery Sync System/Data store sync - thoughts.md",
-    "Cognitive Core/1. Projects/Obsidian Optimization/Obsidian Tutorials.md",
-    "Cognitive Core/1. Projects/Building a Second Brain/Obsidian - iCloud sync.md",
-    "Cognitive Core/1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
-    "Cognitive Core/1. Projects/Alcohol Sketching/Basics of Alcohol Marker Art.md"
+    "Test file.md"
   ]
 }

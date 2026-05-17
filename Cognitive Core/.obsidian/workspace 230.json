@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "aa9c9d650e0503b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1ccf5bfe13135e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5e29f9c5c5eacde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/Podcasts/Podcast Entries/Apache Iceberg - The Definitive Table Format.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Apache Iceberg - The Definitive Table Format"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dd1563528d1af978",
+    "type": "split",
+    "children": [
+      {
+        "id": "9436b1d77a0f1644",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32326b31dadcf631",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "91d35b38407c516b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8ad8dfd868b85740",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4169f3af0bc2e1ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "f443dd6dccc67225",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6280c9fbbc259019",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2. Areas/Podcasts/Podcast Entries/Apache Iceberg - The Definitive Table Format.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Apache Iceberg - The Definitive Table Format"
+            }
+          },
+          {
+            "id": "d3afb2cb032cd738",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2. Areas/Podcasts/Podcast Entries/Apache Iceberg - The Definitive Table Format.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Apache Iceberg - The Definitive Table Format"
+            }
+          },
+          {
+            "id": "00ec18f2cdbc0d2b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7969a66d29371eea",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e16f1f08e3393fca",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2. Areas/Podcasts/Podcast Entries/Apache Iceberg - The Definitive Table Format.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Apache Iceberg - The Definitive Table Format"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b5e29f9c5c5eacde",
+  "lastOpenFiles": [
+    "2. Areas/Podcasts/Podcast Dashboard.md",
+    "2. Areas/Reading List",
+    "4. Archives",
+    "3. Resources",
+    "2. Areas",
+    "1. Projects"
+  ]
+}

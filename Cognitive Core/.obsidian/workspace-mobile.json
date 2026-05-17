@@ -1,0 +1,253 @@
+{
+  "main": {
+    "id": "79c709c800baec82",
+    "type": "split",
+    "children": [
+      {
+        "id": "577ddf78bd2c5d0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79ec89a26d6e3769",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Travel log/Agra Visit March 2026/Agra Visit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Agra Visit"
+            }
+          },
+          {
+            "id": "f8189b3ac2d74a41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Travel log/Agra Visit March 2026/Agra Visit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Agra Visit"
+            }
+          },
+          {
+            "id": "313250e59c8d17b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Custom Resources/Fields.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fields"
+            }
+          },
+          {
+            "id": "f32a222605f5447f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. Daily notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0. Daily notes"
+            }
+          },
+          {
+            "id": "eda2517c1624e97a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Test file.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Test file"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "daa04b089e16293c",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "25d9d3e32006b729",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "cf266110eb28c065",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "35000a600c796579",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "3d68518309480e0e",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "51e96864a0aac581",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "019273f9ead883e8",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "c860f6a9a3c8ac60",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Podcasts/Podcast Entries/Hyperscaling SQL with Sam Lambert.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "51d2456a491780ff",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Data store sync - thoughts.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "65a576e17ff57dd7",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Data store sync - thoughts.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "eda2517c1624e97a",
+  "lastOpenFiles": [
+    "RecycleBin~9b4b.ffs_tmp/Test file.md",
+    "RecycleBin~9b4b.ffs_tmp",
+    "sync.ffs_lock",
+    "0. Daily notes.md",
+    "Test file.md",
+    "2. Areas/Art/Alcohol Sketching/Basics of Alcohol Marker Art.md",
+    "1. Projects/Sketch drawing - first 20 hours plan.md",
+    "Custom Resources/Fields.md",
+    "2. Areas/Art",
+    "Podcasts/Podcast Dashboard.md",
+    "Podcasts/Podcast Entries/Designing A Data-Intensive Future • Martin Kleppmann.md",
+    "Podcasts/Podcast Entries/Hyperscaling SQL with Sam Lambert.md",
+    "Podcasts/Podcast Entries/Cilium, eBPF, and Modern Kubernetes Networking.md",
+    "The first 20 hours how to learn anything - Josh Kaufman.md",
+    "Thought Capture/Ted Talks to watch.md",
+    "Travel log/Agra Visit March 2026/Attachments/Agra to Blr 14-3-26 eticket_1748048.pdf",
+    "Travel log/Agra Visit March 2026/Agra Visit.md",
+    "Travel log/Agra Visit March 2026/Agra day 2.md",
+    "Thought Capture/Travel Kit - to be updated.md",
+    "Travel log/Agra Visit March 2026/Attachments/Confirmation_for_Booking_ID_ _1989379666.pdf",
+    "Obsidian - iCloud sync.md",
+    "Data store sync - thoughts.md"
+  ]
+}

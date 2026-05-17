@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "6e55bf394d97e954",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc3ecb0b0a94eb08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1088887052bdf646",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Self Help - Reading List.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Self Help - Reading List"
+            }
+          },
+          {
+            "id": "f0da0d3e4a468485",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Untitled.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "d6bb1b7b75f8411e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Podcast Entry.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Podcast Entry"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b01aa79fa4183a5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c813cc9c91829af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91355a23706152e7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "77c023ce51c2ca1b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "06282580fbc0dde0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0c4e9a68b3f82182",
+    "type": "split",
+    "children": [
+      {
+        "id": "d407f1fcfb191875",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f441e6afa51e5b4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Templates/Podcast Entry.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Podcast Entry"
+            }
+          },
+          {
+            "id": "0356b5a34581053d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Templates/Podcast Entry.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Podcast Entry"
+            }
+          },
+          {
+            "id": "d3e5c5b21f1e6871",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d7ee4598d9210fa9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "874f0d480ac1e0de",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Templates/Podcast Entry.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Podcast Entry"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "d6bb1b7b75f8411e",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "Untitled.base",
+    "Templates/Podcast Entry.md",
+    "Custom Resources/Fields.md",
+    "Self Help - Reading List.md",
+    "Custom Resources",
+    "The first 20 hours how to learn anything - Josh Kaufman.md",
+    "1..md",
+    "Podcasts/Podcast Entries/Cilium, eBPF, and Modern Kubernetes Networking.md",
+    "Podcasts/Podcast Dashboard.md",
+    "Podcasts/Podcast Entries/Hyperscaling SQL with Sam Lambert.md"
+  ]
+}
