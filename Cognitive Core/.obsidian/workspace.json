@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,8 +198,8 @@
   "active": "0e84c404b3538224",
   "lastOpenFiles": [
     "0. Daily notes.md",
+    "Test file.md",
     "1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
-    "4. Archives/Place holder.md",
-    "Test file.md"
+    "4. Archives/Place holder.md"
   ]
 }
