@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cognitive Core/Test file.md",
+                "file": "Cognitive Core/1. Projects/Sketch drawing - first 20 hours plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Test file"
+              "title": "Sketch drawing - first 20 hours plan"
             }
           }
         ]
@@ -165,12 +165,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
   "active": "2a190fda0bfa5eca",
   "lastOpenFiles": [
+    "Cognitive Core/Test file.md",
+    "Cognitive Core/4. Archives/Place holder.md",
+    "Cognitive Core/4. Archives",
     "README.md",
     "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Attachments/Agra to Blr 14-3-26 eticket_1748048.pdf",
     "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Attachments/pexels-artosuraj-28762053.jpg",
@@ -204,9 +206,6 @@
     "Cognitive Core/1. Projects/Alcohol Sketching",
     "Cognitive Core/1. Projects/Sketch drawing - first 20 hours plan.md",
     "Cognitive Core/1. Projects/Building a Second Brain",
-    "Cognitive Core/1. Projects/Obsidian Optimization",
-    "Cognitive Core/1. Projects/Personal Gallery Sync System",
-    "Cognitive Core/Test file.md",
-    "Cognitive Core/0. Daily notes.md"
+    "Cognitive Core/1. Projects/Obsidian Optimization"
   ]
 }

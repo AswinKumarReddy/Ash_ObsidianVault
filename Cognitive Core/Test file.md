@@ -7,3 +7,5 @@ Test: Reverse File Sync with Windows task scheduler.
 Sync test end to end
 
 Another test for sync form PC
+
+ Sync test from iphone 12.41
