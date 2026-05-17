@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Cognitive Core/Test file.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Test file"
             }
           }
         ]
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "README.md",
+            "file": "Cognitive Core/Test file.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "README.md",
+            "file": "Cognitive Core/Test file.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -145,7 +145,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "README.md",
+            "file": "Cognitive Core/Test file.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -165,12 +165,48 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "2a190fda0bfa5eca",
   "lastOpenFiles": [
-    "Test git sync.md",
-    "README.md"
+    "README.md",
+    "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Attachments/Agra to Blr 14-3-26 eticket_1748048.pdf",
+    "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Attachments/pexels-artosuraj-28762053.jpg",
+    "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Attachments/Confirmation_for_Booking_ID_ _1989379666.pdf",
+    "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Attachments/Blr to Agra 12-3-26 eticket_1748033.pdf",
+    "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Agra Visit.md",
+    "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Agra day 2.md",
+    "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Attachments",
+    "Cognitive Core/2. Areas/Podcasts/Tech Podcast Entries/Hyperscaling SQL with Sam Lambert.md",
+    "Cognitive Core/2. Areas/Podcasts/Tech Podcast Entries/DeepMinds RAG System.md",
+    "Cognitive Core/2. Areas/Podcasts/Tech Podcast Entries/Cilium, eBPF, and Modern Kubernetes Networking.md",
+    "Cognitive Core/2. Areas/Podcasts/Tech Podcast Entries/Apache Iceberg - The Definitive Table Format.md",
+    "Cognitive Core/2. Areas/Podcasts/Tech Podcast Entries/Designing A Data-Intensive Future • Martin Kleppmann.md",
+    "Cognitive Core/1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
+    "Cognitive Core/1. Projects/Alcohol Sketching/Basics of Alcohol Marker Art.md",
+    "Cognitive Core/1. Projects/Building a Second Brain/Obsidian - iCloud sync.md",
+    "Cognitive Core/1. Projects/Obsidian Optimization/Obsidian Tutorials.md",
+    "Cognitive Core/1. Projects/Personal Gallery Sync System/Data store sync - thoughts.md",
+    "Cognitive Core/2. Areas/Reading List/Reading List.md",
+    "Cognitive Core/2. Areas/Reading List/Self Help - Reading List.md",
+    "Cognitive Core/2. Areas/Reading List/Programming - Reading List.md",
+    "Cognitive Core/2. Areas/Reading List/Fiction - Reading List.md",
+    "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026",
+    "Cognitive Core/2. Areas/Travel log/Travel Kit - to be updated.md",
+    "Cognitive Core/2. Areas/Self Development/The first 20 hours how to learn anything - Josh Kaufman.md",
+    "Cognitive Core/2. Areas/Self Development/Ted Talks to watch.md",
+    "Cognitive Core/2. Areas/Podcasts/Tech Podcast Entries",
+    "Cognitive Core/2. Areas/Podcasts/Podcast Dashboard.md",
+    "Cognitive Core/3. Resources/Custom Resources/Fields.md",
+    "Cognitive Core/3. Resources/Templates/Podcast Entry.md",
+    "Cognitive Core/1. Projects/Alcohol Sketching",
+    "Cognitive Core/1. Projects/Sketch drawing - first 20 hours plan.md",
+    "Cognitive Core/1. Projects/Building a Second Brain",
+    "Cognitive Core/1. Projects/Obsidian Optimization",
+    "Cognitive Core/1. Projects/Personal Gallery Sync System",
+    "Cognitive Core/Test file.md",
+    "Cognitive Core/0. Daily notes.md"
   ]
 }
