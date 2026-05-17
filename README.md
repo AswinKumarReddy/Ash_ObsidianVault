@@ -2,4 +2,4 @@
 Obsidian Vault for ash
 
 
-Testing the new Vault setup - 1
+Testing the new Vault setup - 2
