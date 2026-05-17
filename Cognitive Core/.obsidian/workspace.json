@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Test file.md",
+                "file": "1. Projects/Obsidian Optimization/Obsidian Sync.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Test file"
+              "title": "Obsidian Sync"
             }
           }
         ]
@@ -180,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,8 +196,10 @@
   },
   "active": "0e84c404b3538224",
   "lastOpenFiles": [
-    "0. Daily notes.md",
+    "1. Projects/Obsidian Optimization/Obsidian Tutorials.md",
+    "1. Projects/Obsidian Optimization/Obsidian Sync.md",
     "Test file.md",
+    "0. Daily notes.md",
     "1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
     "4. Archives/Place holder.md"
   ]
