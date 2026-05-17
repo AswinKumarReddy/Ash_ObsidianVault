@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Test file.md",
+                "file": "4. Archives/Place holder.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Test file"
+              "title": "Place holder"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test file.md",
+                "file": "4. Archives/Place holder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Test file"
+              "title": "Backlinks for Place holder"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test file.md",
+                "file": "4. Archives/Place holder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Test file"
+              "title": "Outgoing links from Place holder"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Test file.md",
+                "file": "4. Archives/Place holder.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Test file"
+              "title": "Outline of Place holder"
             }
           },
           {
@@ -194,9 +194,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e84c404b3538224",
+  "active": "1a62463e16a8e142",
   "lastOpenFiles": [
-    "0. Daily notes.md",
-    "Test file.md"
+    "Test file.md",
+    "4. Archives/Place holder.md",
+    "0. Daily notes.md"
   ]
 }
