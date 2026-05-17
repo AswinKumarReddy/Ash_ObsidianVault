@@ -11,3 +11,5 @@ Another test for sync form PC
  Sync test from iphone 12.41
 
 Update test form PC - Push test -1.07
+
+Auto update test from i phone - push test - 1.12
