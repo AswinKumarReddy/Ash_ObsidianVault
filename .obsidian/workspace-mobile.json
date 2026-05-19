@@ -11,6 +11,19 @@
             "id": "2a190fda0bfa5eca",
             "type": "leaf",
             "state": {
+              "type": "bases",
+              "state": {
+                "file": "Cognitive Core/Untitled.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "834890ca6a718cae",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Cognitive Core/0. Daily notes.md",
@@ -21,7 +34,8 @@
               "title": "0. Daily notes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,8 +182,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "2a190fda0bfa5eca",
+  "active": "159a8cbf2df0fcf9",
   "lastOpenFiles": [
+    "Cognitive Core/1. Watch list.md",
+    "Cognitive Core/Untitled.base",
+    "Cognitive Core/0. Daily notes.md",
     "Cognitive Core/3. Resources/Obsidian Optimization/Obsidian Tutorials.md",
     "Cognitive Core/3. Resources/Obsidian Optimization/Obsidian Sync.md",
     "Cognitive Core/3. Resources/Obsidian Optimization",
@@ -201,11 +218,7 @@
     "Cognitive Core/2. Areas/Reading List/Programming - Reading List.md",
     "Cognitive Core/2. Areas/Reading List/Fiction - Reading List.md",
     "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026",
-    "Cognitive Core/2. Areas/Travel log/Travel Kit - to be updated.md",
-    "Cognitive Core/2. Areas/Self Development/The first 20 hours how to learn anything - Josh Kaufman.md",
-    "Cognitive Core/2. Areas/Self Development/Ted Talks to watch.md",
     "Cognitive Core/2. Areas/Podcasts/Tech Podcast Entries",
-    "Cognitive Core/1. Projects/Alcohol Sketching",
-    "Cognitive Core/1. Projects/Building a Second Brain"
+    "Cognitive Core/1. Projects/Alcohol Sketching"
   ]
 }
