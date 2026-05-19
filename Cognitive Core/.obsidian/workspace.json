@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resources/Obsidian Optimization/Obsidian Sync.md",
+                "file": "0. Daily notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian Sync"
+              "title": "0. Daily notes"
             }
           }
         ]
@@ -194,12 +194,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91c6e00ff053d8ae",
+  "active": "0e84c404b3538224",
   "lastOpenFiles": [
-    "3. Resources/Obsidian Optimization/Obsidian Tutorials.md",
-    "3. Resources/Obsidian Optimization/Obsidian Sync.md",
-    "Test file.md",
+    "1. Watch list.md",
     "0. Daily notes.md",
+    "3. Resources/Obsidian Optimization/Obsidian Sync.md",
+    "3. Resources/Obsidian Optimization/Obsidian Tutorials.md",
+    "Test file.md",
     "1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
     "4. Archives/Place holder.md"
   ]
