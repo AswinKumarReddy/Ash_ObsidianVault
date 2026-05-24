@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/Podcasts/Podcast Dashboard.md",
+                "file": "2. Areas/Movies and Entertainment/Untitled.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Podcast Dashboard"
+              "title": "Untitled"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/Reading List/📚 Reading Dashboard.md",
-                "mode": "preview",
-                "source": true
+                "file": "1. Watch list.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "📚 Reading Dashboard"
+              "title": "1. Watch list"
             }
           },
           {
@@ -56,7 +56,7 @@
               "type": "markdown",
               "state": {
                 "file": "3. Resources/Obsidian Optimization/Obsidian Plugins/Top List of Useful Plugins.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -238,10 +238,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17a16990b5c4e7b0",
+  "active": "e032f2afb2743d10",
   "lastOpenFiles": [
     "2. Areas/Podcasts/Podcast Dashboard.md",
+    "2. Areas/Movies and Entertainment/Untitled.md",
+    "2. Areas/Movies and Entertainment/Untitled",
+    "2. Areas/Movies and Entertainment",
+    "1. Watch list.md",
     "3. Resources/Obsidian Optimization/Obsidian Plugins/Top List of Useful Plugins.md",
+    "Untitled.base",
+    "Test file.md",
+    "2. Areas/Reading List/Fiction - Reading List.md",
+    "2. Areas/Reading List/Reading List.md",
+    "2. Areas/Reading List/Self Help - Reading List.md",
     "2. Areas/Reading List/📚 Reading Dashboard.md",
     "3. Resources/Obsidian Optimization/Templates/Book Entry.md",
     "2. Areas/Reading List/Reading list entries/Building a Second Brain.md",
@@ -249,15 +258,11 @@
     "3. Resources/Obsidian Optimization/Templates/Watch Entry.md",
     "3. Resources/Obsidian Optimization/Templates/Podcast Entry.md",
     "2. Areas/Self Development/The first 20 hours how to learn anything - Josh Kaufman.md",
-    "2. Areas/Reading List/Self Help - Reading List.md",
-    "2. Areas/Reading List/Reading List.md",
     "3. Resources/Obsidian Optimization/Obsidian Sync.md",
     "3. Resources/Obsidian Optimization/Obsidian Tutorials.md",
     "1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
     "1. Projects/Sketch drawing - first 20 hours plan.md",
     "0. Daily notes.md",
-    "1. Watch list.md",
-    "Test file.md",
     "4. Archives/Place holder.md"
   ]
 }
