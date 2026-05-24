@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0e84c404b3538224",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. Resources/Obsidian Optimization/Templates/Book Entry.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Book Entry"
-            }
-          },
-          {
             "id": "e032f2afb2743d10",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/Movies and Entertainment/🎬 Watchlist Dashboard.md",
+                "file": "2. Areas/Reading List/Reading list entries/Building a Second Brain.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "🎬 Watchlist Dashboard"
+              "title": "Building a Second Brain"
             }
           },
           {
@@ -77,8 +63,7 @@
               "title": "Top List of Useful Plugins"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -237,8 +222,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,12 +236,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e032f2afb2743d10",
+  "active": "1a62463e16a8e142",
   "lastOpenFiles": [
-    "2. Areas/Movies and Entertainment/Watch entries/God Father.md",
+    "2. Areas/Reading List/📚 Reading Dashboard.md",
     "2. Areas/Movies and Entertainment/🎬 Watchlist Dashboard.md",
-    "3. Resources/Obsidian Optimization/Obsidian Plugins/Top List of Useful Plugins.md",
+    "3. Resources/Obsidian Optimization/Templates/Book Entry.md",
+    "2. Areas/Movies and Entertainment/Watch entries/God Father.md",
     "1. Watch list.md",
+    "3. Resources/Obsidian Optimization/Obsidian Plugins/Top List of Useful Plugins.md",
     "2. Areas/Podcasts/Podcast Dashboard.md",
     "2. Areas/Movies and Entertainment/Watch entries",
     "2. Areas/Movies and Entertainment",
@@ -266,8 +252,6 @@
     "2. Areas/Reading List/Fiction - Reading List.md",
     "2. Areas/Reading List/Reading List.md",
     "2. Areas/Reading List/Self Help - Reading List.md",
-    "2. Areas/Reading List/📚 Reading Dashboard.md",
-    "3. Resources/Obsidian Optimization/Templates/Book Entry.md",
     "2. Areas/Reading List/Reading list entries/Building a Second Brain.md",
     "2. Areas/Reading List/Reading list entries",
     "3. Resources/Obsidian Optimization/Templates/Watch Entry.md",

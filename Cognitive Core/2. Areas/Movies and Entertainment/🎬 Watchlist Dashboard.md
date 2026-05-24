@@ -5,7 +5,7 @@
 
 ```dataview
 table 
-	category as "Type",
+	watch_category as "Type",
 	priority as "Priority",
 	genre as "Genre",
 	platform as "Platform",
@@ -21,7 +21,7 @@ sort priority desc, date_added asc
 
 ```dataview
 table
-	category as "Type",
+	watch_category as "Type",
 	genre as "Genre",
 	progress as "Progress",
 	platform as "Platform"
@@ -55,7 +55,7 @@ dv.table(
   ["Title", "Type", "Genre", "Rating", "Completed"],
   pages.map(p => [
       p.file.link,
-      p.category,
+      p.watch_category,
       p.genre,
       renderStars(p.rating),
       p.date_completed
@@ -70,7 +70,7 @@ dv.table(
 ```dataview
 table 
 	file.link as "Title",
-	category as "Type",
+	watch_category as "Type",
 	genre as "Genre",
 	rating as "Rating"
 from "2. Areas"
@@ -91,7 +91,7 @@ table
 	progress as "Progress"
 from "2. Areas"
 where type = "watch_list_entry"
-and category = "series"
+and watch_category = "series"
 and status = "in-progress"
 sort series_name asc
 ```
@@ -107,7 +107,7 @@ table
 	priority as "Priority"
 from "2. Areas"
 where type = "watch_list_entry"
-and category = "movie"
+and watch_category = "movie"
 and priority = "high"
 and status != "done"
 sort date_added asc
@@ -120,7 +120,7 @@ sort date_added asc
 ```dataview
 table
 	file.link as "Title",
-	category as "Type",
+	watch_category as "Type",
 	genre as "Genre"
 from "2. Areas"
 where type = "watch_list_entry" and status = "archived"
@@ -148,7 +148,7 @@ group by true
 table length(rows) as "Count"
 from "2. Areas"
 where type = "watch_list_entry"
-group by category
+group by watch_category
 ```
 
 ---
