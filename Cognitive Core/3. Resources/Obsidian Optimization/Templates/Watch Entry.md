@@ -1,6 +1,6 @@
 ---
-type: watch
-category: movie
+type: watch_list_entry
+watch_category: movie
 status: backlog
 priority: medium
 title:
