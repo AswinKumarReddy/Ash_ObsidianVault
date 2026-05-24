@@ -1,14 +1,5 @@
-
-
-# 📄 Book Template
-
-Save in:
-
-`Templates/Book Template.md`
-
-```markdown
 ---
-type: book
+type: book_reading_list
 status: backlog
 priority: medium
 author:
@@ -17,8 +8,7 @@ pages:
 progress:
 source:
 rating:
-date_added:
-  "{ date }":
+date_added: "{{date}}"
 date_completed:
 tags:
   - book
@@ -31,7 +21,6 @@ tags:
 - Genre:
 - Pages:
 - Source:
-
 
 ---
 
