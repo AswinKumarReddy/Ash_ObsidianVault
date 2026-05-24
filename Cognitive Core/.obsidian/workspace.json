@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/Podcasts/Podcast Dashboard.md",
+                "file": "3. Resources/Templates/Podcast Entry.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Podcast Dashboard"
+              "title": "Podcast Entry"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dashboar",
+                "query": "podcast",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,8 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e84c404b3538224",
+  "active": "91c6e00ff053d8ae",
   "lastOpenFiles": [
+    "2. Areas/Podcasts/Podcast Dashboard.md",
+    "2. Areas/Self Development/The first 20 hours how to learn anything - Josh Kaufman.md",
     "2. Areas/Reading List/Self Help - Reading List.md",
     "2. Areas/Reading List/Reading List.md",
     "3. Resources/Obsidian Optimization/Obsidian Plugins/Top List of Useful Plugins.md",
