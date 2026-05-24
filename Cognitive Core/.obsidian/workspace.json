@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/Reading List/Reading list entries/Building a Second Brain.md",
+                "file": "1. Projects/Building a Second Brain/Obsidian - iCloud sync.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Building a Second Brain"
+              "title": "Obsidian - iCloud sync"
             }
           },
           {
@@ -236,8 +236,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a62463e16a8e142",
+  "active": "e032f2afb2743d10",
   "lastOpenFiles": [
+    "2. Areas/Reading List/Reading list entries/Building a Second Brain.md",
     "2. Areas/Reading List/📚 Reading Dashboard.md",
     "2. Areas/Movies and Entertainment/🎬 Watchlist Dashboard.md",
     "3. Resources/Obsidian Optimization/Templates/Book Entry.md",
@@ -252,7 +253,6 @@
     "2. Areas/Reading List/Fiction - Reading List.md",
     "2. Areas/Reading List/Reading List.md",
     "2. Areas/Reading List/Self Help - Reading List.md",
-    "2. Areas/Reading List/Reading list entries/Building a Second Brain.md",
     "2. Areas/Reading List/Reading list entries",
     "3. Resources/Obsidian Optimization/Templates/Watch Entry.md",
     "3. Resources/Obsidian Optimization/Templates/Podcast Entry.md",
