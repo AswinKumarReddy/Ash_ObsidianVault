@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
+                "file": "2. Areas/Podcasts/Podcast Dashboard.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "First 20 Hours Plan"
+              "title": "Podcast Dashboard"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "dashboar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -197,13 +197,16 @@
   },
   "active": "0e84c404b3538224",
   "lastOpenFiles": [
+    "2. Areas/Reading List/Self Help - Reading List.md",
+    "2. Areas/Reading List/Reading List.md",
+    "3. Resources/Obsidian Optimization/Obsidian Plugins/Top List of Useful Plugins.md",
+    "3. Resources/Obsidian Optimization/Obsidian Sync.md",
+    "3. Resources/Obsidian Optimization/Obsidian Tutorials.md",
+    "1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
     "1. Projects/Sketch drawing - first 20 hours plan.md",
     "0. Daily notes.md",
     "1. Watch list.md",
-    "3. Resources/Obsidian Optimization/Obsidian Sync.md",
-    "3. Resources/Obsidian Optimization/Obsidian Tutorials.md",
     "Test file.md",
-    "1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
     "4. Archives/Place holder.md"
   ]
 }
