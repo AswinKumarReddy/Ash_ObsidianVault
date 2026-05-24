@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/Building a Second Brain/Obsidian - iCloud sync.md",
-                "mode": "preview",
-                "source": true
+                "file": "1. Projects/Alcohol Sketching/Sketch drawing - first 20 hours plan.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian - iCloud sync"
+              "title": "Sketch drawing - first 20 hours plan"
             }
           },
           {
@@ -236,19 +236,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e032f2afb2743d10",
+  "active": "91c6e00ff053d8ae",
   "lastOpenFiles": [
+    "4. Archives/Obsidian - iCloud sync (Outdated).md",
+    "Untitled.base",
+    "0. Daily notes.md",
+    "1. Watch list.md",
     "2. Areas/Reading List/Reading list entries/Building a Second Brain.md",
     "2. Areas/Reading List/📚 Reading Dashboard.md",
     "2. Areas/Movies and Entertainment/🎬 Watchlist Dashboard.md",
     "3. Resources/Obsidian Optimization/Templates/Book Entry.md",
     "2. Areas/Movies and Entertainment/Watch entries/God Father.md",
-    "1. Watch list.md",
     "3. Resources/Obsidian Optimization/Obsidian Plugins/Top List of Useful Plugins.md",
     "2. Areas/Podcasts/Podcast Dashboard.md",
     "2. Areas/Movies and Entertainment/Watch entries",
     "2. Areas/Movies and Entertainment",
-    "Untitled.base",
     "Test file.md",
     "2. Areas/Reading List/Fiction - Reading List.md",
     "2. Areas/Reading List/Reading List.md",
@@ -260,8 +262,7 @@
     "3. Resources/Obsidian Optimization/Obsidian Sync.md",
     "3. Resources/Obsidian Optimization/Obsidian Tutorials.md",
     "1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
-    "1. Projects/Sketch drawing - first 20 hours plan.md",
-    "0. Daily notes.md",
+    "1. Projects/Alcohol Sketching/Sketch drawing - first 20 hours plan.md",
     "4. Archives/Place holder.md"
   ]
 }

@@ -3,7 +3,7 @@ Things to sync
 - Notes and docs
 
 Options
-- [[Obsidian - iCloud sync]]
+- [[Obsidian - iCloud sync (Outdated)]]
 - Google drive
 - One drive
 - Personal hosting
