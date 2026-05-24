@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resources/Obsidian Optimization/Templates/Watch Entry.md",
-                "mode": "source",
-                "source": false
+                "file": "2. Areas/Reading List/📚 Reading Dashboard.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Watch Entry"
+              "title": "📚 Reading Dashboard"
             }
           },
           {
@@ -226,10 +226,11 @@
   },
   "active": "e032f2afb2743d10",
   "lastOpenFiles": [
-    "3. Resources/Obsidian Optimization/Templates/Book Entry.md",
     "3. Resources/Obsidian Optimization/Templates/Watch Entry.md",
-    "3. Resources/Obsidian Optimization/Obsidian Plugins/Top List of Useful Plugins.md",
+    "2. Areas/Reading List/📚 Reading Dashboard.md",
     "3. Resources/Obsidian Optimization/Templates/Podcast Entry.md",
+    "3. Resources/Obsidian Optimization/Templates/Book Entry.md",
+    "3. Resources/Obsidian Optimization/Obsidian Plugins/Top List of Useful Plugins.md",
     "2. Areas/Podcasts/Podcast Dashboard.md",
     "2. Areas/Self Development/The first 20 hours how to learn anything - Josh Kaufman.md",
     "2. Areas/Reading List/Self Help - Reading List.md",

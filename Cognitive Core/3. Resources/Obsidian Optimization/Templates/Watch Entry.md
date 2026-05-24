@@ -15,7 +15,7 @@ runtime:
 release_year:
 progress:
 rating:
-date_added: "{{date:YYYY-MM-DD}}"
+date_added: "{{date}}"
 date_completed:
 tags:
   - watch

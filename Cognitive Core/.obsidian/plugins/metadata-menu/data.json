@@ -9,6 +9,24 @@
       "options": {
         "sourceType": "ValuesList",
         "valuesList": {
+          "1": "low",
+          "2": "medium",
+          "3": "high"
+        }
+      },
+      "name": "priority",
+      "id": "98wTux",
+      "path": ""
+    },
+    {
+      "type": "Select",
+      "tagName": "select",
+      "icon": "right-triangle",
+      "tooltip": "Accepts a single value from a list",
+      "colorClass": "select",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {
           "1": "backlog",
           "2": "in-progress",
           "3": "done"
@@ -27,13 +45,13 @@
       "options": {
         "sourceType": "ValuesList",
         "valuesList": {
-          "1": "low",
-          "2": "medium",
-          "3": "high"
+          "1": "movie",
+          "2": "series",
+          "3": "one off video"
         }
       },
-      "name": "priority",
-      "id": "98wTux",
+      "name": "watch_category",
+      "id": "r8DI1p",
       "path": ""
     }
   ],
@@ -43,7 +61,7 @@
   "classFilesPath": null,
   "isAutosuggestEnabled": true,
   "fileClassAlias": "fileClass",
-  "settingsVersion": "5.4",
+  "settingsVersion": "5.5",
   "firstDayOfWeek": 1,
   "enableLinks": true,
   "enableTabHeader": true,
