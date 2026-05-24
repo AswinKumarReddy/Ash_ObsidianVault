@@ -1,6 +1,6 @@
 {
-  "commitMessage": "vault backup: {{date}}",
-  "autoCommitMessage": "Auto Sync from Ash custom PC on {{date}}",
+  "commitMessage": "manual vault backup",
+  "autoCommitMessage": "Auto Sync from Ash custom PC",
   "commitMessageScript": "Manual Sync from Ash's custom pc on {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 5,
