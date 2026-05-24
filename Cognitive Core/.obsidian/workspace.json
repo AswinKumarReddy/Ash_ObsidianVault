@@ -95,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "```",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +116,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -236,7 +237,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e032f2afb2743d10",
+  "active": "87d4b6317ced87f5",
   "lastOpenFiles": [
     "1. Watch list.md",
     "2. Areas/Reading List/Reading list entries/Building a Second Brain.md",
