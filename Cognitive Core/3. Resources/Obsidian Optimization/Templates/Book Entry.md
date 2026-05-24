@@ -1,5 +1,5 @@
 ---
-type: book_reading_list
+type: book_in_reading_list
 status: backlog
 priority: medium
 author:

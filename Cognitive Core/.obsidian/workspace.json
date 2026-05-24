@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resources/Obsidian Optimization/Templates/Podcast Entry.md",
+                "file": "3. Resources/Obsidian Optimization/Obsidian Plugins/Top List of Useful Plugins.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Podcast Entry"
+              "title": "Top List of Useful Plugins"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,12 +209,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91c6e00ff053d8ae",
+  "active": "0e84c404b3538224",
   "lastOpenFiles": [
-    "3. Resources/Obsidian Optimization/Templates/Book Entry.md",
-    "3. Resources/Obsidian Optimization/Templates/Podcast Entry.md",
     "3. Resources/Obsidian Optimization/Templates/Watch Entry.md",
+    "3. Resources/Obsidian Optimization/Templates/Book Entry.md",
     "3. Resources/Obsidian Optimization/Obsidian Plugins/Top List of Useful Plugins.md",
+    "3. Resources/Obsidian Optimization/Templates/Podcast Entry.md",
     "2. Areas/Podcasts/Podcast Dashboard.md",
     "2. Areas/Self Development/The first 20 hours how to learn anything - Josh Kaufman.md",
     "2. Areas/Reading List/Self Help - Reading List.md",
