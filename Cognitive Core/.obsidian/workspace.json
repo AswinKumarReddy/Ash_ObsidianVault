@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/Alcohol Sketching/Sketch drawing - first 20 hours plan.md",
+                "file": "2. Areas/Reading List/Reading list entries/Building a Second Brain.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sketch drawing - first 20 hours plan"
+              "title": "Building a Second Brain"
             }
           },
           {
@@ -95,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "priority",
+                "query": "`",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +116,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -236,8 +237,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91c6e00ff053d8ae",
+  "active": "87d4b6317ced87f5",
   "lastOpenFiles": [
+    "1. Projects/Alcohol Sketching/Sketch drawing - first 20 hours plan.md",
     "4. Archives/Obsidian - iCloud sync (Outdated).md",
     "Untitled.base",
     "0. Daily notes.md",
@@ -262,7 +264,6 @@
     "3. Resources/Obsidian Optimization/Obsidian Sync.md",
     "3. Resources/Obsidian Optimization/Obsidian Tutorials.md",
     "1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
-    "1. Projects/Alcohol Sketching/Sketch drawing - first 20 hours plan.md",
     "4. Archives/Place holder.md"
   ]
 }
