@@ -27,8 +27,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/Reading List/📚 Reading Dashboard.md",
+                "file": "2. Areas/Podcasts/Podcast Dashboard.md",
                 "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Podcast Dashboard"
+            }
+          },
+          {
+            "id": "17a16990b5c4e7b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/Reading List/📚 Reading Dashboard.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -224,16 +238,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e032f2afb2743d10",
+  "active": "17a16990b5c4e7b0",
   "lastOpenFiles": [
-    "3. Resources/Obsidian Optimization/Templates/Book Entry.md",
-    "2. Areas/Reading List/📚 Reading Dashboard.md",
+    "2. Areas/Podcasts/Podcast Dashboard.md",
     "3. Resources/Obsidian Optimization/Obsidian Plugins/Top List of Useful Plugins.md",
+    "2. Areas/Reading List/📚 Reading Dashboard.md",
+    "3. Resources/Obsidian Optimization/Templates/Book Entry.md",
     "2. Areas/Reading List/Reading list entries/Building a Second Brain.md",
     "2. Areas/Reading List/Reading list entries",
     "3. Resources/Obsidian Optimization/Templates/Watch Entry.md",
     "3. Resources/Obsidian Optimization/Templates/Podcast Entry.md",
-    "2. Areas/Podcasts/Podcast Dashboard.md",
     "2. Areas/Self Development/The first 20 hours how to learn anything - Josh Kaufman.md",
     "2. Areas/Reading List/Self Help - Reading List.md",
     "2. Areas/Reading List/Reading List.md",

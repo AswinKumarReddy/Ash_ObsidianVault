@@ -6,7 +6,7 @@
 
 ```dataview
 table priority as "Priority", author as "Author", genre as "Genre", pages as "Pages"
-from "Books"
+from "2. Areas"
 where type = "book_reading_list_entry" and status = "backlog"
 sort priority desc, date_added asc
 ```
@@ -17,7 +17,7 @@ sort priority desc, date_added asc
 
 ```dataview
 table author as "Author", genre as "Genre", progress as "Progress", pages as "Pages"
-from "Books"
+from "2. Areas"
 where type = "book_reading_list_entry" and status = "in-progress"
 sort date_added asc
 ```
@@ -28,7 +28,7 @@ sort date_added asc
 
 ```dataviewjs
 const pages = dv.pages('"Books"')
-  .where(p => p.type === "book" && p.status === "done")
+  .where(p => p.type === "book_reading_list_entry" && p.status === "done")
   .sort(p => p.rating, 'desc');
 
 dv.table(
@@ -56,8 +56,8 @@ dv.table(
 
 ```dataview
 table file.link as "Book", author as "Author", genre as "Genre", rating as "Rating"
-from "Books"
-where type = "book" and status = "done" and rating >= 4
+from "2. Areas"
+where type = "book_reading_list_entry" and status = "done" and rating >= 4
 sort rating desc
 limit 10
 ```
@@ -70,8 +70,8 @@ limit 10
 
 ```dataview
 table file.link as "Book", author, status
-from "Books"
-where type = "book" and contains(lower(genre), "self")
+from "2. Areas"
+where type = "book_reading_list_entry" and contains(lower(genre), "self")
 sort status asc
 ```
 
@@ -81,8 +81,8 @@ sort status asc
 
 ```dataview
 table file.link as "Book", author, status
-from "Books"
-where type = "book" and (
+from "2. Areas"
+where type = "book_reading_list_entry" and (
 	contains(lower(genre), "fantasy") or
 	contains(lower(genre), "fiction")
 )
@@ -95,8 +95,8 @@ sort status asc
 
 ```dataview
 table file.link as "Book", author, status
-from "Books"
-where type = "book" and (
+from "2. Areas"
+where type = "book_reading_list_entry" and (
 	contains(lower(genre), "business") or
 	contains(lower(genre), "productivity")
 )
@@ -109,8 +109,8 @@ sort status asc
 
 ```dataview
 table file.link as "Book", author as "Author", genre as "Genre"
-from "Books"
-where type = "book" and status = "archived"
+from "2. Areas"
+where type = "book_reading_list_entry" and status = "archived"
 ```
 
 ---
@@ -120,8 +120,8 @@ where type = "book" and status = "archived"
 ```dataview
 table without id
 	length(rows) as "Books Completed"
-from "Books"
-where type = "book" and status = "done"
+from "2. Areas"
+where type = "book_reading_list_entry" and status = "done"
 group by true
 ```
 
