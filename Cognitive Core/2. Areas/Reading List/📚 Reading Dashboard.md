@@ -7,7 +7,7 @@
 ```dataview
 table priority as "Priority", author as "Author", genre as "Genre", pages as "Pages"
 from "Books"
-where type = "book" and status = "backlog"
+where type = "book_reading_list_entry" and status = "backlog"
 sort priority desc, date_added asc
 ```
 
@@ -18,7 +18,7 @@ sort priority desc, date_added asc
 ```dataview
 table author as "Author", genre as "Genre", progress as "Progress", pages as "Pages"
 from "Books"
-where type = "book" and status = "in-progress"
+where type = "book_reading_list_entry" and status = "in-progress"
 sort date_added asc
 ```
 

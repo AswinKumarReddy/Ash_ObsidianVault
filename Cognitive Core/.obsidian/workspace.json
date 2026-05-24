@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "2. Areas/Reading List/📚 Reading Dashboard.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -226,11 +226,13 @@
   },
   "active": "e032f2afb2743d10",
   "lastOpenFiles": [
-    "3. Resources/Obsidian Optimization/Templates/Watch Entry.md",
-    "2. Areas/Reading List/📚 Reading Dashboard.md",
-    "3. Resources/Obsidian Optimization/Templates/Podcast Entry.md",
     "3. Resources/Obsidian Optimization/Templates/Book Entry.md",
+    "2. Areas/Reading List/📚 Reading Dashboard.md",
     "3. Resources/Obsidian Optimization/Obsidian Plugins/Top List of Useful Plugins.md",
+    "2. Areas/Reading List/Reading list entries/Building a Second Brain.md",
+    "2. Areas/Reading List/Reading list entries",
+    "3. Resources/Obsidian Optimization/Templates/Watch Entry.md",
+    "3. Resources/Obsidian Optimization/Templates/Podcast Entry.md",
     "2. Areas/Podcasts/Podcast Dashboard.md",
     "2. Areas/Self Development/The first 20 hours how to learn anything - Josh Kaufman.md",
     "2. Areas/Reading List/Self Help - Reading List.md",
