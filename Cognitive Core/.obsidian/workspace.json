@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Watch list.md",
+                "file": "1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Watch list"
+              "title": "First 20 Hours Plan"
             }
           },
           {
@@ -222,7 +222,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,8 +239,10 @@
   },
   "active": "e032f2afb2743d10",
   "lastOpenFiles": [
-    "0. Daily notes.md",
+    "1. Projects/Alcohol Sketching/Basics of Alcohol Marker Art.md",
     "1. Watch list.md",
+    "3. Resources/Profound Quotes.md",
+    "0. Daily notes.md",
     "2. Areas/Reading List/Reading list entries/Building a Second Brain.md",
     "1. Projects/Alcohol Sketching/Sketch drawing - first 20 hours plan.md",
     "4. Archives/Obsidian - iCloud sync (Outdated).md",
