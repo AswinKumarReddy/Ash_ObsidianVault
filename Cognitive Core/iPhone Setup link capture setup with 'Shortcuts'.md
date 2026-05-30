@@ -1,4 +1,11 @@
-## iPhone → Google Sheets → Obsidian Capture System
+### Flow:
+```
+iPhone → Google Sheets → Obsidian Capture System
+```
+
+Resources:
+- Google Form: 
+- Google Sheet: https://docs.google.com/spreadsheets/d/10W1JNMVprc_iMHuwiowky_5DWCrkxGVRxvKhNPmBsfE/edit?usp=sharing
 
 ## Goal
 
@@ -7,15 +14,10 @@ Capture content from an iPhone with minimal friction and process it later in Obs
 Supported content:
 
 - YouTube videos
-    
 - Articles
-    
 - Web pages
-    
 - References
-    
 - Future: tasks and ideas
-    
 
 Architecture:
 
@@ -40,26 +42,17 @@ Obsidian Inbox
 We created a Share Sheet shortcut that:
 
 1. Appears in the iPhone Share menu.
-    
 2. Receives a URL from Chrome, Safari, YouTube, etc.
-    
 3. Extracts metadata where possible.
-    
 4. Sends the captured information to a Google Form.
-    
 5. The Google Form automatically stores the entry in Google Sheets.
-    
 
 This avoids:
 
 - Zapier
-    
 - Make.com
-    
 - Cloud automation services
-    
 - Manual copy/paste
-    
 
 ---
 
@@ -91,7 +84,6 @@ Knowledge Capture Form
 ```
 
 Fields:
-
 ### Source
 
 ```text
@@ -140,7 +132,7 @@ Every submission becomes a row.
 
 # Find Google Form Field IDs
 
-Open Form Preview.
+Open Form Preview. (Eye symbol)
 
 Inspect page source.
 
@@ -174,7 +166,7 @@ Open:
 Shortcuts
 ```
 
-Create:
+Create (empty shortcut with no actions):
 
 ```text
 Save Link
@@ -184,7 +176,7 @@ Save Link
 
 ## Step 2
 
-Enable Share Sheet
+Enable Share Sheet,  (long press the new shortcut to see this option)
 
 Shortcut Details:
 
