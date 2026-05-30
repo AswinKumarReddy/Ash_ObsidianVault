@@ -4,7 +4,7 @@ iPhone → Google Sheets → Obsidian Capture System
 ```
 
 Resources:
-- Google Form: 
+- Google Form: https://forms.gle/YqmtjYfykYNinC9y6
 - Google Sheet: https://docs.google.com/spreadsheets/d/10W1JNMVprc_iMHuwiowky_5DWCrkxGVRxvKhNPmBsfE/edit?usp=sharing
 
 ## Goal
@@ -298,6 +298,11 @@ Template:
 
 ```text
 https://docs.google.com/forms/d/e/FORM_ID/formResponse?entry.1114988905=iPhoneSave&entry.339363384=[Encoded Title]&entry.544040729=[Encoded URL]
+```
+
+My Link for ref form:
+```
+https://docs.google.com/forms/d/1zRyE1vNoNUhNkvrqyZe8RYsScEGd0ushcFgxaca8Og8/formResponse?entry.1114988905=Video&entry.339363384=[Title]&entry.544040729=[URL]
 ```
 
 Important:

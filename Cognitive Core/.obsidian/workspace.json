@@ -41,54 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iPhone Setup link capture setup with 'Shortcuts'.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "iPhone Setup link capture setup with 'Shortcuts'"
-            }
-          },
-          {
-            "id": "07773d284f778592",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Areas/Movies and Entertainment/Watch entries/God Father.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "God Father"
-            }
-          },
-          {
-            "id": "17a16990b5c4e7b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "1. Watch list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "1. Watch list"
-            }
-          },
-          {
-            "id": "821c6ded14e15d22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. Resources/Obsidian Optimization/Obsidian Plugins/Top List of Useful Plugins.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Top List of Useful Plugins"
             }
           }
         ],
@@ -268,14 +226,18 @@
   },
   "active": "c695a546a84f420f",
   "lastOpenFiles": [
+    "0. Daily notes.md",
     "iPhone Setup link capture setup with 'Shortcuts'.md",
+    "2. Areas/Movies and Entertainment/Watch entries/Untitled.md",
+    "Untitled.md",
+    "3. Resources/Obsidian Optimization/Obsidian Plugins/Top List of Useful Plugins.md",
+    "1. Watch list.md",
+    "2. Areas/Movies and Entertainment/Watch entries/God Father.md",
     "1. Projects/Obsidian 'Save for later' setup/Easy Note Capture setup.md",
     "1. Projects/Obsidian 'Save for later' setup",
     "1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
     "1. Projects/Alcohol Sketching/Basics of Alcohol Marker Art.md",
-    "1. Watch list.md",
     "3. Resources/Profound Quotes.md",
-    "0. Daily notes.md",
     "2. Areas/Reading List/Reading list entries/Building a Second Brain.md",
     "1. Projects/Alcohol Sketching/Sketch drawing - first 20 hours plan.md",
     "4. Archives/Obsidian - iCloud sync (Outdated).md",
@@ -283,8 +245,6 @@
     "2. Areas/Reading List/📚 Reading Dashboard.md",
     "2. Areas/Movies and Entertainment/🎬 Watchlist Dashboard.md",
     "3. Resources/Obsidian Optimization/Templates/Book Entry.md",
-    "2. Areas/Movies and Entertainment/Watch entries/God Father.md",
-    "3. Resources/Obsidian Optimization/Obsidian Plugins/Top List of Useful Plugins.md",
     "2. Areas/Podcasts/Podcast Dashboard.md",
     "2. Areas/Movies and Entertainment/Watch entries",
     "2. Areas/Movies and Entertainment",
@@ -296,8 +256,6 @@
     "3. Resources/Obsidian Optimization/Templates/Watch Entry.md",
     "3. Resources/Obsidian Optimization/Templates/Podcast Entry.md",
     "2. Areas/Self Development/The first 20 hours how to learn anything - Josh Kaufman.md",
-    "3. Resources/Obsidian Optimization/Obsidian Sync.md",
-    "3. Resources/Obsidian Optimization/Obsidian Tutorials.md",
-    "4. Archives/Place holder.md"
+    "3. Resources/Obsidian Optimization/Obsidian Sync.md"
   ]
 }
