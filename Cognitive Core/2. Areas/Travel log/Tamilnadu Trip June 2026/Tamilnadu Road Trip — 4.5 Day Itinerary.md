@@ -8,16 +8,9 @@
 
 **Total distance:** ~1,780 km
 
-
-
 ---
-
-  
-
 ## Distance & Time Summary
-
   
-
 | Leg | Route | Distance | Drive Time | When |
 |-----|-------|----------|------------|------|
 | 1 | Bangalore → Dindigul | ~290 km | 5.5–6 hr | **Tonight (overnight)** |
@@ -29,7 +22,6 @@
 | 7 | Trivandrum → Coimbatore | ~375 km | 7 hr | Day 4 morning |
 | 8 | Coimbatore → Bangalore | ~365 km | 7 hr | **Day 4 night (overnight)** |
 
-  
 
 ---
 
@@ -42,7 +34,6 @@
 - **10:30 PM:** Depart Bangalore → **Dindigul** (~290 km, NH44). Sleep in the car.
 
 ---
-
 
 ## Day 1 — Palani + Madurai → Rameswaram
 
@@ -65,7 +56,6 @@
   
 ## Day 2 — Full Day in Rameswaram
 
-
 - **5:30–8:30 AM — Ramanathaswamy Temple:** Sphatika Lingam darshan, the **22 Theertham well baths** (carry a wet-clothes change), and a sea bath at **Agni Theertham**.
 - Breakfast.
 - **~10:00 AM:** **Pamban Bridge** photo stop → **Dhanushkodi** (2–3 hr):
@@ -73,7 +63,7 @@
   - **1964 cyclone ruins** (church & railway remains)
   - **Ram Setu viewpoint**
 - **APJ Abdul Kalam Memorial & House.**
-- Optional afternoon: **Gandhamadhana Parvatham** (highest point, panoramic view), **Five-faced Hanuman Temple**.
+	- Optional afternoon: **Gandhamadhana Parvatham** (highest point, panoramic view), **Five-faced Hanuman Temple**.
 - Evening: relax, early dinner.
 - **~10:00 PM:** Depart **Rameswaram → Kanyakumari** (~310 km / 6 hr, overnight). Sleep in the car.
 
@@ -81,7 +71,6 @@
 ---
 
 ## Day 3 — Kanyakumari → Trivandrum
-
 
 - **~4:30–5:00 AM:** Arrive **Kanyakumari**. Freshen up.
 - **~6:00 AM:** **Sunrise at the three-seas confluence** — the highlight.
@@ -99,7 +88,6 @@
 
 
 ---
-
 
 ## Day 4 — Trivandrum → Coimbatore → Overnight to Bangalore
 
@@ -125,47 +113,27 @@
 
 ## Must-See Highlights by Town
 
-  
-
 | Town | Key Spots |
 |------|-----------|
-
 | **Palani** | Murugan hilltop temple (rope car), Panchamirtham |
-
 | **Madurai** | Meenakshi Amman Temple |
-
 | **Rameswaram** | Ramanathaswamy Temple, Dhanushkodi, Pamban Bridge, Kalam Memorial |
-
 | **Kanyakumari** | Sunrise, Vivekananda Rock, Thiruvalluvar Statue, Kumari Amman Temple |
-
 | **Trivandrum** | Padmanabhaswamy Temple, Kovalam Beach |
-
 | **Coimbatore** | Isha Yoga Center — Adiyogi & Dhyanalinga |
 
-  
 
 ---
 
-  
-
 ## Important Tips
 
-  
-
 - **Driver welfare (most important):** The Day-4 afternoon rest is non-negotiable for a safe night drive. If possible, add a **second driver** for the return leg. If the driver is visibly tired by evening, switch to an overnight stay in Coimbatore and drive back Day-5 morning instead.
-
 - **Verify temple timings** near your date:
-
   - Meenakshi: midday closure ~12:30–4:00 PM
-
   - Padmanabhaswamy: evening slot ~5:00–7:20 PM
-
   - Ramanathaswamy: opens ~5:00 AM
-
 - **Pack:** dhoti for men (Padmanabhaswamy), a wet-clothes change (Rameswaram baths), modest temple wear, water, and sun protection for Dhanushkodi/Kanyakumari.
-
 - **Bookings:** reserve Rameswaram (near temple) and Trivandrum hotels in advance. Kanyakumari is only a freshen-up/day-use stop (arrive pre-dawn, leave by noon).
-
 - **Season note:** in summer the southern stretch is hot — avoid midday sun at open sites.
 
   
@@ -174,4 +142,3 @@
 
   
 
-*Safe travels! 🚗*
