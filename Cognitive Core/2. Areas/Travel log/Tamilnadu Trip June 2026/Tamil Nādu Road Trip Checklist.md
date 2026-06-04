@@ -60,7 +60,9 @@
 
 ### Photos
 - [ ] Temple Gopurams
-- [ ] Palace Architecture
+- [x] Palace Architecture
+
+
 
 ---
 

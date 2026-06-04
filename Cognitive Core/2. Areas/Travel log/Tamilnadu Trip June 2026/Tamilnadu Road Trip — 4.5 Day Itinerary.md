@@ -57,7 +57,9 @@ Notes :
 - Wunch train is ok for return (just experience) but not that great, sort of congested. No use without a window seat
 - Prasadam was awesome
 - Mobile is not allowed couldnt get any pictures from hill top
-- 
+- Madurai was so damn hot, yet temple was well ventilated inside
+- Had Jigarthanda at random place, wasn't that great. Apparently it should be had in specific authentic places
+- Got to know that Madurai is famous for non veg despite Temple heritage - original kadai is reputed place but did not get a chance to try 
 
 ---
 
