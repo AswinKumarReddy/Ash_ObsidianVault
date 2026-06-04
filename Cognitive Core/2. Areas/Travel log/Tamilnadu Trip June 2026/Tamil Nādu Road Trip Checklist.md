@@ -42,18 +42,18 @@
 ## Madurai
 
 ### Places to Visit
-- [ ] Meenakshi Amman Temple
-- [ ] Thousand Pillar Hall
-- [ ] Thirumalai Nayakkar Mahal
+- [x] Meenakshi Amman Temple
+- [ ] Thousand Pillar Hall 
+- [x] Thirumalai Nayakkar Mahal
 - [ ] Vandiyur Mariamman Teppakulam
 
 ### Things to Do
-- [ ] Explore Temple Complex
+- [x] Explore Temple Complex
 - [ ] Attend Evening Ceremony
-- [ ] Walk Old Madurai Streets
+- [x] Walk Old Madurai Streets
 
 ### Food to Try
-- [ ] Jigarthanda
+- [x] Jigarthanda
 - [ ] Kari Dosa
 - [ ] Parotta & Salna
 - [ ] Murugan Idli
