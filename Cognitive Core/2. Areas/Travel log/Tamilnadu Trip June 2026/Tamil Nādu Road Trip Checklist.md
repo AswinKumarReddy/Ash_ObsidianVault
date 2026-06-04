@@ -43,7 +43,7 @@
 
 ### Places to Visit
 - [x] Meenakshi Amman Temple
-- [ ] Thousand Pillar Hall 
+- [ ] Thousand Pillar Hall (under renovation)
 - [x] Thirumalai Nayakkar Mahal
 - [ ] Vandiyur Mariamman Teppakulam
 
@@ -83,7 +83,7 @@
 
 ### Food to Try
 - [ ] Fresh Seafood
-- [ ] South Indian Meals
+- [x] South Indian Meals
 
 ### Photos
 - [ ] Pamban Bridge

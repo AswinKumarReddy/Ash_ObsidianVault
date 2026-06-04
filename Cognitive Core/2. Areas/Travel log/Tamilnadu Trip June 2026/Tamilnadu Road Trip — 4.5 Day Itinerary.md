@@ -77,6 +77,10 @@ Notes :
 - Evening: relax, early dinner.
 - **~10:00 PM:** Depart **Rameswaram → Kanyakumari** (~310 km / 6 hr, overnight). Sleep in the car.
 
+Notes:
+- had dosa at temple city restaurant, chutney was absolute chefs kiss
+- Had prawns curry with parotta, in a random street hotel. It was crazy good. I guess fresh meat near shore towns does make a difference 
+
 
 ---
 
