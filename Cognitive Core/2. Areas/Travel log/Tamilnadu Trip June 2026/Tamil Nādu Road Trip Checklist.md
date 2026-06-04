@@ -82,7 +82,7 @@
 - [ ] Visit Ghost Town Ruins
 
 ### Food to Try
-- [ ] Fresh Seafood
+- [x] Fresh Seafood
 - [x] South Indian Meals
 
 ### Photos
