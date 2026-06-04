@@ -19,20 +19,20 @@
 ## Palani
 
 ### Places to Visit
-- [ ] Palani Murugan Temple
-- [ ] Rope Car Ride
-- [ ] Winch Train Ride
-- [ ] Hilltop Viewpoint
+- [x] Palani Murugan Temple
+- [x] Rope Car Ride
+- [x] Winch Train Ride
+- [x] Hilltop Viewpoint
 
 ### Things to Do
-- [ ] Temple Darshan
-- [ ] Walk a section of the temple steps
-- [ ] Enjoy hill views
+- [x] Temple Darshan
+- [x] Walk a section of the temple steps
+- [x] Enjoy hill views
 
 ### Food / Prasadam
-- [ ] Panchamirtham
+- [x] Panchamirtham
 
-### Photos
+### Photos - not allowed
 - [ ] Temple Gopuram
 - [ ] Rope Car
 - [ ] Hilltop View

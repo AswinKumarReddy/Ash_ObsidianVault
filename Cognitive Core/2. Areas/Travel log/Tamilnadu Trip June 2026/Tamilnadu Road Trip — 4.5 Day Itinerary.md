@@ -51,6 +51,14 @@
 - **~9:00 PM:** Arrive Rameswaram. Dinner, **overnight**.
 - 🏨 *Stay near the Ramanathaswamy Temple for an easy early-morning start.*
 
+
+Notes :
+- rope car queue is very big, better go early next time. Temple opens at 5.30.
+- Wunch train is ok for return (just experience) but not that great, sort of congested. No use without a window seat
+- Prasadam was awesome
+- Mobile is not allowed couldnt get any pictures from hill top
+- 
+
 ---
 
   
