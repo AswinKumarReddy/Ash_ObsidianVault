@@ -69,26 +69,26 @@
 ## Rameswaram
 
 ### Places to Visit
-- [ ] Ramanathaswamy Temple
-- [ ] Agni Theertham
-- [ ] Pamban Bridge
-- [ ] Dhanushkodi
+- [x] Ramanathaswamy Temple
+- [x] Agni Theertham
+- [x] Pamban Bridge
+- [x] Dhanushkodi
 - [ ] Arichal Munai
-- [ ] Kalam Memorial
+- [x] Kalam Memorial
 
 ### Things to Do
 - [ ] Watch Sunrise
-- [ ] Drive to Dhanushkodi
-- [ ] Visit Ghost Town Ruins
+- [x] Drive to Dhanushkodi
+- [x] Visit Ghost Town Ruins
 
 ### Food to Try
 - [x] Fresh Seafood
 - [x] South Indian Meals
 
 ### Photos
-- [ ] Pamban Bridge
-- [ ] Dhanushkodi Road
-- [ ] Temple Corridors
+- [x] Pamban Bridge
+- [x] Dhanushkodi Road
+- [x] Temple Corridors
 
 ---
 
