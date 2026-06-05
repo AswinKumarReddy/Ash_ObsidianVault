@@ -81,7 +81,8 @@ Notes:
 - had dosa at temple city restaurant, chutney was absolute chefs kiss
 - Had prawns curry with parotta, in a random street hotel. It was crazy good. I guess fresh meat near shore towns does make a difference 
 - Early morning spatika lingam darsanam closes at 6, try to get into queue atleast 30min prior
-- there is no restriction for carrying mobile during dersanam, so dont take locker 
+- there is no restriction for carrying mobile during darsanam, so dont take locker 
+- 22 wells path has lot of people only for some time during, after that it is pretty empty and easy to go to. If you must go in the morning dont take the 25rs ticket go fo the 250rs guided pass where some one takes along the way and gets you pas the entry line
 - 
 
 
