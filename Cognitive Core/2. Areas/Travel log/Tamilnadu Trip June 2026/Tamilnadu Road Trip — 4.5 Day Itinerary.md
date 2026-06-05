@@ -81,7 +81,8 @@ Notes:
 - had dosa at temple city restaurant, chutney was absolute chefs kiss
 - Had prawns curry with parotta, in a random street hotel. It was crazy good. I guess fresh meat near shore towns does make a difference 
 - Early morning spatika lingam darsanam closes at 6, try to get into queue atleast 30min prior
-- there is no restriction for carrying mobile 
+- there is no restriction for carrying mobile during dersanam, so dont take locker 
+- 
 
 
 ---
