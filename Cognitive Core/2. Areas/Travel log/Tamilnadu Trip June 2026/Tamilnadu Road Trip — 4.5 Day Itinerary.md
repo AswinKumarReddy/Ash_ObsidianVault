@@ -104,6 +104,14 @@ Notes:
 - **Overnight** Trivandrum.
 - 🏨 *Stay near the city center / East Fort for temple access and an easy Day-4 early start.*
 
+Notes:
+- sunrises at 6 am in kanyakumari, try to reach early for front row view of sunrise
+- You need to take ferry to go to vivekanada memorial, it opens at 8 but there will always be a big queue for regular tickets. 
+- Take 300rs tickets for ferryride and try to reach early for the first ride to reach fast ands have good photos.
+- Kanyakumari is mostly rocky beach so dont expect sand castles
+- Dont forget notice the conjunction of seas
+- The glass bridge walk is very good
+
 
 ---
 

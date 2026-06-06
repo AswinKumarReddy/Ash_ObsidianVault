@@ -95,24 +95,24 @@
 ## Kanyakumari
 
 ### Places to Visit
-- [ ] Vivekananda Rock Memorial
-- [ ] Thiruvalluvar Statue
-- [ ] Bhagavathi Temple
+- [x] Vivekananda Rock Memorial
+- [x] Thiruvalluvar Statue
+- [x] Bhagavathi Temple
 - [ ] Gandhi Mandapam
-- [ ] Triveni Sangam
+- [x] Triveni Sangam
 
 ### Things to Do
-- [ ] Watch Sunrise
+- [x] Watch Sunrise
 - [ ] Watch Sunset
-- [ ] Ferry Ride
+- [x] Ferry Ride
 
 ### Food to Try
 - [ ] Fresh Coconut Water
 - [ ] Kerala-style Seafood
 
 ### Photos
-- [ ] Sunrise Point
-- [ ] Vivekananda Rock
+- [x] Sunrise Point
+- [x] Vivekananda Rock
 - [ ] Sunset Point
 
 ---
