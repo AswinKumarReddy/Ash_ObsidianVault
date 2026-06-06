@@ -111,6 +111,8 @@ Notes:
 - Kanyakumari is mostly rocky beach so dont expect sand castles
 - Dont forget notice the conjunction of seas
 - The glass bridge walk is very good
+- The kanyakumari to trivandrum hourney is very annoying. Its on 100km but takes roughly 3hours due to tight roads , plan ahead accordingly
+- I did nothing in Trivandrum due to migraine 
 
 
 ---
@@ -125,7 +127,8 @@ Notes:
 - **Evening:** return, relax, **early dinner ~7:30 PM**. Driver continues resting.
 - **~8:30–9:00 PM:** Depart **Coimbatore → Bangalore** (~365 km / 7 hr).
   
-
+Notes:
+- coimbatoor plan cancelled, direct return to banglore
 ---
 
 ## Day 5 — Arrival
