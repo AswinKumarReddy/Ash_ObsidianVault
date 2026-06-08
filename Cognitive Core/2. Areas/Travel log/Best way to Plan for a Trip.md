@@ -14,4 +14,7 @@ During Trip:
 After Trip:
 1. Upload the photos to google Drive -  this is mostly automatic
 2. Create albums of the trip - at place or day level preferably
-3. Use the Album to create highlights, 
+3. Use the Album to create highlights, let google pick up the pics automatically. 
+4. Go through the highlight list and book mark the ones that you like and add more if you have any cool pic that google missed.
+5. Create a collage photo using the highlighted pics
+6. Save the Hilight collage in your markdown note with link to album for full list.
