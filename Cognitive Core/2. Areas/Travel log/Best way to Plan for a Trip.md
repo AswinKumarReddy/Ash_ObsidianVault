@@ -5,4 +5,13 @@ Planning Stage:
 3. Use AI to generate a check list of important thing to do in each place.
 
 During Trip:
-1. Ta
+1. At the end of the day strike off thing from check list - trust me its a nice feel to ticket off things
+2. Take notes of all the important things and experiences you had in the day that come to your mind. 
+	1. This is not a dairy so only the improtant thing that strike you are imporatnt ones for future, in few words 
+	2. Keep in mind, your future self has little to no time so keep only the important ones or unexpected things that happened.
+
+
+After Trip:
+1. Upload the photos to google Drive -  this is mostly automatic
+2. Create albums of the trip - at place or day level preferably
+3. Use the Album to create highlights, 
