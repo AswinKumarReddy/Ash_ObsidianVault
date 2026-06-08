@@ -115,6 +115,9 @@ Notes:
 - I did nothing in Trivandrum due to migraine 
 
 
+
+![163](https://photos.app.goo.gl/ZdTypaCqbwJxz4Eq8)
+
 ---
 
 ## Day 4 — Trivandrum → Coimbatore → Overnight to Bangalore
