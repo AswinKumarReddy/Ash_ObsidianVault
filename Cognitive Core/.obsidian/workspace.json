@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/Travel log/Tamilnadu Trip June 2026/Tamilnadu Road Trip — 4.5 Day Itinerary.md",
+                "file": "2. Areas/Travel log/Best way to Plan for a Trip.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tamilnadu Road Trip — 4.5 Day Itinerary"
+              "title": "Best way to Plan for a Trip"
             }
           }
         ],
@@ -226,8 +226,9 @@
   },
   "active": "c695a546a84f420f",
   "lastOpenFiles": [
-    "2. Areas/Travel log/Tamilnadu Trip June 2026/Tamil Nādu Road Trip Checklist.md",
     "2. Areas/Travel log/Tamilnadu Trip June 2026/Tamilnadu Road Trip — 4.5 Day Itinerary.md",
+    "2. Areas/Travel log/Best way to Plan for a Trip.md",
+    "2. Areas/Travel log/Tamilnadu Trip June 2026/Tamil Nādu Road Trip Checklist.md",
     "1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
     "1. Projects/Obsidian 'Save for later' setup/Easy Note Capture setup.md",
     "1. Watch list.md",
@@ -256,7 +257,6 @@
     "2. Areas/Reading List/Reading List.md",
     "2. Areas/Reading List/Self Help - Reading List.md",
     "2. Areas/Reading List/Reading list entries",
-    "3. Resources/Obsidian Optimization/Templates/Watch Entry.md",
-    "3. Resources/Obsidian Optimization/Templates/Podcast Entry.md"
+    "3. Resources/Obsidian Optimization/Templates/Watch Entry.md"
   ]
 }
