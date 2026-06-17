@@ -26,12 +26,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cognitive Core/0. Daily notes.md",
+                "file": "Cognitive Core/3. Resources/Science of Artificial sweeteners.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "0. Daily notes"
+              "title": "Science of Artificial sweeteners"
             }
           }
         ],
@@ -184,8 +184,9 @@
   },
   "active": "834890ca6a718cae",
   "lastOpenFiles": [
-    "Cognitive Core/2. Areas/Reading List/Reading list entries/101 Essays the will change the way you think.md",
     "Cognitive Core/0. Daily notes.md",
+    "Cognitive Core/3. Resources/Science of Artificial sweeteners.md",
+    "Cognitive Core/2. Areas/Reading List/Reading list entries/101 Essays the will change the way you think.md",
     "Cognitive Core/2. Areas/Travel log/Tamilnadu Trip June 2026/Tamilnadu Road Trip — 4.5 Day Itinerary.md",
     "Cognitive Core/2. Areas/Travel log/Tamilnadu Trip June 2026/Tamil Nādu Road Trip Checklist.md",
     "Cognitive Core/2. Areas/Travel log/Travel Kit - to be updated.md",
@@ -219,7 +220,6 @@
     "Cognitive Core/2. Areas/Podcasts/Tech Podcast Entries/Designing A Data-Intensive Future • Martin Kleppmann.md",
     "Cognitive Core/1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
     "Cognitive Core/1. Projects/Alcohol Sketching/Basics of Alcohol Marker Art.md",
-    "Cognitive Core/1. Projects/Building a Second Brain/Obsidian - iCloud sync.md",
     "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026"
   ]
 }
