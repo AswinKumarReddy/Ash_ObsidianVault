@@ -62,16 +62,26 @@
   },
   "savedSessions": [
     {
+      "sessionId": "019edbc0-8527-7d52-80f4-107fb48417ea",
+      "agentId": "codex-acp",
+      "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+      "title": "Hi",
+      "createdAt": "2026-06-18T17:21:42.522Z",
+      "updatedAt": "2026-06-18T17:22:52.646Z"
+    },
+    {
       "sessionId": "019edb06-2381-7a83-99b3-26c25adeaafc",
       "agentId": "codex-acp",
       "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
       "title": "Hi",
       "createdAt": "2026-06-18T13:58:07.865Z",
-      "updatedAt": "2026-06-18T13:58:23.927Z"
+      "updatedAt": "2026-06-18T17:20:48.893Z"
     }
   ],
   "lastUsedModels": {},
-  "lastUsedModes": {},
+  "lastUsedModes": {
+    "codex-acp": "full-access"
+  },
   "maxSessionTabs": 10,
   "restoreTabsOnStartup": true,
   "perLeafTabStates": [
@@ -79,16 +89,16 @@
       "leafId": "1063d13e22e29437",
       "tabs": [
         {
-          "tabId": "tab-d70cf990",
+          "tabId": "tab-819c9f13",
           "agentId": "codex-acp",
           "label": "Hi",
           "labelIsCustom": false,
-          "sessionId": "019edb06-2381-7a83-99b3-26c25adeaafc",
+          "sessionId": "019edbc0-8527-7d52-80f4-107fb48417ea",
           "tabOrder": 0,
           "scrollPosition": 0
         }
       ],
-      "activeTabId": "tab-d70cf990"
+      "activeTabId": "tab-819c9f13"
     }
   ],
   "legacySessionsMigrated": true
