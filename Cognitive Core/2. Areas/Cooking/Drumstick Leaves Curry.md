@@ -33,4 +33,8 @@ tags:
 	2. Add Chanadal and Urad dal, let them be properly toasted for a crispy texture (they are done once they stop bubbling)
 3. Add onions and sauté them for 2 mins (they should look reduced and slightly golden and old should start sufacing again)
 4. Add Drumstick leaves into the kadai, add some salt and mix it a bit ~2mins(to speed up cooking and also for evenly spread taste)
-5. Close the Kadai with a lid and leave it in sim for let the heat cook the leave 
+5. Close the Kadai with a lid and leave it in sim for 3 -5 mins, let the heat cook the leaves
+6. Add Chilli powder and mix the whole thing a bit, adjust he salt and spice as needed.
+7. Add Coconut power and Peanut masala powder and mix it well (~1min)
+8. Done!!
+
