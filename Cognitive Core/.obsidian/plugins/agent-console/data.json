@@ -11,7 +11,7 @@
     "id": "codex-acp",
     "displayName": "Codex",
     "apiKeySecretId": "",
-    "command": "codex-acp",
+    "command": "C:\\Users\\user\\AppData\\Roaming\\npm\\codex-acp",
     "args": [],
     "env": []
   },
@@ -70,16 +70,16 @@
       "leafId": "1063d13e22e29437",
       "tabs": [
         {
-          "tabId": "tab-56bf6845",
-          "agentId": "claude-code-acp",
-          "label": "claude-code-acp 06:41 PM",
+          "tabId": "tab-8e398d41",
+          "agentId": "codex-acp",
+          "label": "codex-acp 07:02 PM",
           "labelIsCustom": false,
           "sessionId": null,
           "tabOrder": 0,
           "scrollPosition": 0
         }
       ],
-      "activeTabId": "tab-56bf6845"
+      "activeTabId": "tab-8e398d41"
     }
   ],
   "legacySessionsMigrated": true

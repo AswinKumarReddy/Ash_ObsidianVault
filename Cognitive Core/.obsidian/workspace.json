@@ -209,7 +209,9 @@
             "type": "leaf",
             "state": {
               "type": "agent-client-chat-view",
-              "state": {},
+              "state": {
+                "initialAgentId": "codex-acp"
+              },
               "icon": "agent-console",
               "title": "Agent console"
             }
