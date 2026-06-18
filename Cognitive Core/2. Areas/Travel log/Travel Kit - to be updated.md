@@ -1,3 +1,10 @@
+---
+tags:
+  - travel
+  - packing
+  - checklist
+---
+
 
 Things Needed for Solo travel:
 

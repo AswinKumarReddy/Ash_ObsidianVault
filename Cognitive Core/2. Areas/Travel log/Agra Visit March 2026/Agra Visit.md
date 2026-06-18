@@ -2,6 +2,12 @@
 banner:
 banner_y: 0.364
 cssclasses:
+tags:
+  - travel
+  - itinerary
+  - agra
+  - india
+  - march-2026
 ---
 
 Itinerary:  12/3/26 - 14/3/26

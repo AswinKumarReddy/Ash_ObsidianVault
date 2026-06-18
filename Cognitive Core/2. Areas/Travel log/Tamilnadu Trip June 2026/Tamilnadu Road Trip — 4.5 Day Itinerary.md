@@ -1,3 +1,12 @@
+---
+tags:
+  - travel
+  - itinerary
+  - tamil-nadu
+  - road-trip
+  - june-2026
+---
+
 
 
 

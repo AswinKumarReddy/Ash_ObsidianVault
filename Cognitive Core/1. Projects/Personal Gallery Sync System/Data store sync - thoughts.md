@@ -1,3 +1,11 @@
+---
+tags:
+  - project
+  - sync
+  - photos
+  - personal-infrastructure
+---
+
 Things to sync
 - photo storage
 - Notes and docs

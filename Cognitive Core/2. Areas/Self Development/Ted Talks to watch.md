@@ -1,3 +1,10 @@
+---
+tags:
+  - self-development
+  - watchlist
+  - ted-talks
+---
+
 1. [x] [[The first 20 hours how to learn anything - Josh Kaufman]]
 
 2. [ ] How to speak so that people want to listen - Julian Treasure

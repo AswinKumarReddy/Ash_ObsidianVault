@@ -1,3 +1,10 @@
+---
+tags:
+  - obsidian
+  - tutorials
+  - resources
+---
+
 - https://www.youtube.com/watch?v=DbsAQSIKQXk&t=198s
 - https://www.youtube.com/watch?v=B0yAy2j-9V0
 

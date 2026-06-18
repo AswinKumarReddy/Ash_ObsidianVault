@@ -1,3 +1,12 @@
+---
+tags:
+  - obsidian
+  - sync
+  - git
+  - iphone
+  - windows
+---
+
 Best way to sync between Windows + iPhone + MacOS is by using **Git + GitSync**
 
 Blog Post:

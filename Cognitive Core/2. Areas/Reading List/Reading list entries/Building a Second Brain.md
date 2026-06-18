@@ -12,6 +12,9 @@ date_added: 2026-05-24
 date_completed:
 tags:
   - book
+  - reading-list
+  - self-help
+  - personal-knowledge-management
 ---
 
 # 📚 Untitled

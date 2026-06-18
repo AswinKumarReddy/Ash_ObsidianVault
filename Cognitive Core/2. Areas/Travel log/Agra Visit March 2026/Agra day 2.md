@@ -1,3 +1,12 @@
+---
+tags:
+  - travel
+  - trip-log
+  - agra
+  - india
+  - march-2026
+---
+
 Bedai and hot jelebi for break fast
 
 Visited of Agra fort with guide

@@ -1,3 +1,11 @@
+---
+tags:
+  - project
+  - shopping
+  - glasses
+  - personal-style
+---
+
 
 Goals :
 - Buy new Galsses

@@ -1,3 +1,11 @@
+---
+tags:
+  - self-development
+  - learning
+  - deliberate-practice
+  - josh-kaufman
+---
+
 [Video LInk]()
 
 # 🧠 Learn Anything in 20 Hours — Framework (Josh Kaufman)

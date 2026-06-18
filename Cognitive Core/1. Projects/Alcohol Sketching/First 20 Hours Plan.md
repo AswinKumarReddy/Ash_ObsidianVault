@@ -1,3 +1,12 @@
+---
+tags:
+  - project
+  - art
+  - alcohol-markers
+  - learning-plan
+  - deliberate-practice
+---
+
 
 Lets create 20 sketches and see  how it takes me
 

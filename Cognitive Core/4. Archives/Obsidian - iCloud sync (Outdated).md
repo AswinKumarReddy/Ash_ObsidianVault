@@ -1,3 +1,12 @@
+---
+tags:
+  - archive
+  - obsidian
+  - sync
+  - icloud
+  - outdated
+---
+
 Ref: https://www.youtube.com/watch?v=Fvnaz8eywiI&t=97s
 
 Very straight forward :

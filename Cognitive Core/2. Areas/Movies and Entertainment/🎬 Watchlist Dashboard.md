@@ -1,3 +1,12 @@
+---
+tags:
+  - dashboard
+  - watchlist
+  - media
+  - entertainment
+  - dataview
+---
+
 
 ---
 

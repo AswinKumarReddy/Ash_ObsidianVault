@@ -1,3 +1,10 @@
+---
+tags:
+  - travel
+  - planning
+  - workflow
+---
+
 
 Planning Stage:
 1. Make up a list of place that you want to visit. Keep more than what you can cover so you can choose things. 

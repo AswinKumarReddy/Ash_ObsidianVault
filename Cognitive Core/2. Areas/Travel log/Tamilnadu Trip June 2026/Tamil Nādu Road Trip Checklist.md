@@ -1,3 +1,12 @@
+---
+tags:
+  - travel
+  - checklist
+  - tamil-nadu
+  - road-trip
+  - june-2026
+---
+
 
 ## Dindigul
 

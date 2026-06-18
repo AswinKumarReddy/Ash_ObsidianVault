@@ -11,6 +11,10 @@ date_added: 2026-04-06
 date_completed:
 tags:
   - podcast
+  - tech
+  - databases
+  - sql
+  - scaling
 ---
 
 # 🎧 Hyperscaling SQL with Sam Lambert

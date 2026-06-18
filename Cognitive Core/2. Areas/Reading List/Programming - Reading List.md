@@ -1,3 +1,11 @@
+---
+tags:
+  - reading-list
+  - programming
+  - books
+  - software-engineering
+---
+
 
 - [ ] Clean Code
 - [ ] The Pragmatic Programmer

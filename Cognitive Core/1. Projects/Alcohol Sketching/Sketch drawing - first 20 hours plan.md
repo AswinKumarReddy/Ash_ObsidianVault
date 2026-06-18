@@ -1,3 +1,11 @@
+---
+tags:
+  - project
+  - art
+  - sketching
+  - learning-plan
+---
+
 Can you make a plan the first 20 hours plan for sketch drawing
 
 Started with first art/sketch

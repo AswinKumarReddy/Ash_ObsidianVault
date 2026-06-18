@@ -12,6 +12,10 @@ date_added:
 date_completed:
 tags:
   - podcast
+  - tech
+  - data-engineering
+  - distributed-systems
+  - martin-kleppmann
 ---
 
 

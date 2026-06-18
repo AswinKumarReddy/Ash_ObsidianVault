@@ -1,3 +1,11 @@
+---
+tags:
+  - project
+  - art
+  - alcohol-markers
+  - sketching
+---
+
 - Imp Notes
 - Go for a chisel + brush type set (next time)
 - Keep the markers flat not upright while storing\

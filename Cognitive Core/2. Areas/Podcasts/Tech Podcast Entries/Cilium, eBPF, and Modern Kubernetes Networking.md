@@ -11,6 +11,11 @@ date_added: 2026-04-05
 date_completed:
 tags:
   - podcast
+  - tech
+  - kubernetes
+  - networking
+  - ebpf
+  - cilium
 ---
 
 # 🎧 Cilium, eBPF, and Modern Kubernetes Networking

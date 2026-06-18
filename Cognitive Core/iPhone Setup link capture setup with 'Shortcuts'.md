@@ -1,3 +1,12 @@
+---
+tags:
+  - obsidian
+  - capture
+  - iphone
+  - shortcuts
+  - automation
+---
+
 ### Flow:
 ```
 iPhone → Google Sheets → Obsidian Capture System

@@ -1,3 +1,11 @@
+---
+tags:
+  - health
+  - nutrition
+  - science
+  - artificial-sweeteners
+---
+
 # Notes: The Science of Artificial Sweeteners
 
 ### Video Overview & Key Takeaways

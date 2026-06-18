@@ -1,3 +1,10 @@
+---
+tags:
+  - dashboard
+  - podcast
+  - dataview
+---
+
 # 🎧 Podcast Dashboard
 
 ---

@@ -1,3 +1,10 @@
+---
+tags:
+  - obsidian
+  - plugins
+  - resources
+---
+
 PC/Windows:
 - Git
 - Templates (Core Pulugin)

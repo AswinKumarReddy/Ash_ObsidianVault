@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/Travel log/Tamilnadu Trip June 2026/Tamil Nādu Road Trip Checklist.md",
+                "file": "2. Areas/Cooking/Drumstick Leaves Curry.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tamil Nādu Road Trip Checklist"
+              "title": "Drumstick Leaves Curry"
             }
           }
         ],
@@ -236,15 +236,16 @@
       "agent-console:Agent Console": false
     }
   },
-  "active": "1063d13e22e29437",
+  "active": "c695a546a84f420f",
   "lastOpenFiles": [
+    "2. Areas/Travel log/Tamilnadu Trip June 2026/Tamil Nādu Road Trip Checklist.md",
+    "2. Areas/Cooking/Drumstick Leaves Curry.md",
     "3. Resources/Science of Artificial sweeteners.md",
     "1. Projects/New Glasses/Project Brief - New and Cool Glasses.md",
     "1. Projects/New Glasses",
     "2. Areas/Travel log/Tamilnadu Trip June 2026/Tamilnadu Road Trip — 4.5 Day Itinerary.md",
     "2. Areas/Travel log/Best way to Plan for a Trip.md",
     "2. Areas/Reading List/Reading list entries/101 Essays the will change the way you think.md",
-    "2. Areas/Travel log/Tamilnadu Trip June 2026/Tamil Nādu Road Trip Checklist.md",
     "1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
     "1. Projects/Obsidian 'Save for later' setup/Easy Note Capture setup.md",
     "1. Watch list.md",
@@ -269,7 +270,6 @@
     "2. Areas/Movies and Entertainment/Watch entries",
     "2. Areas/Movies and Entertainment",
     "Test file.md",
-    "2. Areas/Reading List/Fiction - Reading List.md",
     "2. Areas/Reading List/Reading list entries"
   ]
 }
