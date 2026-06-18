@@ -67,7 +67,7 @@
       "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
       "title": "Hi",
       "createdAt": "2026-06-18T17:21:42.522Z",
-      "updatedAt": "2026-06-18T17:48:22.183Z"
+      "updatedAt": "2026-06-18T17:52:51.185Z"
     },
     {
       "sessionId": "019edb06-2381-7a83-99b3-26c25adeaafc",
@@ -89,25 +89,16 @@
       "leafId": "1063d13e22e29437",
       "tabs": [
         {
-          "tabId": "tab-819c9f13",
-          "agentId": "codex-acp",
-          "label": "Hi",
-          "labelIsCustom": false,
-          "sessionId": "019edbc0-8527-7d52-80f4-107fb48417ea",
-          "tabOrder": 0,
-          "scrollPosition": 0
-        },
-        {
           "tabId": "tab-a55263d2",
           "agentId": "codex-acp",
           "label": "codex-acp 10:57 PM",
           "labelIsCustom": false,
           "sessionId": null,
-          "tabOrder": 1,
+          "tabOrder": 0,
           "scrollPosition": 0
         }
       ],
-      "activeTabId": "tab-819c9f13"
+      "activeTabId": "tab-a55263d2"
     }
   ],
   "legacySessionsMigrated": true

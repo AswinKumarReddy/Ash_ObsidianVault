@@ -1,4 +1,4 @@
-﻿---
+---
 tags:
   - book
   - reading-list
@@ -20,7 +20,7 @@ date_completed:
 - Pragya's suggestion
 # 📚 101 Essays That Will Change The Way You Think
 
-## ðŸ”— Book Info
+## 🔗 Book Info
 - Author: Brianna Wiest
 - Genre: Self Help / Personal Development
 - Pages: 448
@@ -28,22 +28,22 @@ date_completed:
 
 ---
 
-## ðŸŽ¯ Why I Want to Read This
+## 🎯 Why I Want to Read This
 - Pragya's suggestion
 -
 
 ---
 
-## ðŸ“– Reading Notes
+## 📖 Reading Notes
 - Chapter notes:
   -
   -
 
 ---
 
-# âœ… Summary (Fill ONLY after completion)
+# ✅ Summary (Fill ONLY after completion)
 
-## ðŸ§  Key Takeaways
+## 🧠 Key Takeaways
 -
 -
 -
@@ -51,17 +51,17 @@ date_completed:
 
 ---
 
-## ðŸ’¡ Actionable Insights
+## 💡 Actionable Insights
 - [ ]
 - [ ]
 
 ---
 
-## ðŸ“ My Thoughts
+## 📝 My Thoughts
 -
 -
 
 ---
 
-## â­ Rating
+## ⭐ Rating
 -
