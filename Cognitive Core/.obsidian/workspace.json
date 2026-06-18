@@ -203,14 +203,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "1063d13e22e29437",
+            "type": "leaf",
+            "state": {
+              "type": "agent-client-chat-view",
+              "state": {},
+              "icon": "agent-console",
+              "title": "Agent console"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,11 +230,15 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "agent-console:Agent Console": false
     }
   },
-  "active": "c695a546a84f420f",
+  "active": "1063d13e22e29437",
   "lastOpenFiles": [
+    "3. Resources/Science of Artificial sweeteners.md",
+    "1. Projects/New Glasses/Project Brief - New and Cool Glasses.md",
+    "1. Projects/New Glasses",
     "2. Areas/Travel log/Tamilnadu Trip June 2026/Tamilnadu Road Trip — 4.5 Day Itinerary.md",
     "2. Areas/Travel log/Best way to Plan for a Trip.md",
     "2. Areas/Reading List/Reading list entries/101 Essays the will change the way you think.md",
@@ -255,8 +268,6 @@
     "2. Areas/Movies and Entertainment",
     "Test file.md",
     "2. Areas/Reading List/Fiction - Reading List.md",
-    "2. Areas/Reading List/Reading List.md",
-    "2. Areas/Reading List/Self Help - Reading List.md",
     "2. Areas/Reading List/Reading list entries"
   ]
 }

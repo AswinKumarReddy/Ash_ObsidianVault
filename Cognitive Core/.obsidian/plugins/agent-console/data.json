@@ -1,0 +1,86 @@
+{
+  "claude": {
+    "id": "claude-code-acp",
+    "displayName": "Claude Code",
+    "apiKeySecretId": "",
+    "command": "claude-agent-acp",
+    "args": [],
+    "env": []
+  },
+  "codex": {
+    "id": "codex-acp",
+    "displayName": "Codex",
+    "apiKeySecretId": "",
+    "command": "codex-acp",
+    "args": [],
+    "env": []
+  },
+  "gemini": {
+    "id": "gemini-cli",
+    "displayName": "Gemini CLI",
+    "apiKeySecretId": "",
+    "command": "gemini",
+    "args": [
+      "--experimental-acp"
+    ],
+    "env": []
+  },
+  "kiro": {
+    "id": "kiro-cli",
+    "displayName": "Kiro CLI",
+    "command": "kiro-cli",
+    "args": [
+      "acp"
+    ],
+    "env": []
+  },
+  "customAgents": [],
+  "defaultAgentId": "claude-code-acp",
+  "autoAllowPermissions": false,
+  "activeNoteAsDefaultContext": true,
+  "migrationNoticeShown": false,
+  "enableSystemNotifications": true,
+  "debugMode": false,
+  "nodePath": "",
+  "exportSettings": {
+    "defaultFolder": "Agent Console",
+    "filenameTemplate": "agent_console_{date}_{time}",
+    "autoExportOnNewChat": false,
+    "autoExportOnCloseChat": false,
+    "openFileAfterExport": true,
+    "includeImages": true,
+    "imageLocation": "obsidian",
+    "imageCustomFolder": "Agent Console",
+    "frontmatterTag": "agent-client"
+  },
+  "windowsWslMode": false,
+  "sendMessageShortcut": "enter",
+  "chatViewLocation": "right",
+  "displaySettings": {
+    "showEmojis": true,
+    "fontSize": null
+  },
+  "savedSessions": [],
+  "lastUsedModels": {},
+  "lastUsedModes": {},
+  "maxSessionTabs": 10,
+  "restoreTabsOnStartup": true,
+  "perLeafTabStates": [
+    {
+      "leafId": "1063d13e22e29437",
+      "tabs": [
+        {
+          "tabId": "tab-56bf6845",
+          "agentId": "claude-code-acp",
+          "label": "claude-code-acp 06:41 PM",
+          "labelIsCustom": false,
+          "sessionId": null,
+          "tabOrder": 0,
+          "scrollPosition": 0
+        }
+      ],
+      "activeTabId": "tab-56bf6845"
+    }
+  ],
+  "legacySessionsMigrated": true
+}
