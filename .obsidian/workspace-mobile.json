@@ -26,12 +26,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cognitive Core/3. Resources/Science of Fiber.md",
-                "mode": "source",
+                "file": "Cognitive Core/2. Areas/Cooking/Drumstick Leaves Curry.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Science of Fiber"
+              "title": "Drumstick Leaves Curry"
             }
           }
         ],
@@ -126,7 +126,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Cognitive Core/0. Daily notes.md",
+            "file": "Cognitive Core/2. Areas/Cooking/Drumstick Leaves Curry.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -184,8 +184,8 @@
   },
   "active": "834890ca6a718cae",
   "lastOpenFiles": [
-    "Cognitive Core/1. Projects/New Glasses/Project Brief - New and Cool Glasses.md",
     "Cognitive Core/3. Resources/Science of Fiber.md",
+    "Cognitive Core/1. Projects/New Glasses/Project Brief - New and Cool Glasses.md",
     "Cognitive Core/2. Areas/Cooking/Drumstick Leaves Curry.md",
     "Cognitive Core/2. Areas/Cooking",
     "Cognitive Core/1. Projects/Alcohol Sketching/Basics of Alcohol Marker Art.md",
