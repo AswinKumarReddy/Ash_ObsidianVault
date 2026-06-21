@@ -1,0 +1,1 @@
+The goal is to create a simple video summary agent that uses Gemini as its background AI. Given a YouTube video link, it should fetch a manifest of the video content, summarize it, and create simple notes that I can save in Obsidian for later use. 

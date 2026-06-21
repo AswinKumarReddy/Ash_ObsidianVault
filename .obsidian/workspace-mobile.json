@@ -26,12 +26,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cognitive Core/2. Areas/Cooking/Drumstick Leaves Curry.md",
-                "mode": "preview",
+                "file": "Cognitive Core/1. Projects/Video summary and notes agent - obsidian console/Video Summary Agent Project tracker.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Drumstick Leaves Curry"
+              "title": "Video Summary Agent Project tracker"
             }
           }
         ],
@@ -182,11 +182,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "159a8cbf2df0fcf9",
+  "active": "834890ca6a718cae",
   "lastOpenFiles": [
+    "Cognitive Core/2. Areas/Cooking/Drumstick Leaves Curry.md",
+    "Cognitive Core/1. Projects/Video summary and notes agent - obsidian console/Video Summary Agent Project tracker.md",
+    "Cognitive Core/1. Projects/Video summary and notes agent - obsidian console",
     "Cognitive Core/3. Resources/Science of Fiber.md",
     "Cognitive Core/1. Projects/New Glasses/Project Brief - New and Cool Glasses.md",
-    "Cognitive Core/2. Areas/Cooking/Drumstick Leaves Curry.md",
     "Cognitive Core/2. Areas/Cooking",
     "Cognitive Core/1. Projects/Alcohol Sketching/Basics of Alcohol Marker Art.md",
     "Cognitive Core/0. Daily notes.md",
@@ -215,11 +217,9 @@
     "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Attachments/Agra to Blr 14-3-26 eticket_1748048.pdf",
     "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Attachments/pexels-artosuraj-28762053.jpg",
     "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Attachments/Confirmation_for_Booking_ID_ _1989379666.pdf",
-    "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Attachments/Blr to Agra 12-3-26 eticket_1748033.pdf",
     "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Agra Visit.md",
     "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Agra day 2.md",
     "Cognitive Core/2. Areas/Podcasts/Tech Podcast Entries/Hyperscaling SQL with Sam Lambert.md",
-    "Cognitive Core/2. Areas/Podcasts/Tech Podcast Entries/DeepMinds RAG System.md",
-    "Cognitive Core/2. Areas/Podcasts/Tech Podcast Entries/Cilium, eBPF, and Modern Kubernetes Networking.md"
+    "Cognitive Core/2. Areas/Podcasts/Tech Podcast Entries/DeepMinds RAG System.md"
   ]
 }
