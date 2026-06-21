@@ -51,7 +51,7 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": false
+            "autoReveal": true
           },
           "icon": "lucide-folder-closed",
           "title": "Files"
@@ -182,7 +182,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "834890ca6a718cae",
+  "active": "159a8cbf2df0fcf9",
   "lastOpenFiles": [
     "Cognitive Core/3. Resources/Science of Fiber.md",
     "Cognitive Core/1. Projects/New Glasses/Project Brief - New and Cool Glasses.md",
