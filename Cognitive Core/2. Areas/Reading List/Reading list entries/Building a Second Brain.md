@@ -4,10 +4,10 @@ status: in-progress
 priority: high
 author: Tiago Forte
 genre: Self Help
-pages:
-progress: "250"
+pages: 250
+progress:
 source:
-rating:
+rating: 5
 date_added: 2026-05-24
 date_completed:
 tags:
