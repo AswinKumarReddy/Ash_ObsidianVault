@@ -23,4 +23,4 @@ Ideas to try
 
 ### Current Solution
 - Google drive  is offering great deals, im currently using 2TB free plan provided for 1 year via JIO offers.
-- Google drive is my go-to storate for all pictures and media that im captur
+- Google drive is my go-to storage for all pictures and media that im capturing on my mobile.
