@@ -62,6 +62,14 @@
   },
   "savedSessions": [
     {
+      "sessionId": "019f429b-0144-7953-bfb7-9a4d2b782c8b",
+      "agentId": "codex-acp",
+      "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+      "title": "hi",
+      "createdAt": "2026-07-08T16:41:39.946Z",
+      "updatedAt": "2026-07-08T16:41:40.515Z"
+    },
+    {
       "sessionId": "019edbc0-8527-7d52-80f4-107fb48417ea",
       "agentId": "codex-acp",
       "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
@@ -91,9 +99,9 @@
         {
           "tabId": "tab-a55263d2",
           "agentId": "codex-acp",
-          "label": "codex-acp 10:57 PM",
+          "label": "hi",
           "labelIsCustom": false,
-          "sessionId": null,
+          "sessionId": "019f429b-0144-7953-bfb7-9a4d2b782c8b",
           "tabOrder": 0,
           "scrollPosition": 0
         }
