@@ -22,35 +22,21 @@
             }
           },
           {
-            "id": "e032f2afb2743d10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Areas/Travel log/Tamilnadu Trip June 2026/Tamilnadu Road Trip — 4.5 Day Itinerary.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tamilnadu Road Trip — 4.5 Day Itinerary"
-            }
-          },
-          {
             "id": "c695a546a84f420f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/Video summary and notes agent - obsidian console/Video Summary Agent Project tracker.md",
+                "file": "3. Resources/Tax Filing/Resources/Tax Filing Checklist (Amazon SDE2).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Video Summary Agent Project tracker"
+              "title": "Tax Filing Checklist (Amazon SDE2)"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -238,13 +224,20 @@
   },
   "active": "c695a546a84f420f",
   "lastOpenFiles": [
+    "1. Projects/Obsidian 'Save for later' setup/Easy Note Capture setup.md",
+    "3. Resources/Tax Filing/Resources/Tax Filing Checklist (Amazon SDE2).md",
+    "2. Areas/Travel log/Tamilnadu Trip June 2026/Tamilnadu Road Trip — 4.5 Day Itinerary.md",
+    "3. Resources/Tax Filing/Resources/Tax Filing Learnings and Reference (Amazon SDE2).md",
+    "1. Projects/Video summary and notes agent - obsidian console/Video Summary Agent Project tracker.md",
+    "3. Resources/Tax Filing/Untitled",
+    "3. Resources/Tax Filing/Resources",
+    "3. Resources/Tax Filing",
     "4. Archives/Personal Gallery Sync System/Data store sync - thoughts.md",
     "1. Projects/Meghalaya Travel plan/Meghalaya Travel outline.md",
     "4. Archives/Uttarakhand Plan/Best Places to visit in Uttarakhand.md",
     "1. Projects/Meghalaya Travel plan",
     "2. Areas/Travel log/Agra Visit March 2026/Agra Visit.md",
     "3. Resources/Science of Fiber.md",
-    "1. Projects/Video summary and notes agent - obsidian console/Video Summary Agent Project tracker.md",
     "1. Projects/Video summary and notes agent - obsidian console",
     "2. Areas/Travel log/Agra Visit March 2026/Agra day 2.md",
     "2. Areas/Reading List/📚 Reading Dashboard.md",
@@ -256,22 +249,16 @@
     "3. Resources/Science of Artificial sweeteners.md",
     "1. Projects/New Glasses/Project Brief - New and Cool Glasses.md",
     "1. Projects/New Glasses",
-    "2. Areas/Travel log/Tamilnadu Trip June 2026/Tamilnadu Road Trip — 4.5 Day Itinerary.md",
     "2. Areas/Travel log/Best way to Plan for a Trip.md",
     "1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
-    "1. Projects/Obsidian 'Save for later' setup/Easy Note Capture setup.md",
     "1. Watch list.md",
     "2. Areas/Travel log/Tamilnadu Trip June 2026",
     "0. Daily notes.md",
     "iPhone Setup link capture setup with 'Shortcuts'.md",
     "2. Areas/Movies and Entertainment/Watch entries/Untitled.md",
     "Untitled.md",
-    "3. Resources/Obsidian Optimization/Obsidian Plugins/Top List of Useful Plugins.md",
-    "2. Areas/Movies and Entertainment/Watch entries/God Father.md",
     "1. Projects/Obsidian 'Save for later' setup",
     "Untitled.base",
-    "2. Areas/Movies and Entertainment/Watch entries",
-    "2. Areas/Movies and Entertainment",
-    "2. Areas/Reading List/Reading list entries"
+    "2. Areas/Movies and Entertainment/Watch entries"
   ]
 }

@@ -24,6 +24,486 @@
         }
       ],
       "timestamp": "2026-07-08T16:41:39.500Z"
+    },
+    {
+      "id": "57be0606-03b4-4e71-8696-d2ed0c117c1a",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Hi"
+        }
+      ],
+      "timestamp": "2026-07-26T05:31:24.046Z"
+    },
+    {
+      "id": "9abc0aa4-4535-4916-a516-5fc335ea63bb",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "I’ll open the linked tracker so I can respond in context instead of guessing from the filename."
+        }
+      ],
+      "timestamp": "2026-07-26T05:31:34.591Z"
+    },
+    {
+      "id": "9e04397e-4b3b-47e2-84db-720a6e9f05e8",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_XLKv1Y9iUAFgPc9FROqxLBwW",
+          "title": "Get-Content -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\1. Projects\\Video summary and notes agent - obsidian console\\Video Summary Agent Project tracker.md'",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_XLKv1Y9iUAFgPc9FROqxLBwW",
+            "turn_id": "019f9ce8-1816-7b32-a312-35c8ac47718d",
+            "started_at_ms": 1785043896579,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "Get-Content -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\1. Projects\\Video summary and notes agent - obsidian console\\Video Summary Agent Project tracker.md'"
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "Get-Content -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\1. Projects\\Video summary and notes agent - obsidian console\\Video Summary Agent Project tracker.md'"
+              }
+            ],
+            "source": "agent"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Hi. I opened the tracker. It currently says the project goal is a simple YouTube video summary agent using Gemini that generates Obsidian-ready notes.\n\nWhat would you like to do next: design the workflow, add requirements/tasks to the tracker, or start building the agent?"
+        }
+      ],
+      "timestamp": "2026-07-26T05:31:37.183Z"
+    },
+    {
+      "id": "f84e420d-ad28-437c-9830-d849f499e5e7",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Check out the 2 files realted to Tax Filing i just created, can you better formt them for redability and remove any unnecessary spaces new line etc"
+        }
+      ],
+      "timestamp": "2026-07-26T05:32:21.920Z"
+    },
+    {
+      "id": "1720fc0c-a1a8-494c-8a43-208807bd3197",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "I’ll find the new Tax Filing notes first, then I’ll clean only those files and preserve the substance."
+        }
+      ],
+      "timestamp": "2026-07-26T05:32:30.013Z"
+    },
+    {
+      "id": "e2bcca45-76ac-4d4b-9d8d-27804f576f30",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_AZlKB7mK6RqJqdbvEPTUs3i7",
+          "title": "rg --files | rg -i \"tax|filing\"",
+          "status": "failed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_AZlKB7mK6RqJqdbvEPTUs3i7",
+            "turn_id": "019f9ce8-fa22-7723-945d-1354380f6ab1",
+            "started_at_ms": 1785043953357,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "rg --files | rg -i \"tax|filing\""
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "rg --files | rg -i \"tax|filing\""
+              }
+            ],
+            "source": "agent"
+          }
+        }
+      ],
+      "timestamp": "2026-07-26T05:32:33.856Z"
+    },
+    {
+      "id": "62920def-4aca-41d5-980b-6ac134ca4cc5",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_VVfrn4pCZqi5jLF7nDKTrsjk",
+          "title": "Get-ChildItem -Recurse -File | Where-Object { $_.Name -match 'tax|filing' } | Sort-Object LastWriteTime -Descending | Select-Object -First 10 FullName,LastWriteTime",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_VVfrn4pCZqi5jLF7nDKTrsjk",
+            "turn_id": "019f9ce8-fa22-7723-945d-1354380f6ab1",
+            "started_at_ms": 1785043953366,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "Get-ChildItem -Recurse -File | Where-Object { $_.Name -match 'tax|filing' } | Sort-Object LastWriteTime -Descending | Select-Object -First 10 FullName,LastWriteTime"
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "Get-ChildItem -Recurse -File | Where-Object { $_.Name -match 'tax|filing' } | Sort-Object LastWriteTime -Descending | Select-Object -First 10 FullName,LastWriteTime"
+              }
+            ],
+            "source": "agent"
+          }
+        },
+        {
+          "type": "text",
+          "text": "I found two matching Markdown files under `3. Resources\\Tax Filing\\Resources`. `rg` is not installed here, so I’m using PowerShell for the file reads."
+        }
+      ],
+      "timestamp": "2026-07-26T05:32:33.856Z"
+    },
+    {
+      "id": "6b48d0a8-9639-4419-9e88-36aec4e5325d",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_93sbHgJ0JdYf17wI9LGKFesp",
+          "title": "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md'",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_93sbHgJ0JdYf17wI9LGKFesp",
+            "turn_id": "019f9ce8-fa22-7723-945d-1354380f6ab1",
+            "started_at_ms": 1785043961832,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md'"
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md'"
+              }
+            ],
+            "source": "agent"
+          }
+        }
+      ],
+      "timestamp": "2026-07-26T05:32:42.372Z"
+    },
+    {
+      "id": "afe81e59-c1ec-4fea-a005-e2b33e4c7139",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_xYtzhJ16pwmPXhkH56jkuBd4",
+          "title": "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md'",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_xYtzhJ16pwmPXhkH56jkuBd4",
+            "turn_id": "019f9ce8-fa22-7723-945d-1354380f6ab1",
+            "started_at_ms": 1785043961880,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md'"
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md'"
+              }
+            ],
+            "source": "agent"
+          }
+        },
+        {
+          "type": "text",
+          "text": "I see the formatting issue: lots of isolated labels separated by blank lines, checklist boxes missing list markers, and a few encoding artifacts like `Ã—` and `â†’`. I’m going to normalize the Markdown structure and fix those artifacts without changing the tax content."
+        }
+      ],
+      "timestamp": "2026-07-26T05:32:42.372Z"
+    },
+    {
+      "id": "a643bf19-7204-4277-b8d4-8ca458ed273a",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_kqzg5GMS1bWFdD0KE8mYP5aL",
+          "title": "Get-ChildItem -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources' -File | Select-Object -ExpandProperty FullName",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_kqzg5GMS1bWFdD0KE8mYP5aL",
+            "turn_id": "019f9ce8-fa22-7723-945d-1354380f6ab1",
+            "started_at_ms": 1785043969079,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "Get-ChildItem -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources' -File | Select-Object -ExpandProperty FullName"
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "Get-ChildItem -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources' -File | Select-Object -ExpandProperty FullName"
+              }
+            ],
+            "source": "agent"
+          }
+        },
+        {
+          "type": "text",
+          "text": "I’m editing both Markdown files now. The changes are structural: clearer headings, compact field/value lines, proper task checkboxes, and consistent formulas."
+        }
+      ],
+      "timestamp": "2026-07-26T05:32:49.099Z"
+    },
+    {
+      "id": "00064afa-520c-4e4f-86f7-9635750c141c",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_dVIalOAX0Li6P8NZp8vSRAwD",
+          "title": "Edit D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md, D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md",
+              "newText": "# Tax Filing Checklist - Amazon SDE2\n\n## Documents Needed\n\nCollect:\n\n- Form 16 from Amazon\n- AIS\n- Form 26AS\n- Bank interest statements\n- Morgan Stanley RSU statements\n- RSU vesting history\n- Stock transaction history\n\n---\n\n## Salary Filing\n\nEnter:\n\n- Salary income\n- Bonus\n- Allowances\n- Employer contributions\n- Profit in lieu of Salary u/s 17(3): `0`\n\n---\n\n## Amazon RSU Information Required\n\nFrom Morgan Stanley, collect:\n\n- Account opening date\n- Quarterly statements\n- Vesting history\n- Shares vested\n- Shares sold for tax withholding\n- Shares held on 31-Dec-2025\n\n---\n\n## Schedule FA Filing\n\n### A2 - Foreign Custodial Account\n\n- Status: Owner\n- Financial institution: Morgan Stanley Smith Barney LLC\n- Address: 1 New York Plaza, 26th Floor, New York, NY 10004, USA\n- ZIP: 10004\n\nFill:\n\n- Account opening date: from Morgan Stanley account details\n- Peak balance: highest account value during 2025\n- Closing balance: account value on 31-Dec-2025\n- Gross amount paid/credited: usually `0` unless dividends or cash credits exist\n\n### A3 - Foreign Equity Interest\n\n- Entity: Amazon.com Inc.\n- Country: United States of America\n- Address: 410 Terry Avenue North, Seattle, WA 98109, United States\n- ZIP: 98109\n- Entity type: Listed Company\n- Interest type: Equity\n- Acquisition date: RSU vest date\n- Initial value: shares vested x Amazon price on vest date\n- Peak value: highest shares held x Amazon stock price during 2025\n- Closing balance: shares held on 31-Dec-2025 x Amazon closing price on 31-Dec-2025\n\n---\n\n## Final Submission Checklist\n\n- [ ] Form 16 verified\n- [ ] AIS checked\n- [ ] Form 26AS matched\n- [ ] Bank interest added\n- [ ] Amazon RSUs reported\n- [ ] Schedule FA completed\n- [ ] Exchange rates applied\n- [ ] Foreign account details verified\n- [ ] Supporting documents saved\n\n---\n\n## Documents to Preserve\n\nKeep:\n\n- Form 16\n- AIS PDF\n- Form 26AS\n- Morgan Stanley statements\n- RSU vesting reports\n- Stock transaction history\n- Exchange rate references\n"
+            },
+            {
+              "type": "diff",
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md",
+              "newText": "# Tax Filing Learnings and Reference - Amazon SDE2\n\n## Context\n\n- Salaried employee in India working at Amazon\n- Income sources:\n  - Salary\n  - Amazon RSUs from US-listed shares\n  - Savings account interest\n- Filing:\n  - FY 2025-26\n  - AY 2026-27\n\n---\n\n## AIS and Form 26AS\n\n### AIS\n\nAIS, or Annual Information Statement, is a statement from the Income Tax Department containing financial information reported by different institutions.\n\nUse it to check:\n\n- Interest income\n- Securities transactions\n- Mutual funds\n- Foreign assets\n- Other financial transactions\n\nDownload path: Income Tax Portal -> Services -> Annual Information Statement (AIS)\n\nAIS PDF password format: PAN in uppercase + date of birth in `DDMMYYYY` format\n\nExample: `ABCDE1234F01011990`\n\n### Form 26AS\n\nForm 26AS contains:\n\n- TDS deducted by employer\n- TDS deducted by banks\n- Tax credits\n- Refund details\n\nDifference:\n\n- AIS: shows financial activity reported to the Income Tax Department\n- Form 26AS: shows tax credits and TDS\n\n---\n\n## Amazon RSU Understanding\n\nAmazon RSU lifecycle:\n\nGrant -> Vesting -> Shares become yours -> Some shares sold for tax withholding -> Remaining shares held in brokerage account\n\nImportant dates:\n\n- Grant date: date RSUs are given by Amazon\n- Vest date: date shares become yours; used as acquisition date for Foreign Asset reporting\n- Sale date: date shares are sold\n\nFor Schedule FA:\n\n- Acquisition date = RSU vest date\n- Do not use grant date\n- Do not use Amazon joining date\n\n---\n\n## Schedule FA Overview\n\nAmazon RSUs require reporting because they are foreign assets.\n\nTwo sections are relevant:\n\n1. A2 - Foreign Custodial Account\n2. A3 - Foreign Equity Interest\n\n---\n\n## A2 - Foreign Custodial Account\n\nThis represents the foreign brokerage account where Amazon shares are held.\n\nExample: Morgan Stanley StockPlan Connect\n\nStatus: Owner\n\nReason:\n\n- Brokerage account is in your name\n- Shares belong to you\n\nFinancial institution details:\n\n- Name: Morgan Stanley Smith Barney LLC\n- Address: 1 New York Plaza, 26th Floor, New York, NY 10004, USA\n- ZIP: 10004\n\nAccount opening date: use the date your Morgan Stanley account was created.\n\nFind it from:\n\n- Morgan Stanley account details\n- Account documents\n\nPeak balance during period:\n\n- Meaning: highest value of the foreign brokerage account from 01-Jan-2025 to 31-Dec-2025\n- Calculation: peak USD value x USD-INR exchange rate on peak date\n\nClosing balance:\n\n- Meaning: value of brokerage account on 31-Dec-2025\n- Calculation: shares held on 31-Dec-2025 x Amazon closing price x USD-INR rate on 31-Dec-2025\n\nGross amount paid/credited:\n\n- Include dividends, cash credits, and sale proceeds if applicable\n- Do not include salary, RSU grant value, or stock price increase\n- For Amazon RSUs, this is usually `0`\n\n---\n\n## A3 - Foreign Equity Interest\n\nThis represents ownership of Amazon shares.\n\nEntity details:\n\n- Entity: Amazon.com Inc.\n- Country: United States of America\n- Address: Amazon.com Inc., 410 Terry Avenue North, Seattle, WA 98109, United States\n- ZIP: 98109\n- Nature of entity: Listed Company\n- Nature of interest: Equity\n\nDate of acquiring interest:\n\n- For RSUs, use the RSU vesting date\n- Example: 15-Feb-2025\n- Do not use grant date or joining date\n\nInitial value of investment:\n\n- Meaning: value when shares were acquired\n- Formula: number of shares vested x Amazon share price on vest date\n- Convert USD to INR\n\nPeak value of investment:\n\n- Meaning: highest market value of Amazon shares during 2025\n- Formula: highest number of shares held x Amazon stock price on that date\n- Convert USD to INR\n\nClosing balance:\n\n- Meaning: value of Amazon shares held on 31-Dec-2025\n- Formula: shares held on 31-Dec-2025 x Amazon closing price on 31-Dec-2025\n- Convert USD to INR\n\n---\n\n## Exchange Rate Rules\n\nFor foreign assets:\n\n- Peak value: use exchange rate on peak value date\n- Closing value: use exchange rate on 31-Dec-2025\n\nExamples:\n\n- Peak: USD value x USD-INR rate on peak date\n- Closing: USD value x USD-INR rate on 31-Dec-2025\n\n---\n\n## Salary Schedule\n\nProfit in lieu of Salary under Section 17(3):\n\n- For normal Amazon employment, enter `0`\n- Applicable only for severance compensation, termination payments, or special employer compensation\n- Not applicable for salary, bonus, RSU vesting, or regular benefits\n\n---\n\n## Future Years Reminder\n\nEvery year, check:\n\n- Did Amazon RSUs vest?\n- Did I sell any shares?\n- Did I receive dividends?\n- Did I hold foreign shares on 31-Dec?\n- Did I have a foreign brokerage account?\n\nIf yes, review Schedule FA.\n"
+            }
+          ],
+          "locations": [
+            {
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md"
+            },
+            {
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md"
+            }
+          ],
+          "rawInput": {
+            "call_id": "call_dVIalOAX0Li6P8NZp8vSRAwD",
+            "turn_id": "019f9ce8-fa22-7723-945d-1354380f6ab1",
+            "auto_approved": true,
+            "changes": {
+              "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md": {
+                "type": "add",
+                "content": "# Tax Filing Checklist - Amazon SDE2\n\n## Documents Needed\n\nCollect:\n\n- Form 16 from Amazon\n- AIS\n- Form 26AS\n- Bank interest statements\n- Morgan Stanley RSU statements\n- RSU vesting history\n- Stock transaction history\n\n---\n\n## Salary Filing\n\nEnter:\n\n- Salary income\n- Bonus\n- Allowances\n- Employer contributions\n- Profit in lieu of Salary u/s 17(3): `0`\n\n---\n\n## Amazon RSU Information Required\n\nFrom Morgan Stanley, collect:\n\n- Account opening date\n- Quarterly statements\n- Vesting history\n- Shares vested\n- Shares sold for tax withholding\n- Shares held on 31-Dec-2025\n\n---\n\n## Schedule FA Filing\n\n### A2 - Foreign Custodial Account\n\n- Status: Owner\n- Financial institution: Morgan Stanley Smith Barney LLC\n- Address: 1 New York Plaza, 26th Floor, New York, NY 10004, USA\n- ZIP: 10004\n\nFill:\n\n- Account opening date: from Morgan Stanley account details\n- Peak balance: highest account value during 2025\n- Closing balance: account value on 31-Dec-2025\n- Gross amount paid/credited: usually `0` unless dividends or cash credits exist\n\n### A3 - Foreign Equity Interest\n\n- Entity: Amazon.com Inc.\n- Country: United States of America\n- Address: 410 Terry Avenue North, Seattle, WA 98109, United States\n- ZIP: 98109\n- Entity type: Listed Company\n- Interest type: Equity\n- Acquisition date: RSU vest date\n- Initial value: shares vested x Amazon price on vest date\n- Peak value: highest shares held x Amazon stock price during 2025\n- Closing balance: shares held on 31-Dec-2025 x Amazon closing price on 31-Dec-2025\n\n---\n\n## Final Submission Checklist\n\n- [ ] Form 16 verified\n- [ ] AIS checked\n- [ ] Form 26AS matched\n- [ ] Bank interest added\n- [ ] Amazon RSUs reported\n- [ ] Schedule FA completed\n- [ ] Exchange rates applied\n- [ ] Foreign account details verified\n- [ ] Supporting documents saved\n\n---\n\n## Documents to Preserve\n\nKeep:\n\n- Form 16\n- AIS PDF\n- Form 26AS\n- Morgan Stanley statements\n- RSU vesting reports\n- Stock transaction history\n- Exchange rate references\n"
+              },
+              "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md": {
+                "type": "add",
+                "content": "# Tax Filing Learnings and Reference - Amazon SDE2\n\n## Context\n\n- Salaried employee in India working at Amazon\n- Income sources:\n  - Salary\n  - Amazon RSUs from US-listed shares\n  - Savings account interest\n- Filing:\n  - FY 2025-26\n  - AY 2026-27\n\n---\n\n## AIS and Form 26AS\n\n### AIS\n\nAIS, or Annual Information Statement, is a statement from the Income Tax Department containing financial information reported by different institutions.\n\nUse it to check:\n\n- Interest income\n- Securities transactions\n- Mutual funds\n- Foreign assets\n- Other financial transactions\n\nDownload path: Income Tax Portal -> Services -> Annual Information Statement (AIS)\n\nAIS PDF password format: PAN in uppercase + date of birth in `DDMMYYYY` format\n\nExample: `ABCDE1234F01011990`\n\n### Form 26AS\n\nForm 26AS contains:\n\n- TDS deducted by employer\n- TDS deducted by banks\n- Tax credits\n- Refund details\n\nDifference:\n\n- AIS: shows financial activity reported to the Income Tax Department\n- Form 26AS: shows tax credits and TDS\n\n---\n\n## Amazon RSU Understanding\n\nAmazon RSU lifecycle:\n\nGrant -> Vesting -> Shares become yours -> Some shares sold for tax withholding -> Remaining shares held in brokerage account\n\nImportant dates:\n\n- Grant date: date RSUs are given by Amazon\n- Vest date: date shares become yours; used as acquisition date for Foreign Asset reporting\n- Sale date: date shares are sold\n\nFor Schedule FA:\n\n- Acquisition date = RSU vest date\n- Do not use grant date\n- Do not use Amazon joining date\n\n---\n\n## Schedule FA Overview\n\nAmazon RSUs require reporting because they are foreign assets.\n\nTwo sections are relevant:\n\n1. A2 - Foreign Custodial Account\n2. A3 - Foreign Equity Interest\n\n---\n\n## A2 - Foreign Custodial Account\n\nThis represents the foreign brokerage account where Amazon shares are held.\n\nExample: Morgan Stanley StockPlan Connect\n\nStatus: Owner\n\nReason:\n\n- Brokerage account is in your name\n- Shares belong to you\n\nFinancial institution details:\n\n- Name: Morgan Stanley Smith Barney LLC\n- Address: 1 New York Plaza, 26th Floor, New York, NY 10004, USA\n- ZIP: 10004\n\nAccount opening date: use the date your Morgan Stanley account was created.\n\nFind it from:\n\n- Morgan Stanley account details\n- Account documents\n\nPeak balance during period:\n\n- Meaning: highest value of the foreign brokerage account from 01-Jan-2025 to 31-Dec-2025\n- Calculation: peak USD value x USD-INR exchange rate on peak date\n\nClosing balance:\n\n- Meaning: value of brokerage account on 31-Dec-2025\n- Calculation: shares held on 31-Dec-2025 x Amazon closing price x USD-INR rate on 31-Dec-2025\n\nGross amount paid/credited:\n\n- Include dividends, cash credits, and sale proceeds if applicable\n- Do not include salary, RSU grant value, or stock price increase\n- For Amazon RSUs, this is usually `0`\n\n---\n\n## A3 - Foreign Equity Interest\n\nThis represents ownership of Amazon shares.\n\nEntity details:\n\n- Entity: Amazon.com Inc.\n- Country: United States of America\n- Address: Amazon.com Inc., 410 Terry Avenue North, Seattle, WA 98109, United States\n- ZIP: 98109\n- Nature of entity: Listed Company\n- Nature of interest: Equity\n\nDate of acquiring interest:\n\n- For RSUs, use the RSU vesting date\n- Example: 15-Feb-2025\n- Do not use grant date or joining date\n\nInitial value of investment:\n\n- Meaning: value when shares were acquired\n- Formula: number of shares vested x Amazon share price on vest date\n- Convert USD to INR\n\nPeak value of investment:\n\n- Meaning: highest market value of Amazon shares during 2025\n- Formula: highest number of shares held x Amazon stock price on that date\n- Convert USD to INR\n\nClosing balance:\n\n- Meaning: value of Amazon shares held on 31-Dec-2025\n- Formula: shares held on 31-Dec-2025 x Amazon closing price on 31-Dec-2025\n- Convert USD to INR\n\n---\n\n## Exchange Rate Rules\n\nFor foreign assets:\n\n- Peak value: use exchange rate on peak value date\n- Closing value: use exchange rate on 31-Dec-2025\n\nExamples:\n\n- Peak: USD value x USD-INR rate on peak date\n- Closing: USD value x USD-INR rate on 31-Dec-2025\n\n---\n\n## Salary Schedule\n\nProfit in lieu of Salary under Section 17(3):\n\n- For normal Amazon employment, enter `0`\n- Applicable only for severance compensation, termination payments, or special employer compensation\n- Not applicable for salary, bonus, RSU vesting, or regular benefits\n\n---\n\n## Future Years Reminder\n\nEvery year, check:\n\n- Did Amazon RSUs vest?\n- Did I sell any shares?\n- Did I receive dividends?\n- Did I hold foreign shares on 31-Dec?\n- Did I have a foreign brokerage account?\n\nIf yes, review Schedule FA.\n"
+              }
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "The cleanup is applied. I’m doing a quick diff/readback check now to catch accidental content loss or formatting mistakes."
+        }
+      ],
+      "timestamp": "2026-07-26T05:33:30.493Z"
+    },
+    {
+      "id": "3cc0509c-ab5a-4b1b-bb0c-bdd88683dbb2",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_qYUIbZOVgNDtaUXd5BdEJZes",
+          "title": "git diff -- '3. Resources/Tax Filing/Resources/Tax Filing Checklist (Amazon SDE2).md'",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_qYUIbZOVgNDtaUXd5BdEJZes",
+            "turn_id": "019f9ce8-fa22-7723-945d-1354380f6ab1",
+            "started_at_ms": 1785044020975,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "git diff -- '3. Resources/Tax Filing/Resources/Tax Filing Checklist (Amazon SDE2).md'"
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "git diff -- '3. Resources/Tax Filing/Resources/Tax Filing Checklist (Amazon SDE2).md'"
+              }
+            ],
+            "source": "agent"
+          }
+        }
+      ],
+      "timestamp": "2026-07-26T05:33:41.403Z"
+    },
+    {
+      "id": "c30fd9f9-cb5c-4097-8158-45cf65c45d73",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_s44uk7MRTesOI1BzXvs8Opa5",
+          "title": "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md'",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_s44uk7MRTesOI1BzXvs8Opa5",
+            "turn_id": "019f9ce8-fa22-7723-945d-1354380f6ab1",
+            "started_at_ms": 1785044021031,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md'"
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md'"
+              }
+            ],
+            "source": "agent"
+          }
+        }
+      ],
+      "timestamp": "2026-07-26T05:33:41.403Z"
+    },
+    {
+      "id": "6c8c8305-abf7-4bca-adec-fbe9fc2db2c5",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_3l56hRyLmyG7LsiZQKdcWHvY",
+          "title": "git diff -- '3. Resources/Tax Filing/Resources/Tax Filing Learnings and Reference (Amazon SDE2).md'",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_3l56hRyLmyG7LsiZQKdcWHvY",
+            "turn_id": "019f9ce8-fa22-7723-945d-1354380f6ab1",
+            "started_at_ms": 1785044021031,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "git diff -- '3. Resources/Tax Filing/Resources/Tax Filing Learnings and Reference (Amazon SDE2).md'"
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "git diff -- '3. Resources/Tax Filing/Resources/Tax Filing Learnings and Reference (Amazon SDE2).md'"
+              }
+            ],
+            "source": "agent"
+          }
+        }
+      ],
+      "timestamp": "2026-07-26T05:33:41.403Z"
+    },
+    {
+      "id": "a6b14987-bbe0-4680-867a-de253c0b894a",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_R0krJr52ze0lReOa1aSjLOe9",
+          "title": "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md'",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_R0krJr52ze0lReOa1aSjLOe9",
+            "turn_id": "019f9ce8-fa22-7723-945d-1354380f6ab1",
+            "started_at_ms": 1785044021031,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md'"
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md'"
+              }
+            ],
+            "source": "agent"
+          }
+        }
+      ],
+      "timestamp": "2026-07-26T05:33:41.403Z"
+    },
+    {
+      "id": "bf8b5ce7-568f-4d13-9be5-07dd42509128",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_sZSi9MNTCYvBDAjxS8BiG6p7",
+          "title": "git status --short -- '3. Resources/Tax Filing/Resources'",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_sZSi9MNTCYvBDAjxS8BiG6p7",
+            "turn_id": "019f9ce8-fa22-7723-945d-1354380f6ab1",
+            "started_at_ms": 1785044026034,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "git status --short -- '3. Resources/Tax Filing/Resources'"
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "git status --short -- '3. Resources/Tax Filing/Resources'"
+              }
+            ],
+            "source": "agent"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Done. I reformatted both Tax Filing notes:\n\n- [Tax Filing Checklist (Amazon SDE2).md](</abs/path/not/available>) \n- [Tax Filing Learnings and Reference (Amazon SDE2).md](</abs/path/not/available>)\n\nCleanups included clearer heading hierarchy, tighter Markdown lists, proper checkbox formatting, fewer unnecessary blank lines, and fixing the broken encoding artifacts like `Ã—` / `â†’` into readable `x` / `->`.\n\nNote: the files are currently untracked in git under `3. Resources/Tax Filing/Resources/`."
+        }
+      ],
+      "timestamp": "2026-07-26T05:33:46.053Z"
     }
   ],
   "contextNotes": [
@@ -33,5 +513,5 @@
       "seen": false
     }
   ],
-  "savedAt": "2026-07-08T16:41:40.516Z"
+  "savedAt": "2026-07-26T05:33:53.106Z"
 }
