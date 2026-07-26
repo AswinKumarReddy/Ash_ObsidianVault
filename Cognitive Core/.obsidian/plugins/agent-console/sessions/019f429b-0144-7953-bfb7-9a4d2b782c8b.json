@@ -504,6 +504,480 @@
         }
       ],
       "timestamp": "2026-07-26T05:33:46.053Z"
+    },
+    {
+      "id": "11b23606-8a6f-46ba-9fa2-d5b8807e04a0",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Can you review the content and tell me if there are any things that are unclear or misisng and if i can add more ?"
+        }
+      ],
+      "timestamp": "2026-07-26T05:35:13.427Z"
+    },
+    {
+      "id": "a74d04e9-52cc-40e5-9a9a-54c57d105949",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "I’ll review the two Tax Filing notes as working reference material, and I’ll verify any tax-rule comments against official/current sources before calling something missing or unclear."
+        }
+      ],
+      "timestamp": "2026-07-26T05:35:18.425Z"
+    },
+    {
+      "id": "8994ae17-dc85-44ea-93ff-b17fd42023c4",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "ws_02098eaefad6e29b016a659c9756cc8191a1c0c4b606b5c8b4",
+          "title": "Searching for: site:incometax.gov.in Schedule FA foreign assets ITR instructions AY 2026-27, site:incometax.gov.in ITR instructions schedule FA foreign assets resident ordinary resident, site:incometax.gov.in Annual Information Statement AIS Form 26AS official",
+          "status": "completed",
+          "kind": "fetch",
+          "content": [],
+          "rawInput": {
+            "query": "site:incometax.gov.in Schedule FA foreign assets ITR instructions AY 2026-27",
+            "action": {
+              "type": "search",
+              "query": "site:incometax.gov.in Schedule FA foreign assets ITR instructions AY 2026-27",
+              "queries": [
+                "site:incometax.gov.in Schedule FA foreign assets ITR instructions AY 2026-27",
+                "site:incometax.gov.in ITR instructions schedule FA foreign assets resident ordinary resident",
+                "site:incometax.gov.in Annual Information Statement AIS Form 26AS official"
+              ]
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "I’ve got enough to review the notes. One important caveat: this is a content-quality and completeness review, not tax advice; for filing decisions you should still validate with a CA or the final ITR utility."
+        }
+      ],
+      "timestamp": "2026-07-26T05:35:19.200Z"
+    },
+    {
+      "id": "0a68a9a0-a605-4f98-b365-dbc10c009280",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_x3vP7CP1MbddbZPW4MKQ4YFy",
+          "title": "$i=1; Get-Content -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md' | ForEach-Object { '{0,4}: {1}' -f $i, $_; $i++ }",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_x3vP7CP1MbddbZPW4MKQ4YFy",
+            "turn_id": "019f9ceb-9818-7e32-aa68-194c11972f77",
+            "started_at_ms": 1785044133497,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "$i=1; Get-Content -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md' | ForEach-Object { '{0,4}: {1}' -f $i, $_; $i++ }"
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "$i=1; Get-Content -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md' | ForEach-Object { '{0,4}: {1}' -f $i, $_; $i++ }"
+              }
+            ],
+            "source": "agent"
+          }
+        }
+      ],
+      "timestamp": "2026-07-26T05:35:33.881Z"
+    },
+    {
+      "id": "230c2e8c-8c7e-4046-afad-66c95d468ed3",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_0UPtH5SdyZfzHRpmZNO9bWfN",
+          "title": "$i=1; Get-Content -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md' | ForEach-Object { '{0,4}: {1}' -f $i, $_; $i++ }",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_0UPtH5SdyZfzHRpmZNO9bWfN",
+            "turn_id": "019f9ceb-9818-7e32-aa68-194c11972f77",
+            "started_at_ms": 1785044133523,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "$i=1; Get-Content -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md' | ForEach-Object { '{0,4}: {1}' -f $i, $_; $i++ }"
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "$i=1; Get-Content -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md' | ForEach-Object { '{0,4}: {1}' -f $i, $_; $i++ }"
+              }
+            ],
+            "source": "agent"
+          }
+        }
+      ],
+      "timestamp": "2026-07-26T05:35:33.881Z"
+    },
+    {
+      "id": "f649cd93-68e7-4b2f-92c9-2a27d2e0adbc",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "ws_02098eaefad6e29b016a659cace97c8191aaba4cad8032c1b9",
+          "title": "Searching for: Schedule FA accounting period calendar year ending 31 December 2025 ITR AY 2026-27 foreign assets",
+          "status": "completed",
+          "kind": "fetch",
+          "content": [],
+          "rawInput": {
+            "query": "Schedule FA accounting period calendar year ending 31 December 2025 ITR AY 2026-27 foreign assets",
+            "action": {
+              "type": "search",
+              "query": "Schedule FA accounting period calendar year ending 31 December 2025 ITR AY 2026-27 foreign assets",
+              "queries": [
+                "Schedule FA accounting period calendar year ending 31 December 2025 ITR AY 2026-27 foreign assets"
+              ]
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "I reviewed the two Tax Filing notes. Overall, they are readable and useful as a personal filing checklist, but a few things are unclear or worth adding before you rely on them.\n\n**Unclear Or Risky**\n- [Tax Filing Learnings and Reference (Amazon SDE2).md](</D:/Git/Ash_ObsidianVault/Cognitive Core/3. Resources/Tax Filing/Resources/Tax Filing Learnings and Reference (Amazon SDE2).md:72>) says Amazon RSUs require Schedule FA, but it should explicitly say this depends on your residential status. Schedule FA applies to resident assessees with foreign assets/income; the Income Tax portal says it need not be filled if you are `Not Ordinarily Resident` or `Non-Resident`. Source: [Income Tax ITR-2 manual](https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/file-itr-2-online/itr-2-UM).\n- [Tax Filing Checklist (Amazon SDE2).md](</D:/Git/Ash_ObsidianVault/Cognitive Core/3. Resources/Tax Filing/Resources/Tax Filing Checklist (Amazon SDE2).md:42>) should mention which ITR form to use. Official guidance says ITR-1 and ITR-4 do not contain Schedule FA, so foreign assets generally require ITR-2 or another applicable form. Source: [Income Tax Schedule FA nudge](https://www.incometax.gov.in/iec/foportal/nudge/nudge-schedule-fa).\n- [Tax Filing Learnings and Reference (Amazon SDE2).md](</D:/Git/Ash_ObsidianVault/Cognitive Core/3. Resources/Tax Filing/Resources/Tax Filing Learnings and Reference (Amazon SDE2).md:166>) says use exchange rate on peak/closing dates, but it should specify `SBI Telegraphic Transfer Buying Rate`, because the official FA guide refers to TTBR for conversion. Source: [Income Tax FA/FSI guide PDF](https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-03/Step%20by%20Step%20Guide%20FA%20FSI.pdf).\n- [Tax Filing Learnings and Reference (Amazon SDE2).md](</D:/Git/Ash_ObsidianVault/Cognitive Core/3. Resources/Tax Filing/Resources/Tax Filing Learnings and Reference (Amazon SDE2).md:109>) correctly uses Jan-Dec 2025, but it would help to explicitly say: for AY 2026-27 / FY 2025-26, Schedule FA foreign asset reporting follows the relevant calendar year ending `31-Dec-2025`, not India’s April-March financial year.\n\n**Good Things To Add**\n- A small `Assumptions` section:\n  - Residential status: Resident and Ordinarily Resident?\n  - ITR form expected: likely ITR-2 if no business/profession income\n  - RSUs held through Morgan Stanley\n  - No dividends unless confirmed\n  - No sale except sell-to-cover unless confirmed\n- A `Capital Gains` section. Right now the notes cover Schedule FA well, but if any RSUs were sold, you may also need sale reporting, cost basis, acquisition date, sale date, sale proceeds, and tax withheld details.\n- A `Foreign Source Income / FTC` section. If there are dividends or US tax withheld, you may need to think about Schedule FSI, Schedule TR, and Form 67. The official Income Tax material separates FA, FSI, and TR.\n- A `Data Table To Fill` section would make this more practical:\n  - Vest date\n  - Shares vested\n  - FMV on vest date\n  - Shares withheld/sold\n  - Shares held on 31-Dec-2025\n  - Peak holding date\n  - Amazon stock price on peak date\n  - SBI TTBR on each relevant date\n- Add a reminder to reconcile AIS/Form 26AS/Form 16 with actual salary slips and Morgan Stanley statements. The Income Tax AIS FAQ says Form 26AS now mainly displays TDS/TCS-related data, while AIS contains broader reported information. Source: [AIS FAQ](https://www.incometax.gov.in/iec/foportal/ais-faq).\n\nThe biggest missing piece is capital gains/foreign income handling. The current notes are strong for “what do I disclose in Schedule FA?”, but not yet complete for “what all income/tax schedules might RSUs affect?”"
+        }
+      ],
+      "timestamp": "2026-07-26T05:35:40.751Z"
+    },
+    {
+      "id": "3587afbe-4423-4826-b1e3-e4a08d83a847",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Tax Filing Learnings and Reference (Amazon SDE2).md correctly uses Jan-Dec 2025, but it would help to explicitly say: for AY 2026-27 / FY 2025-26, Schedule FA foreign asset reporting follows the relevant calendar year ending 31-Dec-2025, not India’s April-March financial year.\nFix this"
+        }
+      ],
+      "timestamp": "2026-07-26T05:37:40.537Z"
+    },
+    {
+      "id": "547b53c3-adb2-4004-9fcb-88c32ab42b3b",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "I’ll add that clarification directly in the reference note near the Schedule FA overview, where it will be easiest to notice before filling A2/A3."
+        }
+      ],
+      "timestamp": "2026-07-26T05:37:47.194Z"
+    },
+    {
+      "id": "b0c2548e-dc66-4f60-98a7-007f73d40fb9",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_jkUvRTRwPUOcs2SmTd7wpnJk",
+          "title": "Edit D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md",
+              "newText": "\nFor AY 2026-27 / FY 2025-26, Schedule FA foreign asset reporting follows the relevant calendar year ending 31-Dec-2025. This means the foreign asset reporting period is 01-Jan-2025 to 31-Dec-2025, not India's April-March financial year.\n\nTwo sections are relevant:\n",
+              "oldText": "\nTwo sections are relevant:\n"
+            }
+          ],
+          "locations": [
+            {
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md"
+            }
+          ],
+          "rawInput": {
+            "call_id": "call_jkUvRTRwPUOcs2SmTd7wpnJk",
+            "turn_id": "019f9ced-d6bc-7e41-b91f-0021865ac1a3",
+            "auto_approved": true,
+            "changes": {
+              "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md": {
+                "type": "update",
+                "unified_diff": "@@ -75,2 +75,4 @@\n \n+For AY 2026-27 / FY 2025-26, Schedule FA foreign asset reporting follows the relevant calendar year ending 31-Dec-2025. This means the foreign asset reporting period is 01-Jan-2025 to 31-Dec-2025, not India's April-March financial year.\n+\n Two sections are relevant:\n",
+                "move_path": null
+              }
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "Fixed in `Tax Filing Learnings and Reference (Amazon SDE2).md`.\n\nI added the clarification under `Schedule FA Overview`:\n\nFor AY 2026-27 / FY 2025-26, Schedule FA uses `01-Jan-2025 to 31-Dec-2025`, not India’s April-March financial year."
+        }
+      ],
+      "timestamp": "2026-07-26T05:37:50.397Z"
+    },
+    {
+      "id": "84e047ae-f96f-4233-a693-2e512f62045e",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Add the suggestion that you gave in : Good Things To Add"
+        }
+      ],
+      "timestamp": "2026-07-26T05:38:21.359Z"
+    },
+    {
+      "id": "af3e791c-e4ee-4ba9-94c4-33b4f45a09b5",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "I’ll add the “Good Things To Add” items as structured sections/checklist entries across the two Tax Filing notes, keeping them practical rather than expanding into tax advice."
+        }
+      ],
+      "timestamp": "2026-07-26T05:38:26.008Z"
+    },
+    {
+      "id": "d1234886-48c7-4a8f-804f-bcff668cc86d",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_oPeqtxgJmbggGsn0ZoefNUgR",
+          "title": "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md'",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_oPeqtxgJmbggGsn0ZoefNUgR",
+            "turn_id": "019f9cee-7632-7e82-8ce2-2c7a9cf74cb2",
+            "started_at_ms": 1785044310024,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md'"
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md'"
+              }
+            ],
+            "source": "agent"
+          }
+        }
+      ],
+      "timestamp": "2026-07-26T05:38:30.534Z"
+    },
+    {
+      "id": "d25a0727-554a-4d6f-80d0-d6e467893605",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_VQs9aMJpnQiN3aCUmjC6D8Xs",
+          "title": "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md'",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_VQs9aMJpnQiN3aCUmjC6D8Xs",
+            "turn_id": "019f9cee-7632-7e82-8ce2-2c7a9cf74cb2",
+            "started_at_ms": 1785044310078,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md'"
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md'"
+              }
+            ],
+            "source": "agent"
+          }
+        },
+        {
+          "type": "text",
+          "text": "I’m going to update both files: the checklist will get action-oriented items, and the reference note will get explanatory sections for assumptions, capital gains, FSI/TR/Form 67, reconciliation, and a fill-in data table."
+        }
+      ],
+      "timestamp": "2026-07-26T05:38:30.534Z"
+    },
+    {
+      "id": "41ee1123-a576-4b09-8718-2e3deec28d77",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_UQ3JItXhb1TFpoTfWQMSHdSY",
+          "title": "Edit D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md, D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md",
+              "newText": "\n## Assumptions to Confirm\n\nBefore using this note for filing, confirm:\n\n- Residential status: Resident and Ordinarily Resident\n- ITR form: likely ITR-2 if there is no business or profession income\n- RSU broker: Morgan Stanley\n- Dividends: none unless confirmed from broker statements\n- Share sales: none except sell-to-cover unless confirmed from transaction history\n\n---\n\n## AIS and Form 26AS\n",
+              "oldText": "\n## AIS and Form 26AS\n"
+            },
+            {
+              "type": "diff",
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md",
+              "newText": "\nReconcile AIS, Form 26AS, Form 16, salary slips, bank statements, and Morgan Stanley statements before final submission.\n\n---\n",
+              "oldText": "\n---\n"
+            },
+            {
+              "type": "diff",
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md",
+              "newText": "\n## Capital Gains\n\nIf any Amazon shares were sold during the year, check whether capital gains reporting is required.\n\nCollect:\n\n- Sale date\n- Number of shares sold\n- Sale price\n- Transaction costs or brokerage, if any\n- Acquisition date for the sold shares\n- Cost basis or FMV on vest date\n- Exchange rate for acquisition and sale dates\n\nCommon RSU sale scenarios:\n\n- Sell-to-cover for tax withholding\n- Manual sale of held shares\n- Sale after leaving the company\n\nFor each sale, identify the matching RSU vest lot and calculate gain or loss using the applicable ITR rules.\n\n---\n\n## Foreign Source Income, Schedule TR, and Form 67\n\nCheck this section if there is any foreign-source income or foreign tax paid.\n\nPossible foreign-source income:\n\n- Dividends from Amazon shares\n- Sale proceeds from foreign shares\n- Cash credits in the Morgan Stanley account\n\nPossible follow-up schedules/forms:\n\n- Schedule FSI: details of income from outside India\n- Schedule TR: tax relief claimed in India for tax paid outside India\n- Form 67: required when claiming foreign tax credit\n\nIf there is no dividend, no foreign tax paid, and no foreign tax credit claim, these may not apply. Still verify against AIS, Morgan Stanley statements, and the ITR utility.\n\n---\n\n## RSU Data Table to Fill\n\n| Field | Value |\n|---|---|\n| Vest date |  |\n| Shares vested |  |\n| FMV / Amazon price on vest date |  |\n| Shares withheld or sold for tax |  |\n| Shares held on 31-Dec-2025 |  |\n| Peak holding date |  |\n| Amazon stock price on peak date |  |\n| Amazon closing price on 31-Dec-2025 |  |\n| SBI TTBR on vest date |  |\n| SBI TTBR on peak date |  |\n| SBI TTBR on 31-Dec-2025 |  |\n| Dividend received, if any |  |\n| Foreign tax withheld, if any |  |\n\n---\n\n## Salary Schedule\n",
+              "oldText": "\n## Salary Schedule\n"
+            },
+            {
+              "type": "diff",
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md",
+              "newText": "- Form 26AS\n- Salary slips\n- Bank interest statements\n",
+              "oldText": "- Form 26AS\n- Bank interest statements\n"
+            },
+            {
+              "type": "diff",
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md",
+              "newText": "- Stock transaction history\n- Dividend statement, if any\n- Foreign tax withheld statement, if any\n- SBI TTBR exchange rate references for relevant dates\n\n---\n\n## Assumptions to Confirm\n\n- [ ] Residential status is Resident and Ordinarily Resident\n- [ ] Correct ITR form selected, likely ITR-2 if there is no business/profession income\n- [ ] RSUs are held through Morgan Stanley\n- [ ] Dividend income checked\n- [ ] RSU sale transactions checked, including sell-to-cover transactions\n\n",
+              "oldText": "- Stock transaction history\n\n"
+            },
+            {
+              "type": "diff",
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md",
+              "newText": "- Shares held on 31-Dec-2025\n- Vest date for each RSU lot\n- FMV or Amazon stock price on each vest date\n- Sale date, sale price, and transaction costs for any sold shares\n- Dividend details, if any\n- Foreign tax withheld details, if any\n\n",
+              "oldText": "- Shares held on 31-Dec-2025\n\n"
+            },
+            {
+              "type": "diff",
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md",
+              "newText": "\n## Capital Gains and Foreign Income Check\n\n- [ ] Check whether any RSUs were sold during the year\n- [ ] Prepare capital gains details if shares were sold\n- [ ] Check whether Amazon dividends were received\n- [ ] Review Schedule FSI if foreign-source income exists\n- [ ] Review Schedule TR and Form 67 if claiming foreign tax credit\n\n---\n\n## RSU Data Table to Fill\n\n| Field | Value |\n|---|---|\n| Vest date |  |\n| Shares vested |  |\n| FMV / Amazon price on vest date |  |\n| Shares withheld or sold for tax |  |\n| Shares held on 31-Dec-2025 |  |\n| Peak holding date |  |\n| Amazon stock price on peak date |  |\n| Amazon closing price on 31-Dec-2025 |  |\n| SBI TTBR on vest date |  |\n| SBI TTBR on peak date |  |\n| SBI TTBR on 31-Dec-2025 |  |\n| Dividend received, if any |  |\n| Foreign tax withheld, if any |  |\n\n---\n\n## Final Submission Checklist\n",
+              "oldText": "\n## Final Submission Checklist\n"
+            },
+            {
+              "type": "diff",
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md",
+              "newText": "- [ ] Form 26AS matched\n- [ ] Salary slips reconciled with Form 16\n- [ ] Bank interest added\n",
+              "oldText": "- [ ] Form 26AS matched\n- [ ] Bank interest added\n"
+            },
+            {
+              "type": "diff",
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md",
+              "newText": "- [ ] Schedule FA completed\n- [ ] Capital gains reviewed for RSU sales\n- [ ] Schedule FSI/TR/Form 67 reviewed, if foreign income or foreign tax credit exists\n- [ ] Exchange rates applied\n",
+              "oldText": "- [ ] Schedule FA completed\n- [ ] Exchange rates applied\n"
+            }
+          ],
+          "locations": [
+            {
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md"
+            },
+            {
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md"
+            }
+          ],
+          "rawInput": {
+            "call_id": "call_UQ3JItXhb1TFpoTfWQMSHdSY",
+            "turn_id": "019f9cee-7632-7e82-8ce2-2c7a9cf74cb2",
+            "auto_approved": true,
+            "changes": {
+              "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md": {
+                "type": "update",
+                "unified_diff": "@@ -15,2 +15,14 @@\n \n+## Assumptions to Confirm\n+\n+Before using this note for filing, confirm:\n+\n+- Residential status: Resident and Ordinarily Resident\n+- ITR form: likely ITR-2 if there is no business or profession income\n+- RSU broker: Morgan Stanley\n+- Dividends: none unless confirmed from broker statements\n+- Share sales: none except sell-to-cover unless confirmed from transaction history\n+\n+---\n+\n ## AIS and Form 26AS\n@@ -49,2 +61,4 @@\n \n+Reconcile AIS, Form 26AS, Form 16, salary slips, bank statements, and Morgan Stanley statements before final submission.\n+\n ---\n@@ -181,2 +195,66 @@\n \n+## Capital Gains\n+\n+If any Amazon shares were sold during the year, check whether capital gains reporting is required.\n+\n+Collect:\n+\n+- Sale date\n+- Number of shares sold\n+- Sale price\n+- Transaction costs or brokerage, if any\n+- Acquisition date for the sold shares\n+- Cost basis or FMV on vest date\n+- Exchange rate for acquisition and sale dates\n+\n+Common RSU sale scenarios:\n+\n+- Sell-to-cover for tax withholding\n+- Manual sale of held shares\n+- Sale after leaving the company\n+\n+For each sale, identify the matching RSU vest lot and calculate gain or loss using the applicable ITR rules.\n+\n+---\n+\n+## Foreign Source Income, Schedule TR, and Form 67\n+\n+Check this section if there is any foreign-source income or foreign tax paid.\n+\n+Possible foreign-source income:\n+\n+- Dividends from Amazon shares\n+- Sale proceeds from foreign shares\n+- Cash credits in the Morgan Stanley account\n+\n+Possible follow-up schedules/forms:\n+\n+- Schedule FSI: details of income from outside India\n+- Schedule TR: tax relief claimed in India for tax paid outside India\n+- Form 67: required when claiming foreign tax credit\n+\n+If there is no dividend, no foreign tax paid, and no foreign tax credit claim, these may not apply. Still verify against AIS, Morgan Stanley statements, and the ITR utility.\n+\n+---\n+\n+## RSU Data Table to Fill\n+\n+| Field | Value |\n+|---|---|\n+| Vest date |  |\n+| Shares vested |  |\n+| FMV / Amazon price on vest date |  |\n+| Shares withheld or sold for tax |  |\n+| Shares held on 31-Dec-2025 |  |\n+| Peak holding date |  |\n+| Amazon stock price on peak date |  |\n+| Amazon closing price on 31-Dec-2025 |  |\n+| SBI TTBR on vest date |  |\n+| SBI TTBR on peak date |  |\n+| SBI TTBR on 31-Dec-2025 |  |\n+| Dividend received, if any |  |\n+| Foreign tax withheld, if any |  |\n+\n+---\n+\n ## Salary Schedule\n",
+                "move_path": null
+              },
+              "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md": {
+                "type": "update",
+                "unified_diff": "@@ -9,2 +9,3 @@\n - Form 26AS\n+- Salary slips\n - Bank interest statements\n@@ -13,2 +14,15 @@\n - Stock transaction history\n+- Dividend statement, if any\n+- Foreign tax withheld statement, if any\n+- SBI TTBR exchange rate references for relevant dates\n+\n+---\n+\n+## Assumptions to Confirm\n+\n+- [ ] Residential status is Resident and Ordinarily Resident\n+- [ ] Correct ITR form selected, likely ITR-2 if there is no business/profession income\n+- [ ] RSUs are held through Morgan Stanley\n+- [ ] Dividend income checked\n+- [ ] RSU sale transactions checked, including sell-to-cover transactions\n \n@@ -38,2 +52,7 @@\n - Shares held on 31-Dec-2025\n+- Vest date for each RSU lot\n+- FMV or Amazon stock price on each vest date\n+- Sale date, sale price, and transaction costs for any sold shares\n+- Dividend details, if any\n+- Foreign tax withheld details, if any\n \n@@ -72,2 +91,32 @@\n \n+## Capital Gains and Foreign Income Check\n+\n+- [ ] Check whether any RSUs were sold during the year\n+- [ ] Prepare capital gains details if shares were sold\n+- [ ] Check whether Amazon dividends were received\n+- [ ] Review Schedule FSI if foreign-source income exists\n+- [ ] Review Schedule TR and Form 67 if claiming foreign tax credit\n+\n+---\n+\n+## RSU Data Table to Fill\n+\n+| Field | Value |\n+|---|---|\n+| Vest date |  |\n+| Shares vested |  |\n+| FMV / Amazon price on vest date |  |\n+| Shares withheld or sold for tax |  |\n+| Shares held on 31-Dec-2025 |  |\n+| Peak holding date |  |\n+| Amazon stock price on peak date |  |\n+| Amazon closing price on 31-Dec-2025 |  |\n+| SBI TTBR on vest date |  |\n+| SBI TTBR on peak date |  |\n+| SBI TTBR on 31-Dec-2025 |  |\n+| Dividend received, if any |  |\n+| Foreign tax withheld, if any |  |\n+\n+---\n+\n ## Final Submission Checklist\n@@ -77,2 +126,3 @@\n - [ ] Form 26AS matched\n+- [ ] Salary slips reconciled with Form 16\n - [ ] Bank interest added\n@@ -80,2 +130,4 @@\n - [ ] Schedule FA completed\n+- [ ] Capital gains reviewed for RSU sales\n+- [ ] Schedule FSI/TR/Form 67 reviewed, if foreign income or foreign tax credit exists\n - [ ] Exchange rates applied\n",
+                "move_path": null
+              }
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "The new sections are in place. I’m reading them back once to catch formatting issues, especially the Markdown tables and checklist spacing."
+        }
+      ],
+      "timestamp": "2026-07-26T05:39:02.129Z"
+    },
+    {
+      "id": "6360f298-a3bf-4349-a76d-c2c4cd15df1f",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_AYN28wl7Zy78gesspPtR7YYC",
+          "title": "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md'",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_AYN28wl7Zy78gesspPtR7YYC",
+            "turn_id": "019f9cee-7632-7e82-8ce2-2c7a9cf74cb2",
+            "started_at_ms": 1785044351903,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md'"
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Checklist (Amazon SDE2).md'"
+              }
+            ],
+            "source": "agent"
+          }
+        }
+      ],
+      "timestamp": "2026-07-26T05:39:12.389Z"
+    },
+    {
+      "id": "0871dd23-80bf-4e03-90a6-02f026830d39",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_7pr1mZ6yQsEV4lsQH9uFrw5Q",
+          "title": "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md'",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_7pr1mZ6yQsEV4lsQH9uFrw5Q",
+            "turn_id": "019f9cee-7632-7e82-8ce2-2c7a9cf74cb2",
+            "started_at_ms": 1785044351942,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md'"
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "Get-Content -Raw -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\3. Resources\\Tax Filing\\Resources\\Tax Filing Learnings and Reference (Amazon SDE2).md'"
+              }
+            ],
+            "source": "agent"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Done. I added the suggested content to both Tax Filing notes.\n\nIn the checklist, I added practical action items for assumptions, extra documents, RSU sale/dividend checks, capital gains, FSI/TR/Form 67, and an RSU data table.\n\nIn the reference note, I added sections for:\n\n- Assumptions to confirm\n- AIS/Form 26AS reconciliation\n- Capital gains\n- Foreign Source Income, Schedule TR, and Form 67\n- RSU data table to fill\n\nI kept the language cautious where tax treatment depends on actual transactions or the ITR utility."
+        }
+      ],
+      "timestamp": "2026-07-26T05:39:12.389Z"
     }
   ],
   "contextNotes": [
@@ -513,5 +987,5 @@
       "seen": false
     }
   ],
-  "savedAt": "2026-07-26T05:33:53.106Z"
+  "savedAt": "2026-07-26T05:39:22.773Z"
 }

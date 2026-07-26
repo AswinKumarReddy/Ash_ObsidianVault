@@ -13,6 +13,18 @@
 
 ---
 
+## Assumptions to Confirm
+
+Before using this note for filing, confirm:
+
+- Residential status: Resident and Ordinarily Resident
+- ITR form: likely ITR-2 if there is no business or profession income
+- RSU broker: Morgan Stanley
+- Dividends: none unless confirmed from broker statements
+- Share sales: none except sell-to-cover unless confirmed from transaction history
+
+---
+
 ## AIS and Form 26AS
 
 ### AIS
@@ -47,6 +59,8 @@ Difference:
 - AIS: shows financial activity reported to the Income Tax Department
 - Form 26AS: shows tax credits and TDS
 
+Reconcile AIS, Form 26AS, Form 16, salary slips, bank statements, and Morgan Stanley statements before final submission.
+
 ---
 
 ## Amazon RSU Understanding
@@ -72,6 +86,8 @@ For Schedule FA:
 ## Schedule FA Overview
 
 Amazon RSUs require reporting because they are foreign assets.
+
+For AY 2026-27 / FY 2025-26, Schedule FA foreign asset reporting follows the relevant calendar year ending 31-Dec-2025. This means the foreign asset reporting period is 01-Jan-2025 to 31-Dec-2025, not India's April-March financial year.
 
 Two sections are relevant:
 
@@ -174,6 +190,70 @@ Examples:
 
 - Peak: USD value x USD-INR rate on peak date
 - Closing: USD value x USD-INR rate on 31-Dec-2025
+
+---
+
+## Capital Gains
+
+If any Amazon shares were sold during the year, check whether capital gains reporting is required.
+
+Collect:
+
+- Sale date
+- Number of shares sold
+- Sale price
+- Transaction costs or brokerage, if any
+- Acquisition date for the sold shares
+- Cost basis or FMV on vest date
+- Exchange rate for acquisition and sale dates
+
+Common RSU sale scenarios:
+
+- Sell-to-cover for tax withholding
+- Manual sale of held shares
+- Sale after leaving the company
+
+For each sale, identify the matching RSU vest lot and calculate gain or loss using the applicable ITR rules.
+
+---
+
+## Foreign Source Income, Schedule TR, and Form 67
+
+Check this section if there is any foreign-source income or foreign tax paid.
+
+Possible foreign-source income:
+
+- Dividends from Amazon shares
+- Sale proceeds from foreign shares
+- Cash credits in the Morgan Stanley account
+
+Possible follow-up schedules/forms:
+
+- Schedule FSI: details of income from outside India
+- Schedule TR: tax relief claimed in India for tax paid outside India
+- Form 67: required when claiming foreign tax credit
+
+If there is no dividend, no foreign tax paid, and no foreign tax credit claim, these may not apply. Still verify against AIS, Morgan Stanley statements, and the ITR utility.
+
+---
+
+## RSU Data Table to Fill
+
+| Field | Value |
+|---|---|
+| Vest date |  |
+| Shares vested |  |
+| FMV / Amazon price on vest date |  |
+| Shares withheld or sold for tax |  |
+| Shares held on 31-Dec-2025 |  |
+| Peak holding date |  |
+| Amazon stock price on peak date |  |
+| Amazon closing price on 31-Dec-2025 |  |
+| SBI TTBR on vest date |  |
+| SBI TTBR on peak date |  |
+| SBI TTBR on 31-Dec-2025 |  |
+| Dividend received, if any |  |
+| Foreign tax withheld, if any |  |
 
 ---
 
