@@ -1,7 +1,19 @@
-- [ ] Frieren season 
-- [ ] Wind breaker
-- [ ] Tokyo revengers
-- [ ] Attack on titan
-- [ ] Chainsaw man
-- [ ] My Hero academia
-- [ ] Vinland saga
+# Anime Watch List
+
+## To Watch
+
+| Done | Anime | Priority | Notes |
+|---|---|---|---|
+| [ ] | Wind Breaker |  |  |
+| [ ] | Tokyo Revengers |  |  |
+| [ ] | Attack on Titan |  |  |
+| [ ] | Chainsaw Man |  |  |
+| [ ] | My Hero Academia |  |  |
+| [ ] | Vinland Saga |  |  |
+| [ ] |  |  |  |
+
+## Completed
+
+| Done | Anime | Rating | Completed On | Notes |
+|---|---|---:|---|---|
+| [x] | Frieren season 2 |  |  |  |
