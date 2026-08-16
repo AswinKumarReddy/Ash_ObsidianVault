@@ -29,22 +29,18 @@ function readEntries() {
   const raw = content.slice(start + startMarker.length, end).trim();
   if (!raw) return [];
 
-  try {
-    return JSON.parse(raw);
-  } catch (error) {
-    dv.paragraph("Could not read anime data. Check the JSON block at the bottom of this note.");
-    throw error;
-  }
+  return JSON.parse(raw);
 }
 
 async function saveEntries(entries) {
+  const latestContent = await app.vault.read(file);
   const sorted = [...entries].sort((a, b) => {
     const statusDiff = (statusRank.get(a.status) ?? 99) - (statusRank.get(b.status) ?? 99);
     return statusDiff || a.title.localeCompare(b.title);
   });
 
   const nextData = `${startMarker}\n${JSON.stringify(sorted, null, 2)}\n${endMarker}`;
-  const nextContent = content.replace(
+  const nextContent = latestContent.replace(
     new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`),
     nextData
   );
@@ -52,7 +48,7 @@ async function saveEntries(entries) {
   await app.vault.modify(file, nextContent);
 }
 
-function inputCell(value, placeholder, onChange, type = "text") {
+function makeInput(value, placeholder, onChange, type = "text") {
   const input = document.createElement("input");
   input.type = type;
   input.value = value ?? "";
@@ -62,11 +58,10 @@ function inputCell(value, placeholder, onChange, type = "text") {
   return input;
 }
 
-function saveButton(label, onClick) {
-  const button = document.createElement("button");
-  button.textContent = label;
-  button.onclick = onClick;
-  return button;
+function makeCell(row, child) {
+  const cell = row.insertCell();
+  cell.appendChild(child);
+  return cell;
 }
 
 const entries = readEntries().sort((a, b) => {
@@ -75,147 +70,10 @@ const entries = readEntries().sort((a, b) => {
 });
 
 const root = dv.el("div", "");
-root.addClass("anime-watchlist");
+root.className = "anime-watchlist";
 
-const addButton = saveButton("Add anime", async () => {
-  const title = prompt("Anime name");
-  if (!title?.trim()) return;
-
-  await saveEntries([
-    ...entries,
-    {
-      title: title.trim(),
-      status: statusOptions[0],
-      rating: "",
-      finished: "",
-      notes: ""
-    }
-  ]);
-});
-root.appendChild(addButton);
-
-const table = document.createElement("table");
-table.style.width = "100%";
-table.style.marginTop = "0.75rem";
-
-const header = table.createTHead().insertRow();
-for (const heading of ["Anime", "Status", "Rating", "Finished", "Notes"]) {
-  const th = document.createElement("th");
-  th.textContent = heading;
-  header.appendChild(th);
-}
-
-const body = table.createTBody();
-
-for (const [index, entry] of entries.entries()) {
-  const row = body.insertRow();
-
-  const titleCell = row.insertCell();
-  titleCell.appendChild(inputCell(entry.title, "Anime name", async value => {
-    entries[index].title = value;
-    await saveEntries(entries);
-  }));
-
-  const statusCell = row.insertCell();
-  const status = document.createElement("select");
-  status.style.width = "100%";
-  for (const option of statusOptions) {
-    const item = document.createElement("option");
-    item.value = option;
-    item.textContent = option;
-    item.selected = entry.status === option;
-    status.appendChild(item);
-  }
-  status.onchange = async () => {
-    entries[index].status = status.value;
-    await saveEntries(entries);
-  };
-  statusCell.appendChild(status);
-
-  const ratingCell = row.insertCell();
-  const rating = inputCell(entry.rating, "0-5", async value => {
-    entries[index].rating = value;
-    await saveEntries(entries);
-  }, "number");
-  rating.min = "0";
-  rating.max = "5";
-  rating.step = "0.5";
-  ratingCell.appendChild(rating);
-
-  const finishedCell = row.insertCell();
-  finishedCell.appendChild(inputCell(entry.finished, "YYYY-MM-DD", async value => {
-    entries[index].finished = value;
-    await saveEntries(entries);
-  }, "date"));
-
-  const notesCell = row.insertCell();
-  notesCell.appendChild(inputCell(entry.notes, "Optional", async value => {
-    entries[index].notes = value;
-    await saveEntries(entries);
-  }));
-}
-
-root.appendChild(table);
-```
-
-<!--
-The hidden JSON block below stores the table rows.
-Use the rendered table above instead of editing this by hand.
--->
-
-<!-- anime-data-start
-[
-  {
-    "title": "Attack on Titan",
-    "status": "Awaiting first episode",
-    "rating": "",
-    "finished": "",
-    "notes": ""
-  },
-  {
-    "title": "Chainsaw Man",
-    "status": "Awaiting first episode",
-    "rating": "",
-    "finished": "",
-    "notes": ""
-  },
-  {
-    "title": "My Hero Academia",
-    "status": "Awaiting first episode",
-    "rating": "",
-    "finished": "",
-    "notes": ""
-  },
-  {
-    "title": "Tokyo Revengers",
-    "status": "Awaiting first episode",
-    "rating": "",
-    "finished": "",
-    "notes": ""
-  },
-  {
-    "title": "Vinland Saga",
-    "status": "Awaiting first episode",
-    "rating": "",
-    "finished": "",
-    "notes": ""
-  },
-  {
-    "title": "Wind Breaker",
-    "status": "Awaiting first episode",
-    "rating": "",
-    "finished": "",
-    "notes": ""
-  },
-  {
-    "title": "Frieren season 2",
-    "status": "Credits rolled",
-    "rating": "",
-    "finished": "",
-    "notes": ""
-  }
-]
-anime-data-end -->
+const addButton = document.createElement("button");
+addButton.textContent = "Add anime";
 addButton.onclick = async () => {
   const title = prompt("Anime name");
   if (!title?.trim()) return;
@@ -231,50 +89,71 @@ addButton.onclick = async () => {
     }
   ]);
 };
+root.appendChild(addButton);
 
-dv.table(
-  ["Anime", "Status", "Rating", "Finished", "Notes"],
-  entries.map((entry, index) => {
-    const title = inputCell(entry.title, "Anime name", async value => {
-      entries[index].title = value;
-      await saveEntries(entries);
-    });
+const table = document.createElement("table");
+table.style.width = "100%";
+table.style.marginTop = "0.75rem";
 
-    const status = document.createElement("select");
-    for (const option of statusOptions) {
-      const item = document.createElement("option");
-      item.value = option;
-      item.textContent = option;
-      item.selected = entry.status === option;
-      status.appendChild(item);
-    }
-    status.onchange = async () => {
-      entries[index].status = status.value;
-      await saveEntries(entries);
-    };
+const header = table.createTHead().insertRow();
+for (const heading of ["Anime", "Status", "Rating", "Finished", "Notes"]) {
+  const cell = document.createElement("th");
+  cell.textContent = heading;
+  header.appendChild(cell);
+}
 
-    const rating = inputCell(entry.rating, "0-5", async value => {
-      entries[index].rating = value;
-      await saveEntries(entries);
-    }, "number");
-    rating.min = "0";
-    rating.max = "5";
-    rating.step = "0.5";
+const body = table.createTBody();
 
-    const finished = inputCell(entry.finished, "YYYY-MM-DD", async value => {
-      entries[index].finished = value;
-      await saveEntries(entries);
-    }, "date");
+for (const [index, entry] of entries.entries()) {
+  const row = body.insertRow();
 
-    const notes = inputCell(entry.notes, "Optional", async value => {
-      entries[index].notes = value;
-      await saveEntries(entries);
-    });
+  makeCell(row, makeInput(entry.title, "Anime name", async value => {
+    entries[index].title = value;
+    await saveEntries(entries);
+  }));
 
-    return [title, status, rating, finished, notes];
-  })
-);
+  const status = document.createElement("select");
+  status.style.width = "100%";
+  for (const option of statusOptions) {
+    const item = document.createElement("option");
+    item.value = option;
+    item.textContent = option;
+    item.selected = entry.status === option;
+    status.appendChild(item);
+  }
+  status.onchange = async () => {
+    entries[index].status = status.value;
+    await saveEntries(entries);
+  };
+  makeCell(row, status);
+
+  const rating = makeInput(entry.rating, "0-5", async value => {
+    entries[index].rating = value;
+    await saveEntries(entries);
+  }, "number");
+  rating.min = "0";
+  rating.max = "5";
+  rating.step = "0.5";
+  makeCell(row, rating);
+
+  makeCell(row, makeInput(entry.finished, "YYYY-MM-DD", async value => {
+    entries[index].finished = value;
+    await saveEntries(entries);
+  }, "date"));
+
+  makeCell(row, makeInput(entry.notes, "Optional", async value => {
+    entries[index].notes = value;
+    await saveEntries(entries);
+  }));
+}
+
+root.appendChild(table);
 ```
+
+<!--
+The hidden JSON block below stores the table rows.
+Use the rendered table above instead of editing this by hand.
+-->
 
 <!-- anime-data-start
 [
