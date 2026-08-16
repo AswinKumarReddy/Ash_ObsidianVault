@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/Movies and Entertainment/🎬 Watchlist Dashboard.md",
+                "file": "1. Watch list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🎬 Watchlist Dashboard"
+              "title": "1. Watch list"
             }
           }
         ],
@@ -222,9 +222,11 @@
       "agent-console:Agent Console": false
     }
   },
-  "active": "91c6e00ff053d8ae",
+  "active": "c695a546a84f420f",
   "lastOpenFiles": [
+    "1. Projects/New Glasses/Project Brief - New and Cool Glasses.md",
     "1. Watch list.md",
+    "2. Areas/Movies and Entertainment/🎬 Watchlist Dashboard.md",
     "Spotify running podcasts.md",
     "3. Resources/Tax Filing/Resources/Tax Filing Checklist (Amazon SDE2).md",
     "1. Projects/Obsidian 'Save for later' setup/Easy Note Capture setup.md",
@@ -245,11 +247,9 @@
     "2. Areas/Reading List/📚 Reading Dashboard.md",
     "2. Areas/Reading List/Reading list entries/Building a Second Brain.md",
     "2. Areas/Reading List/Reading list entries/101 Essays the will change the way you think.md",
-    "2. Areas/Movies and Entertainment/🎬 Watchlist Dashboard.md",
     "2. Areas/Cooking/Drumstick Leaves Curry.md",
     "2. Areas/Travel log/Tamilnadu Trip June 2026/Tamil Nādu Road Trip Checklist.md",
     "3. Resources/Science of Artificial sweeteners.md",
-    "1. Projects/New Glasses/Project Brief - New and Cool Glasses.md",
     "1. Projects/New Glasses",
     "2. Areas/Travel log/Best way to Plan for a Trip.md",
     "1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
