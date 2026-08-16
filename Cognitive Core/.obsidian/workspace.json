@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resources/Tax Filing/Resources/Tax Filing Checklist (Amazon SDE2).md",
+                "file": "2. Areas/Movies and Entertainment/🎬 Watchlist Dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tax Filing Checklist (Amazon SDE2)"
+              "title": "🎬 Watchlist Dashboard"
             }
           }
         ],
@@ -203,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -222,10 +222,12 @@
       "agent-console:Agent Console": false
     }
   },
-  "active": "1063d13e22e29437",
+  "active": "91c6e00ff053d8ae",
   "lastOpenFiles": [
-    "1. Projects/Obsidian 'Save for later' setup/Easy Note Capture setup.md",
+    "1. Watch list.md",
+    "Spotify running podcasts.md",
     "3. Resources/Tax Filing/Resources/Tax Filing Checklist (Amazon SDE2).md",
+    "1. Projects/Obsidian 'Save for later' setup/Easy Note Capture setup.md",
     "2. Areas/Travel log/Tamilnadu Trip June 2026/Tamilnadu Road Trip — 4.5 Day Itinerary.md",
     "3. Resources/Tax Filing/Resources/Tax Filing Learnings and Reference (Amazon SDE2).md",
     "1. Projects/Video summary and notes agent - obsidian console/Video Summary Agent Project tracker.md",
@@ -251,12 +253,10 @@
     "1. Projects/New Glasses",
     "2. Areas/Travel log/Best way to Plan for a Trip.md",
     "1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
-    "1. Watch list.md",
     "2. Areas/Travel log/Tamilnadu Trip June 2026",
     "0. Daily notes.md",
     "iPhone Setup link capture setup with 'Shortcuts'.md",
     "2. Areas/Movies and Entertainment/Watch entries/Untitled.md",
-    "Untitled.md",
     "1. Projects/Obsidian 'Save for later' setup",
     "Untitled.base",
     "2. Areas/Movies and Entertainment/Watch entries"
