@@ -22,8 +22,8 @@ const file = app.vault.getAbstractFileByPath(path);
 const content = await app.vault.read(file);
 
 function readEntries() {
-  const start = content.indexOf(startMarker);
-  const end = content.indexOf(endMarker);
+  const start = content.lastIndexOf(startMarker);
+  const end = content.lastIndexOf(endMarker);
   if (start === -1 || end === -1 || end <= start) return [];
 
   const raw = content.slice(start + startMarker.length, end).trim();
@@ -39,11 +39,15 @@ async function saveEntries(entries) {
     return statusDiff || a.title.localeCompare(b.title);
   });
 
+  const start = latestContent.lastIndexOf(startMarker);
+  const end = latestContent.lastIndexOf(endMarker);
+  if (start === -1 || end === -1 || end <= start) return;
+
   const nextData = `${startMarker}\n${JSON.stringify(sorted, null, 2)}\n${endMarker}`;
-  const nextContent = latestContent.replace(
-    new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`),
-    nextData
-  );
+  const nextContent =
+    latestContent.slice(0, start) +
+    nextData +
+    latestContent.slice(end + endMarker.length);
 
   await app.vault.modify(file, nextContent);
 }
