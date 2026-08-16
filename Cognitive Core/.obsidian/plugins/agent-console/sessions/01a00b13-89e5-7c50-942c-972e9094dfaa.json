@@ -2996,6 +2996,299 @@
         }
       ],
       "timestamp": "2026-08-16T16:57:33.415Z"
+    },
+    {
+      "id": "1e2773f5-1abd-401b-8323-d9ebc95d74ad",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "I’ll inspect the Sheet Plus parser path and simplify the note to the exact block shape the plugin generates if needed. The custom workbook JSON I wrote may be too close to Univer internals but not the exact schema Sheet Plus expects."
+        }
+      ],
+      "timestamp": "2026-08-16T16:58:29.569Z"
+    },
+    {
+      "id": "7331fa18-ab92-4cee-becb-991a1fd23b63",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_TSbw2rvUevIKIl9urk1qHBLa",
+          "title": "Get-Content -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\2. Areas\\Movies and Entertainment\\Watch entries\\Anime.md'",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_TSbw2rvUevIKIl9urk1qHBLa",
+            "turn_id": "01a00b81-d5ea-76d2-8bf2-ab0c76467aa0",
+            "started_at_ms": 1786899463541,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "Get-Content -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\2. Areas\\Movies and Entertainment\\Watch entries\\Anime.md'"
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "Get-Content -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\2. Areas\\Movies and Entertainment\\Watch entries\\Anime.md'"
+              }
+            ],
+            "source": "agent"
+          }
+        }
+      ],
+      "timestamp": "2026-08-16T16:58:29.569Z"
+    },
+    {
+      "id": "4a076589-a695-4561-9270-c1a817473bee",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_J28GbDemaTK0IOztRSoT5opv",
+          "title": "Select-String -LiteralPath '.obsidian\\plugins\\sheet-plus\\main.js' -Pattern 'excel-pro-plugin','parsed','```sheet','codeBlockProcessor','registerMarkdownCodeBlockProcessor','DATA_PARSING_ERROR' | Select-Object -First 80 LineNumber,Line",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_J28GbDemaTK0IOztRSoT5opv",
+            "turn_id": "01a00b81-d5ea-76d2-8bf2-ab0c76467aa0",
+            "started_at_ms": 1786899463567,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "Select-String -LiteralPath '.obsidian\\plugins\\sheet-plus\\main.js' -Pattern 'excel-pro-plugin','parsed','```sheet','codeBlockProcessor','registerMarkdownCodeBlockProcessor','DATA_PARSING_ERROR' | Select-Object -First 80 LineNumber,Line"
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "Select-String -LiteralPath '.obsidian\\plugins\\sheet-plus\\main.js' -Pattern 'excel-pro-plugin','parsed','```sheet','codeBlockProcessor','registerMarkdownCodeBlockProcessor','DATA_PARSING_ERROR' | Select-Object -First 80 LineNumber,Line"
+              }
+            ],
+            "source": "agent"
+          }
+        }
+      ],
+      "timestamp": "2026-08-16T16:58:29.569Z"
+    },
+    {
+      "id": "41de36c8-ca8e-48d0-9390-e6106b13b6d2",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_SvH0utCSbXG7flMGdw7tJubg",
+          "title": "Tool: node_repl/js",
+          "status": "completed",
+          "content": [],
+          "rawInput": {
+            "server": "node_repl",
+            "tool": "js",
+            "arguments": {
+              "code": "var fs3 = await import('node:fs'); var s3 = fs3.readFileSync(String.raw`D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\.obsidian\\plugins\\sheet-plus\\main.js`, 'utf8');\nfor (const needle of ['registerMarkdownCodeBlockProcessor','registerMarkdownPostProcessor','sheet\\\",','multiSheet','MarkdownRenderChild','codeBlock']) {\n const idx=[]; let i=-1; while((i=s3.indexOf(needle,i+1))>=0 && idx.length<10) idx.push(i);\n nodeRepl.write('\\n'+needle+': '+idx.join(', ')+'\\n');\n for (const j of idx.slice(0,3)) nodeRepl.write(s3.slice(Math.max(0,j-1000), j+2500)+'\\n---\\n');\n}",
+              "timeout_ms": 30000,
+              "title": "Find Sheet Plus render hooks"
+            }
+          }
+        }
+      ],
+      "timestamp": "2026-08-16T16:58:29.569Z"
+    },
+    {
+      "id": "5909cca7-066c-4752-9f07-6ed11d3ee76b",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_rnKpvRwrt6nGTKtixEqweNNg",
+          "title": "Tool: node_repl/js",
+          "status": "completed",
+          "content": [],
+          "rawInput": {
+            "server": "node_repl",
+            "tool": "js",
+            "arguments": {
+              "code": "for (const needle of ['function UYi', 'UYi=', 'FYi', 'function FYi', 'a4r(', 'Jjt(']) {\n const idx=[]; let i=-1; while((i=s3.indexOf(needle,i+1))>=0 && idx.length<8) idx.push(i);\n nodeRepl.write('\\n'+needle+': '+idx.join(', ')+'\\n');\n for (const j of idx.slice(0,2)) nodeRepl.write(s3.slice(Math.max(0,j-1500), j+3000)+'\\n---\\n');\n}",
+              "timeout_ms": 30000,
+              "title": "Inspect postprocessor"
+            }
+          }
+        }
+      ],
+      "timestamp": "2026-08-16T16:58:29.569Z"
+    },
+    {
+      "id": "986fb9fc-6044-4006-bdef-2092fe323847",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_Asjt1ehSbkyUG7Ra7bs0O5Cc",
+          "title": "Tool: node_repl/js",
+          "status": "completed",
+          "content": [],
+          "rawInput": {
+            "server": "node_repl",
+            "tool": "js",
+            "arguments": {
+              "code": "for (const needle of ['isExcelFile(e)', 'isExcelFile(', 'isExcelFile'] ) { const idx=[]; let i=-1; while((i=s3.indexOf(needle,i+1))>=0 && idx.length<10) idx.push(i); nodeRepl.write('\\n'+needle+': '+idx.join(', ')+'\\n'); for (const j of idx.slice(0,4)) nodeRepl.write(s3.slice(Math.max(0,j-1200), j+1800)+'\\n---\\n'); }",
+              "timeout_ms": 30000,
+              "title": "Find isExcelFile"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "I found the actual condition in the plugin code: Sheet Plus does not render arbitrary `sheet` code fences in a normal note. It only treats a Markdown file as a spreadsheet if the frontmatter contains `excel-pro-plugin: parsed` or if the file extension is `.sheet`. I’m adding that marker now."
+        }
+      ],
+      "timestamp": "2026-08-16T16:58:29.569Z"
+    },
+    {
+      "id": "8d857789-78d4-4e64-9563-dc12a28af850",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_czdbkluYlcGGfRC3juv2s3Qo",
+          "title": "Edit D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\2. Areas\\Movies and Entertainment\\Watch entries\\Anime.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\2. Areas\\Movies and Entertainment\\Watch entries\\Anime.md",
+              "newText": "  - sheet-plus\nexcel-pro-plugin: parsed\n---\n",
+              "oldText": "  - sheet-plus\n---\n"
+            }
+          ],
+          "locations": [
+            {
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\2. Areas\\Movies and Entertainment\\Watch entries\\Anime.md"
+            }
+          ],
+          "rawInput": {
+            "call_id": "call_czdbkluYlcGGfRC3juv2s3Qo",
+            "turn_id": "01a00b81-d5ea-76d2-8bf2-ab0c76467aa0",
+            "auto_approved": true,
+            "changes": {
+              "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\2. Areas\\Movies and Entertainment\\Watch entries\\Anime.md": {
+                "type": "update",
+                "unified_diff": "@@ -5,2 +5,3 @@\n   - sheet-plus\n+excel-pro-plugin: parsed\n ---\n",
+                "move_path": null
+              }
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "I’ll validate the frontmatter and the parsed Sheet Plus blocks now. If the workbook JSON still fails, the next fix is to let Sheet Plus create an empty workbook and import the rows through its UI."
+        }
+      ],
+      "timestamp": "2026-08-16T16:58:29.569Z"
+    },
+    {
+      "id": "d8a89b90-7811-486d-99bb-2b8497cf3a0d",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_DhR8MHbFKZzmHHZPk8o09aMy",
+          "title": "$content = Get-Content -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\2. Areas\\Movies and Entertainment\\Watch entries\\Anime.md' -Raw; $hasMarker = $content -match 'excel-pro-plugin:\\s*parsed'; $sheetMatch = [regex]::Match($content, '```sheet\\s*([\\s\\S]*?)\\s*```'); $sheet = $sheetMatch.Groups[1].Value | ConvertFrom-Json; \"marker=$hasMarker; sheetName=$($sheet.sheets.anime.name); firstCell=$($sheet.sheets.anime.cellData.'0'.'0'.v)\"",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "call_id": "call_DhR8MHbFKZzmHHZPk8o09aMy",
+            "turn_id": "01a00b81-d5ea-76d2-8bf2-ab0c76467aa0",
+            "started_at_ms": 1786899506771,
+            "command": [
+              "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "-Command",
+              "$content = Get-Content -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\2. Areas\\Movies and Entertainment\\Watch entries\\Anime.md' -Raw; $hasMarker = $content -match 'excel-pro-plugin:\\s*parsed'; $sheetMatch = [regex]::Match($content, '```sheet\\s*([\\s\\S]*?)\\s*```'); $sheet = $sheetMatch.Groups[1].Value | ConvertFrom-Json; \"marker=$hasMarker; sheetName=$($sheet.sheets.anime.name); firstCell=$($sheet.sheets.anime.cellData.'0'.'0'.v)\""
+            ],
+            "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+            "parsed_cmd": [
+              {
+                "type": "unknown",
+                "cmd": "$content = Get-Content -LiteralPath 'D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\2. Areas\\Movies and Entertainment\\Watch entries\\Anime.md' -Raw; $hasMarker = $content -match 'excel-pro-plugin:\\s*parsed'; $sheetMatch = [regex]::Match($content, '```sheet\\s*([\\s\\S]*?)\\s*```'); $sheet = $sheetMatch.Groups[1].Value | ConvertFrom-Json; \"marker=$hasMarker; sheetName=$($sheet.sheets.anime.name); firstCell=$($sheet.sheets.anime.cellData.'0'.'0'.v)\""
+              }
+            ],
+            "source": "agent"
+          }
+        },
+        {
+          "type": "text",
+          "text": "I found why it was not rendering: Sheet Plus does **not** render `sheet` code fences in an ordinary Markdown note by default. Its code checks for a Sheet Plus marker in frontmatter:\n\n```yaml\nexcel-pro-plugin: parsed\n```\n\nI added that to [Anime.md](</mnt/d/Git/Ash_ObsidianVault/Cognitive Core/2. Areas/Movies and Entertainment/Watch entries/Anime.md>), and verified the embedded sheet JSON still parses.\n\nTry reopening the note now. You may need to close and reopen the file/tab so Sheet Plus switches it from Markdown view into its spreadsheet view. If it still opens as Markdown, run the command palette command for Sheet Plus/open as Excel or reload Obsidian once."
+        }
+      ],
+      "timestamp": "2026-08-16T16:58:29.569Z"
+    },
+    {
+      "id": "ccfca163-4bf0-4dca-a766-b14007530b91",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "This is too much , isnt there somthing light weight"
+        }
+      ],
+      "timestamp": "2026-08-16T16:59:55.440Z"
+    },
+    {
+      "id": "1e4d49e3-3a8f-472c-8d1a-c24d38b5a3ce",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "Yes. At this point the spreadsheet/plugin route is fighting Obsidian more than helping. The lightweight version is a normal Markdown table with a simple `Status` column; it works everywhere, including mobile, with no plugin rendering dependency."
+        }
+      ],
+      "timestamp": "2026-08-16T17:00:10.705Z"
+    },
+    {
+      "id": "d63932e8-59c7-4a1e-b285-5a9a0e918d75",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_VGxi7gLjbbjhCcZerE1ArADD",
+          "title": "Edit D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\2. Areas\\Movies and Entertainment\\Watch entries\\Anime.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\2. Areas\\Movies and Entertainment\\Watch entries\\Anime.md",
+              "newText": "---\ntags:\n  - watchlist\n  - anime\n---\n\n# Anime Watch List\n\n| Anime | Status | Rating | Finished | Notes |\n|---|---|---:|---|---|\n| Attack on Titan | Not started |  |  |  |\n| Chainsaw Man | Not started |  |  |  |\n| My Hero Academia | Not started |  |  |  |\n| Tokyo Revengers | Not started |  |  |  |\n| Vinland Saga | Not started |  |  |  |\n| Wind Breaker | Not started |  |  |  |\n| Frieren season 2 | Completed |  |  |  |\n\n## Status Values\n\n- Not started\n- Watching\n- Completed\n\n## New Row\n\n```text\n| Anime name | Not started |  |  |  |\n```\n"
+            }
+          ],
+          "locations": [
+            {
+              "path": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\2. Areas\\Movies and Entertainment\\Watch entries\\Anime.md"
+            }
+          ],
+          "rawInput": {
+            "call_id": "call_VGxi7gLjbbjhCcZerE1ArADD",
+            "turn_id": "01a00b84-00b3-7d10-a80c-fd30ce2ccfc8",
+            "auto_approved": true,
+            "changes": {
+              "D:\\Git\\Ash_ObsidianVault\\Cognitive Core\\2. Areas\\Movies and Entertainment\\Watch entries\\Anime.md": {
+                "type": "add",
+                "content": "---\ntags:\n  - watchlist\n  - anime\n---\n\n# Anime Watch List\n\n| Anime | Status | Rating | Finished | Notes |\n|---|---|---:|---|---|\n| Attack on Titan | Not started |  |  |  |\n| Chainsaw Man | Not started |  |  |  |\n| My Hero Academia | Not started |  |  |  |\n| Tokyo Revengers | Not started |  |  |  |\n| Vinland Saga | Not started |  |  |  |\n| Wind Breaker | Not started |  |  |  |\n| Frieren season 2 | Completed |  |  |  |\n\n## Status Values\n\n- Not started\n- Watching\n- Completed\n\n## New Row\n\n```text\n| Anime name | Not started |  |  |  |\n```\n"
+              }
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "Yes. I replaced it with the lightweight version: a plain Markdown table in [Anime.md](</mnt/d/Git/Ash_ObsidianVault/Cognitive Core/2. Areas/Movies and Entertainment/Watch entries/Anime.md>).\n\nThis works on desktop and mobile with no plugin dependency.\n\nTradeoff: no real dropdowns and no automatic sorting. But it is stable, fast, easy to edit, and won’t break rendering.\n\nUse statuses:\n\n```text\nNot started\nWatching\nCompleted\n```\n\nTo add a new row, paste:\n\n```md\n| Anime name | Not started |  |  |  |\n```"
+        }
+      ],
+      "timestamp": "2026-08-16T17:00:16.850Z"
     }
   ],
   "contextNotes": [
@@ -3005,5 +3298,5 @@
       "seen": false
     }
   ],
-  "savedAt": "2026-08-16T16:57:34.420Z"
+  "savedAt": "2026-08-16T17:00:24.003Z"
 }
