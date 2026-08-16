@@ -1,0 +1,7 @@
+- [ ] Frieren season 
+- [ ] Wind breaker
+- [ ] Tokyo revengers
+- [ ] Attack on titan
+- [ ] Chainsaw man
+- [ ] My Hero academia
+- [ ] Vinland saga
