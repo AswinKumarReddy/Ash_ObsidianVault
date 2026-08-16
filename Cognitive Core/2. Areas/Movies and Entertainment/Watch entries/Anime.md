@@ -58,7 +58,14 @@ function makeInput(value, placeholder, onChange, type = "text") {
   input.value = value ?? "";
   input.placeholder = placeholder;
   input.style.width = "100%";
-  input.onchange = () => onChange(input.value.trim());
+  input.onchange = async () => {
+    errorBox.textContent = "";
+    try {
+      await onChange(input.value.trim());
+    } catch (error) {
+      errorBox.textContent = `Could not save: ${error.message}`;
+    }
+  };
   return input;
 }
 
@@ -76,24 +83,56 @@ const entries = readEntries().sort((a, b) => {
 const root = dv.el("div", "");
 root.className = "anime-watchlist";
 
+const errorBox = document.createElement("div");
+errorBox.style.color = "var(--text-error)";
+errorBox.style.marginTop = "0.5rem";
+
+const addRow = document.createElement("div");
+addRow.style.display = "flex";
+addRow.style.gap = "0.5rem";
+addRow.style.alignItems = "center";
+
+const newTitle = document.createElement("input");
+newTitle.type = "text";
+newTitle.placeholder = "New anime name";
+newTitle.style.flex = "1";
+newTitle.style.minWidth = "12rem";
+
 const addButton = document.createElement("button");
 addButton.textContent = "Add anime";
 addButton.onclick = async () => {
-  const title = prompt("Anime name");
-  if (!title?.trim()) return;
+  errorBox.textContent = "";
+  const title = newTitle.value.trim();
+  if (!title) {
+    errorBox.textContent = "Enter an anime name first.";
+    return;
+  }
 
-  await saveEntries([
-    ...entries,
-    {
-      title: title.trim(),
-      status: statusOptions[0],
-      rating: "",
-      finished: "",
-      notes: ""
-    }
-  ]);
+  try {
+    await saveEntries([
+      ...entries,
+      {
+        title,
+        status: statusOptions[0],
+        rating: "",
+        finished: "",
+        notes: ""
+      }
+    ]);
+    newTitle.value = "";
+  } catch (error) {
+    errorBox.textContent = `Could not save: ${error.message}`;
+  }
 };
-root.appendChild(addButton);
+
+newTitle.addEventListener("keydown", event => {
+  if (event.key === "Enter") addButton.click();
+});
+
+addRow.appendChild(newTitle);
+addRow.appendChild(addButton);
+root.appendChild(addRow);
+root.appendChild(errorBox);
 
 const table = document.createElement("table");
 table.style.width = "100%";
@@ -126,8 +165,13 @@ for (const [index, entry] of entries.entries()) {
     status.appendChild(item);
   }
   status.onchange = async () => {
-    entries[index].status = status.value;
-    await saveEntries(entries);
+    errorBox.textContent = "";
+    try {
+      entries[index].status = status.value;
+      await saveEntries(entries);
+    } catch (error) {
+      errorBox.textContent = `Could not save: ${error.message}`;
+    }
   };
   makeCell(row, status);
 
@@ -170,6 +214,13 @@ Use the rendered table above instead of editing this by hand.
   },
   {
     "title": "Chainsaw Man",
+    "status": "Awaiting first episode",
+    "rating": "",
+    "finished": "",
+    "notes": ""
+  },
+  {
+    "title": "Fire Force",
     "status": "Awaiting first episode",
     "rating": "",
     "finished": "",
