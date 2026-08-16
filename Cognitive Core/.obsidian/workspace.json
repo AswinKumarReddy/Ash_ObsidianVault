@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Watch list.md",
+                "file": "2. Areas/Movies and Entertainment/Watch entries/Anime.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Watch list"
+              "title": "Anime"
             }
           }
         ],
@@ -224,8 +224,10 @@
   },
   "active": "c695a546a84f420f",
   "lastOpenFiles": [
-    "1. Projects/New Glasses/Project Brief - New and Cool Glasses.md",
     "1. Watch list.md",
+    "2. Areas/Movies and Entertainment/Watch entries/Movies.md",
+    "2. Areas/Movies and Entertainment/Watch entries/Anime.md",
+    "1. Projects/New Glasses/Project Brief - New and Cool Glasses.md",
     "2. Areas/Movies and Entertainment/🎬 Watchlist Dashboard.md",
     "Spotify running podcasts.md",
     "3. Resources/Tax Filing/Resources/Tax Filing Checklist (Amazon SDE2).md",
@@ -255,8 +257,6 @@
     "1. Projects/Alcohol Sketching/First 20 Hours Plan.md",
     "2. Areas/Travel log/Tamilnadu Trip June 2026",
     "0. Daily notes.md",
-    "iPhone Setup link capture setup with 'Shortcuts'.md",
-    "2. Areas/Movies and Entertainment/Watch entries/Untitled.md",
     "1. Projects/Obsidian 'Save for later' setup",
     "Untitled.base",
     "2. Areas/Movies and Entertainment/Watch entries"
