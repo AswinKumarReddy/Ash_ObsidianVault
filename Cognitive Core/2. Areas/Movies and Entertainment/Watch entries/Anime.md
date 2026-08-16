@@ -2,44 +2,24 @@
 tags:
   - watchlist
   - anime
-  - dataview
+  - bases
 ---
 
 # Anime Watch List
 
-## Add Here
+![[Anime.base]]
 
-- [ ] Wind Breaker
-- [ ] Tokyo Revengers
-- [ ] Attack on Titan
-- [ ] Chainsaw Man
-- [ ] My Hero Academia
-- [ ] Vinland Saga
-- [x] Frieren season 2 [rating:: ] [finished:: ]
+## Add New Anime
 
-## To Watch
+Use the `Anime Entry` template for new anime notes in:
 
-```dataview
-TASK
-WHERE file.path = this.file.path
-  AND meta(section).subpath = "Add Here"
-  AND !completed
-SORT text ASC
-```
+`2. Areas/Movies and Entertainment/Watch entries/Anime Entries`
 
-## Completed
+Set:
 
-```dataview
-TASK
-WHERE file.path = this.file.path
-  AND meta(section).subpath = "Add Here"
-  AND completed
-SORT finished DESC, rating DESC, text ASC
-```
+- `status: backlog` for things to watch
+- `status: watching` for current anime
+- `status: done` when finished
+- `rating: 4.5` after completion
+- `finished: YYYY-MM-DD` after completion
 
-## Quick Format
-
-```text
-- [ ] Anime name
-- [x] Anime name [rating:: 4] [finished:: 2026-08-16]
-```
