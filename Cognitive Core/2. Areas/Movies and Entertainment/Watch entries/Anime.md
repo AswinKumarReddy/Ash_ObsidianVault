@@ -2,264 +2,176 @@
 tags:
   - watchlist
   - anime
-  - dataview
+  - sheet-plus
+excel-pro-plugin: parsed
 ---
 
 # Anime Watch List
 
-```dataviewjs
-const statusOptions = [
-  "Awaiting first episode",
-  "Somewhere in the arc",
-  "Credits rolled"
-];
-
-const statusRank = new Map(statusOptions.map((status, index) => [status, index]));
-const startMarker = "<!-- anime-data-start";
-const endMarker = "anime-data-end -->";
-const path = dv.current().file.path;
-const file = app.vault.getAbstractFileByPath(path);
-const content = await app.vault.read(file);
-
-function readEntries() {
-  const start = content.lastIndexOf(startMarker);
-  const end = content.lastIndexOf(endMarker);
-  if (start === -1 || end === -1 || end <= start) return [];
-
-  const raw = content.slice(start + startMarker.length, end).trim();
-  if (!raw) return [];
-
-  return JSON.parse(raw);
-}
-
-async function saveEntries(entries) {
-  const latestContent = await app.vault.read(file);
-  const sorted = [...entries].sort((a, b) => {
-    const statusDiff = (statusRank.get(a.status) ?? 99) - (statusRank.get(b.status) ?? 99);
-    return statusDiff || a.title.localeCompare(b.title);
-  });
-
-  const start = latestContent.lastIndexOf(startMarker);
-  const end = latestContent.lastIndexOf(endMarker);
-  if (start === -1 || end === -1 || end <= start) return;
-
-  const nextData = `${startMarker}\n${JSON.stringify(sorted, null, 2)}\n${endMarker}`;
-  const nextContent =
-    latestContent.slice(0, start) +
-    nextData +
-    latestContent.slice(end + endMarker.length);
-
-  await app.vault.modify(file, nextContent);
-}
-
-function makeInput(value, placeholder, onChange, type = "text") {
-  const input = document.createElement("input");
-  input.type = type;
-  input.value = value ?? "";
-  input.placeholder = placeholder;
-  input.style.width = "100%";
-  input.onchange = async () => {
-    errorBox.textContent = "";
-    try {
-      await onChange(input.value.trim());
-    } catch (error) {
-      errorBox.textContent = `Could not save: ${error.message}`;
-    }
-  };
-  return input;
-}
-
-function makeCell(row, child) {
-  const cell = row.insertCell();
-  cell.appendChild(child);
-  return cell;
-}
-
-const entries = readEntries().sort((a, b) => {
-  const statusDiff = (statusRank.get(a.status) ?? 99) - (statusRank.get(b.status) ?? 99);
-  return statusDiff || a.title.localeCompare(b.title);
-});
-
-const root = dv.el("div", "");
-root.className = "anime-watchlist";
-
-const errorBox = document.createElement("div");
-errorBox.style.color = "var(--text-error)";
-errorBox.style.marginTop = "0.5rem";
-
-const addRow = document.createElement("div");
-addRow.style.display = "flex";
-addRow.style.gap = "0.5rem";
-addRow.style.alignItems = "center";
-
-const newTitle = document.createElement("input");
-newTitle.type = "text";
-newTitle.placeholder = "New anime name";
-newTitle.style.flex = "1";
-newTitle.style.minWidth = "12rem";
-
-const addButton = document.createElement("button");
-addButton.textContent = "Add anime";
-addButton.onclick = async () => {
-  errorBox.textContent = "";
-  const title = newTitle.value.trim();
-  if (!title) {
-    errorBox.textContent = "Enter an anime name first.";
-    return;
-  }
-
-  try {
-    await saveEntries([
-      ...entries,
-      {
-        title,
-        status: statusOptions[0],
-        rating: "",
-        finished: "",
-        notes: ""
+```sheet
+{
+  "id": "anime-watch-list",
+  "name": "Anime Watch List",
+  "appVersion": "0.25.0",
+  "locale": "enUS",
+  "sheetOrder": [
+    "anime"
+  ],
+  "styles": {
+    "header": {
+      "bl": 1,
+      "bg": {
+        "rgb": "#E8F0FE"
+      },
+      "cl": {
+        "rgb": "#1F1F1F"
       }
-    ]);
-    newTitle.value = "";
-  } catch (error) {
-    errorBox.textContent = `Could not save: ${error.message}`;
-  }
-};
-
-newTitle.addEventListener("keydown", event => {
-  if (event.key === "Enter") addButton.click();
-});
-
-addRow.appendChild(newTitle);
-addRow.appendChild(addButton);
-root.appendChild(addRow);
-root.appendChild(errorBox);
-
-const table = document.createElement("table");
-table.style.width = "100%";
-table.style.marginTop = "0.75rem";
-
-const header = table.createTHead().insertRow();
-for (const heading of ["Anime", "Status", "Rating", "Finished", "Notes"]) {
-  const cell = document.createElement("th");
-  cell.textContent = heading;
-  header.appendChild(cell);
-}
-
-const body = table.createTBody();
-
-for (const [index, entry] of entries.entries()) {
-  const row = body.insertRow();
-
-  makeCell(row, makeInput(entry.title, "Anime name", async value => {
-    entries[index].title = value;
-    await saveEntries(entries);
-  }));
-
-  const status = document.createElement("select");
-  status.style.width = "100%";
-  for (const option of statusOptions) {
-    const item = document.createElement("option");
-    item.value = option;
-    item.textContent = option;
-    item.selected = entry.status === option;
-    status.appendChild(item);
-  }
-  status.onchange = async () => {
-    errorBox.textContent = "";
-    try {
-      entries[index].status = status.value;
-      await saveEntries(entries);
-    } catch (error) {
-      errorBox.textContent = `Could not save: ${error.message}`;
     }
-  };
-  makeCell(row, status);
-
-  const rating = makeInput(entry.rating, "0-5", async value => {
-    entries[index].rating = value;
-    await saveEntries(entries);
-  }, "number");
-  rating.min = "0";
-  rating.max = "5";
-  rating.step = "0.5";
-  makeCell(row, rating);
-
-  makeCell(row, makeInput(entry.finished, "YYYY-MM-DD", async value => {
-    entries[index].finished = value;
-    await saveEntries(entries);
-  }, "date"));
-
-  makeCell(row, makeInput(entry.notes, "Optional", async value => {
-    entries[index].notes = value;
-    await saveEntries(entries);
-  }));
+  },
+  "sheets": {
+    "anime": {
+      "id": "anime",
+      "name": "Anime",
+      "tabColor": "",
+      "hidden": 0,
+      "rowCount": 100,
+      "columnCount": 5,
+      "zoomRatio": 1,
+      "scrollTop": 0,
+      "scrollLeft": 0,
+      "defaultColumnWidth": 160,
+      "defaultRowHeight": 28,
+      "showGridlines": 1,
+      "rightToLeft": 0,
+      "freeze": {
+        "xSplit": 0,
+        "ySplit": 1,
+        "startRow": 1,
+        "startColumn": 0
+      },
+      "rowHeader": {
+        "width": 46,
+        "hidden": 0
+      },
+      "columnHeader": {
+        "height": 20,
+        "hidden": 0
+      },
+      "mergeData": [],
+      "cellData": {
+        "0": {
+          "0": {
+            "v": "Anime",
+            "s": "header"
+          },
+          "1": {
+            "v": "Status",
+            "s": "header"
+          },
+          "2": {
+            "v": "Rating",
+            "s": "header"
+          },
+          "3": {
+            "v": "Finished",
+            "s": "header"
+          },
+          "4": {
+            "v": "Notes",
+            "s": "header"
+          }
+        },
+        "1": {
+          "0": {
+            "v": "Attack on Titan"
+          },
+          "1": {
+            "v": "Awaiting first episode"
+          }
+        },
+        "2": {
+          "0": {
+            "v": "Chainsaw Man"
+          },
+          "1": {
+            "v": "Awaiting first episode"
+          }
+        },
+        "3": {
+          "0": {
+            "v": "My Hero Academia"
+          },
+          "1": {
+            "v": "Awaiting first episode"
+          }
+        },
+        "4": {
+          "0": {
+            "v": "Tokyo Revengers"
+          },
+          "1": {
+            "v": "Awaiting first episode"
+          }
+        },
+        "5": {
+          "0": {
+            "v": "Vinland Saga"
+          },
+          "1": {
+            "v": "Awaiting first episode"
+          }
+        },
+        "6": {
+          "0": {
+            "v": "Wind Breaker"
+          },
+          "1": {
+            "v": "Awaiting first episode"
+          }
+        },
+        "7": {
+          "0": {
+            "v": "Frieren season 2"
+          },
+          "1": {
+            "v": "Credits rolled"
+          }
+        }
+      },
+      "rowData": {},
+      "columnData": {
+        "0": {
+          "w": 220
+        },
+        "1": {
+          "w": 190
+        },
+        "2": {
+          "w": 90
+        },
+        "3": {
+          "w": 120
+        },
+        "4": {
+          "w": 260
+        }
+      }
+    }
+  },
+  "resources": []
 }
-
-root.appendChild(table);
 ```
 
-<!--
-The hidden JSON block below stores the table rows.
-Use the rendered table above instead of editing this by hand.
--->
+## Status Dropdown Setup
 
-<!-- anime-data-start
-[
-  {
-    "title": "Attack on Titan",
-    "status": "Awaiting first episode",
-    "rating": "",
-    "finished": "",
-    "notes": ""
-  },
-  {
-    "title": "Chainsaw Man",
-    "status": "Awaiting first episode",
-    "rating": "",
-    "finished": "",
-    "notes": ""
-  },
-  {
-    "title": "Fire Force",
-    "status": "Awaiting first episode",
-    "rating": "",
-    "finished": "",
-    "notes": ""
-  },
-  {
-    "title": "My Hero Academia",
-    "status": "Awaiting first episode",
-    "rating": "",
-    "finished": "",
-    "notes": ""
-  },
-  {
-    "title": "Tokyo Revengers",
-    "status": "Awaiting first episode",
-    "rating": "",
-    "finished": "",
-    "notes": ""
-  },
-  {
-    "title": "Vinland Saga",
-    "status": "Awaiting first episode",
-    "rating": "",
-    "finished": "",
-    "notes": ""
-  },
-  {
-    "title": "Wind Breaker",
-    "status": "Awaiting first episode",
-    "rating": "",
-    "finished": "",
-    "notes": ""
-  },
-  {
-    "title": "Frieren season 2",
-    "status": "Credits rolled",
-    "rating": "",
-    "finished": "",
-    "notes": ""
-  }
-]
-anime-data-end -->
+Select the Status cells, starting from `B2`, then use Sheet Plus data validation to make a dropdown with:
+
+- `Awaiting first episode`
+- `Somewhere in the arc`
+- `Credits rolled`
+
+Keep this order when sorting the sheet:
+
+1. `Awaiting first episode`
+2. `Somewhere in the arc`
+3. `Credits rolled`

@@ -219,7 +219,8 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "agent-console:Agent Console": false
+      "agent-console:Agent Console": false,
+      "sheet-plus:Create excel file": false
     }
   },
   "active": "c695a546a84f420f",
