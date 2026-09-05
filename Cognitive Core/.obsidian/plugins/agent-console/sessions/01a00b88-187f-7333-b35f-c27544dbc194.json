@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "sessionId": "01a00b88-187f-7333-b35f-c27544dbc194",
+  "agentId": "codex-acp",
+  "messages": [
+    {
+      "id": "97fb1fa6-089b-4c85-a0d4-e193a3e064e1",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "HI"
+        }
+      ],
+      "timestamp": "2026-08-16T17:04:55.821Z"
+    }
+  ],
+  "contextNotes": [
+    {
+      "path": "2. Areas/Movies and Entertainment/Watch entries/Anime.md",
+      "source": "auto-default",
+      "seen": false
+    }
+  ],
+  "savedAt": "2026-08-16T17:05:04.248Z"
+}
