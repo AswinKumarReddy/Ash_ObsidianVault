@@ -5,7 +5,8 @@
     "apiKeySecretId": "",
     "command": "claude-agent-acp",
     "args": [],
-    "env": []
+    "env": [],
+    "defaultWorkingDirectory": ""
   },
   "codex": {
     "id": "codex-acp",
@@ -13,7 +14,8 @@
     "apiKeySecretId": "codex-key",
     "command": "C:\\Users\\user\\AppData\\Roaming\\npm\\codex-acp",
     "args": [],
-    "env": []
+    "env": [],
+    "defaultWorkingDirectory": ""
   },
   "gemini": {
     "id": "gemini-cli",
@@ -23,7 +25,8 @@
     "args": [
       "--experimental-acp"
     ],
-    "env": []
+    "env": [],
+    "defaultWorkingDirectory": ""
   },
   "kiro": {
     "id": "kiro-cli",
@@ -32,7 +35,18 @@
     "args": [
       "acp"
     ],
-    "env": []
+    "env": [],
+    "defaultWorkingDirectory": ""
+  },
+  "opencode": {
+    "id": "opencode-acp",
+    "displayName": "OpenCode",
+    "command": "opencode",
+    "args": [
+      "acp"
+    ],
+    "env": [],
+    "defaultWorkingDirectory": ""
   },
   "customAgents": [],
   "defaultAgentId": "codex-acp",
@@ -40,8 +54,10 @@
   "activeNoteAsDefaultContext": true,
   "migrationNoticeShown": false,
   "enableSystemNotifications": true,
+  "language": "auto",
   "debugMode": false,
   "nodePath": "",
+  "defaultWorkingDirectory": "",
   "exportSettings": {
     "defaultFolder": "Agent Console",
     "filenameTemplate": "agent_console_{date}_{time}",
@@ -56,11 +72,41 @@
   "windowsWslMode": false,
   "sendMessageShortcut": "enter",
   "chatViewLocation": "right",
+  "titleStrategy": "agent-suggested",
+  "obsidianSystemPrompt": {
+    "blocks": {
+      "hostIdentity": true,
+      "rendering": true,
+      "workingDirectory": true,
+      "vaultCollaboration": true,
+      "interactiveButtons": true,
+      "respondInLanguage": true
+    },
+    "appendText": "",
+    "customText": "",
+    "mode": "options"
+  },
   "displaySettings": {
     "showEmojis": true,
     "fontSize": null
   },
   "savedSessions": [
+    {
+      "sessionId": "01a07ce9-238e-7241-9ada-64df5f399f0d",
+      "agentId": "codex-acp",
+      "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+      "title": "hello",
+      "createdAt": "2026-09-07T17:28:18.423Z",
+      "updatedAt": "2026-09-07T17:28:18.424Z"
+    },
+    {
+      "sessionId": "01a07ce7-1100-7a70-be6b-9edd002cc188",
+      "agentId": "codex-acp",
+      "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+      "title": "HI",
+      "createdAt": "2026-09-07T17:27:15.163Z",
+      "updatedAt": "2026-09-07T17:27:15.164Z"
+    },
     {
       "sessionId": "01a07ce5-42a3-79c3-b3b2-449aaff90826",
       "agentId": "codex-acp",
@@ -126,12 +172,15 @@
       "updatedAt": "2026-06-18T17:20:48.893Z"
     }
   ],
+  "sessionHistorySource": "local",
+  "agentSessionMetaCache": {},
   "lastUsedModels": {},
   "lastUsedModes": {
     "codex-acp": "full-access"
   },
-  "maxSessionTabs": 10,
   "restoreTabsOnStartup": true,
+  "confirmCloseWithMultipleTabs": true,
+  "quickPromptsFolder": "Quick Prompts",
   "perLeafTabStates": [
     {
       "leafId": "1063d13e22e29437",
@@ -139,15 +188,19 @@
         {
           "tabId": "tab-cd81dfaa",
           "agentId": "codex-acp",
-          "label": "Hi Are you up ?",
+          "label": "HI",
           "labelIsCustom": false,
-          "sessionId": "01a07ce5-42a3-79c3-b3b2-449aaff90826",
+          "sessionId": "01a07ce9-238e-7241-9ada-64df5f399f0d",
           "tabOrder": 0,
-          "scrollPosition": 0
+          "scrollPosition": 0,
+          "draftText": "",
+          "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
         }
       ],
       "activeTabId": "tab-cd81dfaa"
     }
   ],
-  "legacySessionsMigrated": true
+  "legacySessionsMigrated": true,
+  "settingsImportOfferShown": false,
+  "hasCompletedSetup": false
 }

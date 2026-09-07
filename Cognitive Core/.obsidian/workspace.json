@@ -181,9 +181,9 @@
             "id": "1063d13e22e29437",
             "type": "leaf",
             "state": {
-              "type": "agent-client-chat-view",
+              "type": "agent-console-chat-view",
               "state": {
-                "initialAgentId": "gemini-cli"
+                "initialAgentId": "codex-acp"
               },
               "icon": "agent-console",
               "title": "Agent console"

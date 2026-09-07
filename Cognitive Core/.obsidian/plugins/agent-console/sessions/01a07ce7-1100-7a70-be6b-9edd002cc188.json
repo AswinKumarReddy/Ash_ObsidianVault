@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "sessionId": "01a07ce7-1100-7a70-be6b-9edd002cc188",
+  "agentId": "codex-acp",
+  "messages": [
+    {
+      "id": "db966a5f-147f-4286-8df1-901bc36b8098",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "HI"
+        }
+      ],
+      "timestamp": "2026-09-07T17:27:06.979Z"
+    }
+  ],
+  "contextNotes": [
+    {
+      "path": "3. Resources/Custom PC/MY PC specs.md",
+      "source": "auto-default",
+      "seen": false
+    }
+  ],
+  "savedAt": "2026-09-07T17:27:15.169Z"
+}
