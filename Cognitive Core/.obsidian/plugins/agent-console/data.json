@@ -18,8 +18,8 @@
   "gemini": {
     "id": "gemini-cli",
     "displayName": "Gemini CLI",
-    "apiKeySecretId": "",
-    "command": "gemini",
+    "apiKeySecretId": "gemini-key",
+    "command": "C:\\Users\\user\\AppData\\Roaming\\npm\\gemini",
     "args": [
       "--experimental-acp"
     ],
@@ -61,6 +61,30 @@
     "fontSize": null
   },
   "savedSessions": [
+    {
+      "sessionId": "01a07ce5-42a3-79c3-b3b2-449aaff90826",
+      "agentId": "codex-acp",
+      "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+      "title": "Hi Are you up ?",
+      "createdAt": "2026-09-07T17:23:32.321Z",
+      "updatedAt": "2026-09-07T17:23:32.322Z"
+    },
+    {
+      "sessionId": "01a07ce4-e892-74e3-a346-5cd392758617",
+      "agentId": "codex-acp",
+      "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+      "title": "Hi Are you up ?",
+      "createdAt": "2026-09-07T17:23:07.258Z",
+      "updatedAt": "2026-09-07T17:23:07.260Z"
+    },
+    {
+      "sessionId": "ff7ef388-88e6-4dfc-af62-9768591a0a11",
+      "agentId": "gemini-cli",
+      "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+      "title": "Hi, are you up ?",
+      "createdAt": "2026-09-07T17:22:42.366Z",
+      "updatedAt": "2026-09-07T17:22:42.589Z"
+    },
     {
       "sessionId": "01a00b88-187f-7333-b35f-c27544dbc194",
       "agentId": "codex-acp",
@@ -113,16 +137,16 @@
       "leafId": "1063d13e22e29437",
       "tabs": [
         {
-          "tabId": "tab-9bf2dd4f",
+          "tabId": "tab-cd81dfaa",
           "agentId": "codex-acp",
-          "label": "codex-acp 10:35 PM",
+          "label": "Hi Are you up ?",
           "labelIsCustom": false,
-          "sessionId": "01a00b88-e4c6-7750-aad9-a9f9da9968f7",
+          "sessionId": "01a07ce5-42a3-79c3-b3b2-449aaff90826",
           "tabOrder": 0,
           "scrollPosition": 0
         }
       ],
-      "activeTabId": "tab-9bf2dd4f"
+      "activeTabId": "tab-cd81dfaa"
     }
   ],
   "legacySessionsMigrated": true

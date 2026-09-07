@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "sessionId": "01a07ce4-e892-74e3-a346-5cd392758617",
+  "agentId": "codex-acp",
+  "messages": [
+    {
+      "id": "dd0e807f-c274-46e7-9e8d-bc75f14f59be",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Hi Are you up ?"
+        }
+      ],
+      "timestamp": "2026-09-07T17:22:58.248Z"
+    }
+  ],
+  "contextNotes": [
+    {
+      "path": "3. Resources/Custom PC/MY PC specs.md",
+      "source": "auto-default",
+      "seen": false
+    }
+  ],
+  "savedAt": "2026-09-07T17:23:07.268Z"
+}
