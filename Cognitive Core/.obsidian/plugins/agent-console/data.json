@@ -92,12 +92,28 @@
   },
   "savedSessions": [
     {
+      "sessionId": "52cece22-1bf9-4329-b509-1b31ba2b2d70",
+      "agentId": "gemini-cli",
+      "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+      "title": "Hi in my agent console plugin im not bale to use c...",
+      "createdAt": "2026-09-07T17:31:41.170Z",
+      "updatedAt": "2026-09-07T17:34:18.388Z"
+    },
+    {
+      "sessionId": "01a07ceb-0d29-7e91-accd-02e98936428d",
+      "agentId": "codex-acp",
+      "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+      "title": "hello",
+      "createdAt": "2026-09-07T17:29:41.856Z",
+      "updatedAt": "2026-09-07T17:29:45.580Z"
+    },
+    {
       "sessionId": "01a07ce9-238e-7241-9ada-64df5f399f0d",
       "agentId": "codex-acp",
       "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
       "title": "hello",
       "createdAt": "2026-09-07T17:28:18.423Z",
-      "updatedAt": "2026-09-07T17:28:18.424Z"
+      "updatedAt": "2026-09-07T17:29:40.654Z"
     },
     {
       "sessionId": "01a07ce7-1100-7a70-be6b-9edd002cc188",
@@ -173,7 +189,174 @@
     }
   ],
   "sessionHistorySource": "local",
-  "agentSessionMetaCache": {},
+  "agentSessionMetaCache": {
+    "codex-acp": {
+      "sessions": [
+        {
+          "sessionId": "01a07ce9-238e-7241-9ada-64df5f399f0d",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "[@MY PC specs](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/3. Resources/Custom PC/MY PC specs.md)hello",
+          "updatedAt": "2026-09-07T17:28:18.421+00:00"
+        },
+        {
+          "sessionId": "01a07ce7-1100-7a70-be6b-9edd002cc188",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "[@MY PC specs](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/3. Resources/Custom PC/MY PC specs.md)HI",
+          "updatedAt": "2026-09-07T17:27:15.162+00:00"
+        },
+        {
+          "sessionId": "01a07ce5-42a3-79c3-b3b2-449aaff90826",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "[@MY PC specs](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/3. Resources/Custom PC/MY PC specs.md)Hi Are you up ?",
+          "updatedAt": "2026-09-07T17:23:32.320+00:00"
+        },
+        {
+          "sessionId": "01a07ce4-e892-74e3-a346-5cd392758617",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "[@MY PC specs](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/3. Resources/Custom PC/MY PC specs.md)Hi Are you up ?",
+          "updatedAt": "2026-09-07T17:23:07.257+00:00"
+        },
+        {
+          "sessionId": "01a00b88-187f-7333-b35f-c27544dbc194",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "[@Anime](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/2. Areas/Movies and Entertainment/Watch entries/Anime.md)HI",
+          "updatedAt": "2026-08-16T17:05:04.240+00:00"
+        },
+        {
+          "sessionId": "01a00b13-89e5-7c50-942c-972e9094dfaa",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "[@Anime](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/2. Areas/Movies and Entertainment/Watch entries/Anime.md)Hi",
+          "updatedAt": "2026-08-16T17:04:20.587+00:00"
+        },
+        {
+          "sessionId": "019f429b-0144-7953-bfb7-9a4d2b782c8b",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "[@Video Summary Agent Project tracker](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/1. Projects/Video summary and n...",
+          "updatedAt": "2026-07-26T05:39:22.582+00:00"
+        },
+        {
+          "sessionId": "019edbc0-8527-7d52-80f4-107fb48417ea",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "[@Tamil Nādu Road Trip Checklist](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/2. Areas/Travel log/Tamilnadu Trip J...",
+          "updatedAt": "2026-06-18T17:52:50.814+00:00"
+        },
+        {
+          "sessionId": "019edb06-2381-7a83-99b3-26c25adeaafc",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "[@Tamil Nādu Road Trip Checklist](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/2. Areas/Travel log/Tamilnadu Trip J...",
+          "updatedAt": "2026-06-18T17:18:54.765+00:00"
+        },
+        {
+          "sessionId": "019edaee-fb90-7c73-bd52-7742bcb5607f",
+          "cwd": "C:\\Users\\user",
+          "title": "im trying to connect codex in my Obsidain plugin - \"Agent Console\", it appreas in need to give an API key and path fo...",
+          "updatedAt": "2026-06-18T13:54:29.658+00:00"
+        },
+        {
+          "sessionId": "019edaec-6194-7c11-9992-145b68814147",
+          "cwd": "C:\\Users\\user",
+          "title": "which",
+          "updatedAt": "2026-06-18T13:30:21.707+00:00"
+        },
+        {
+          "sessionId": "019edae8-aff2-7280-9407-a05dc9c7f10e",
+          "cwd": "C:\\Users\\user",
+          "title": "hi",
+          "updatedAt": "2026-06-18T13:28:23.162+00:00"
+        },
+        {
+          "sessionId": "019e593b-6c99-78a2-8e59-07a81f189178",
+          "cwd": "C:\\Users\\user\\Documents\\Codex\\2026-05-24\\chekout-this-path-d-git-ash",
+          "title": "chekout this path D:\\Git\\Ash_ObsidianVault this contains my obsidian vault for all my text and markdown file sotreate...",
+          "updatedAt": "2026-05-24T09:08:31.553+00:00"
+        }
+      ],
+      "syncedAt": "2026-09-07T17:29:39.726Z"
+    },
+    "gemini-cli": {
+      "sessions": [
+        {
+          "sessionId": "01a07ce9-238e-7241-9ada-64df5f399f0d",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "[@MY PC specs](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/3. Resources/Custom PC/MY PC specs.md)hello",
+          "updatedAt": "2026-09-07T17:29:45.577+00:00"
+        },
+        {
+          "sessionId": "01a07ce7-1100-7a70-be6b-9edd002cc188",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "[@MY PC specs](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/3. Resources/Custom PC/MY PC specs.md)HI",
+          "updatedAt": "2026-09-07T17:27:15.162+00:00"
+        },
+        {
+          "sessionId": "01a07ce5-42a3-79c3-b3b2-449aaff90826",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "[@MY PC specs](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/3. Resources/Custom PC/MY PC specs.md)Hi Are you up ?",
+          "updatedAt": "2026-09-07T17:23:32.320+00:00"
+        },
+        {
+          "sessionId": "01a07ce4-e892-74e3-a346-5cd392758617",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "[@MY PC specs](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/3. Resources/Custom PC/MY PC specs.md)Hi Are you up ?",
+          "updatedAt": "2026-09-07T17:23:07.257+00:00"
+        },
+        {
+          "sessionId": "01a00b88-187f-7333-b35f-c27544dbc194",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "[@Anime](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/2. Areas/Movies and Entertainment/Watch entries/Anime.md)HI",
+          "updatedAt": "2026-08-16T17:05:04.240+00:00"
+        },
+        {
+          "sessionId": "01a00b13-89e5-7c50-942c-972e9094dfaa",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "[@Anime](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/2. Areas/Movies and Entertainment/Watch entries/Anime.md)Hi",
+          "updatedAt": "2026-08-16T17:04:20.587+00:00"
+        },
+        {
+          "sessionId": "019f429b-0144-7953-bfb7-9a4d2b782c8b",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "[@Video Summary Agent Project tracker](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/1. Projects/Video summary and n...",
+          "updatedAt": "2026-07-26T05:39:22.582+00:00"
+        },
+        {
+          "sessionId": "019edbc0-8527-7d52-80f4-107fb48417ea",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "[@Tamil Nādu Road Trip Checklist](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/2. Areas/Travel log/Tamilnadu Trip J...",
+          "updatedAt": "2026-06-18T17:52:50.814+00:00"
+        },
+        {
+          "sessionId": "019edb06-2381-7a83-99b3-26c25adeaafc",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "[@Tamil Nādu Road Trip Checklist](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/2. Areas/Travel log/Tamilnadu Trip J...",
+          "updatedAt": "2026-06-18T17:18:54.765+00:00"
+        },
+        {
+          "sessionId": "019edaee-fb90-7c73-bd52-7742bcb5607f",
+          "cwd": "C:\\Users\\user",
+          "title": "im trying to connect codex in my Obsidain plugin - \"Agent Console\", it appreas in need to give an API key and path fo...",
+          "updatedAt": "2026-06-18T13:54:29.658+00:00"
+        },
+        {
+          "sessionId": "019edaec-6194-7c11-9992-145b68814147",
+          "cwd": "C:\\Users\\user",
+          "title": "which",
+          "updatedAt": "2026-06-18T13:30:21.707+00:00"
+        },
+        {
+          "sessionId": "019edae8-aff2-7280-9407-a05dc9c7f10e",
+          "cwd": "C:\\Users\\user",
+          "title": "hi",
+          "updatedAt": "2026-06-18T13:28:23.162+00:00"
+        },
+        {
+          "sessionId": "019e593b-6c99-78a2-8e59-07a81f189178",
+          "cwd": "C:\\Users\\user\\Documents\\Codex\\2026-05-24\\chekout-this-path-d-git-ash",
+          "title": "chekout this path D:\\Git\\Ash_ObsidianVault this contains my obsidian vault for all my text and markdown file sotreate...",
+          "updatedAt": "2026-05-24T09:08:31.553+00:00"
+        }
+      ],
+      "syncedAt": "2026-09-07T17:31:05.780Z"
+    }
+  },
   "lastUsedModels": {},
   "lastUsedModes": {
     "codex-acp": "full-access"
@@ -190,17 +373,39 @@
           "agentId": "codex-acp",
           "label": "HI",
           "labelIsCustom": false,
-          "sessionId": "01a07ce9-238e-7241-9ada-64df5f399f0d",
+          "sessionId": "01a07ceb-0d29-7e91-accd-02e98936428d",
           "tabOrder": 0,
+          "scrollPosition": 0,
+          "draftText": "",
+          "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
+        },
+        {
+          "tabId": "tab-ca8b1031",
+          "agentId": "gemini-cli",
+          "label": "codex-acp 11:00 PM",
+          "labelIsCustom": false,
+          "sessionId": null,
+          "tabOrder": 1,
+          "scrollPosition": 0,
+          "draftText": "",
+          "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
+        },
+        {
+          "tabId": "tab-421120cb",
+          "agentId": "gemini-cli",
+          "label": "Hi in my agent console plugin im not bale to use codex, can you figure out why that is the case",
+          "labelIsCustom": false,
+          "sessionId": "52cece22-1bf9-4329-b509-1b31ba2b2d70",
+          "tabOrder": 2,
           "scrollPosition": 0,
           "draftText": "",
           "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
         }
       ],
-      "activeTabId": "tab-cd81dfaa"
+      "activeTabId": "tab-421120cb"
     }
   ],
   "legacySessionsMigrated": true,
   "settingsImportOfferShown": false,
-  "hasCompletedSetup": false
+  "hasCompletedSetup": true
 }
