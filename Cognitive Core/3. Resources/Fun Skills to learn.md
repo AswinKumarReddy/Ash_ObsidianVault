@@ -1,0 +1,7 @@
+- Card tricks
+- Water Painting
+- Swimming
+- Hiking
+- Digital art
+- Photography basics
+- 
