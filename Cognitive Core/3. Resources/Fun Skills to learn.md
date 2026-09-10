@@ -4,4 +4,6 @@
 - Hiking
 - Digital art
 - Photography basics
+- Musical instrument
+	- Ukulele
 - 
