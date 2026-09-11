@@ -6,4 +6,4 @@ tags:
 ---
 
 - "You must develop the ability to be disliked in order to free yourself from the prison of other people's opinions."
-- 
+- “”
