@@ -92,6 +92,14 @@
   },
   "savedSessions": [
     {
+      "sessionId": "245cf641-45d0-4d40-99e3-924bd06bc64e",
+      "agentId": "gemini-cli",
+      "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+      "title": "Review anime watch list",
+      "createdAt": "2026-09-10T18:25:54.340Z",
+      "updatedAt": "2026-09-10T18:42:11.329Z"
+    },
+    {
       "sessionId": "52cece22-1bf9-4329-b509-1b31ba2b2d70",
       "agentId": "gemini-cli",
       "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
@@ -380,29 +388,18 @@
           "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
         },
         {
-          "tabId": "tab-ca8b1031",
+          "tabId": "tab-a903ef45",
           "agentId": "gemini-cli",
-          "label": "codex-acp 11:00 PM",
+          "label": "Review anime watch list",
           "labelIsCustom": false,
-          "sessionId": null,
+          "sessionId": "245cf641-45d0-4d40-99e3-924bd06bc64e",
           "tabOrder": 1,
-          "scrollPosition": 0,
-          "draftText": "",
-          "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
-        },
-        {
-          "tabId": "tab-421120cb",
-          "agentId": "gemini-cli",
-          "label": "Hi in my agent console plugin im not bale to use codex, can you figure out why that is the case",
-          "labelIsCustom": false,
-          "sessionId": "52cece22-1bf9-4329-b509-1b31ba2b2d70",
-          "tabOrder": 2,
           "scrollPosition": 0,
           "draftText": "",
           "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
         }
       ],
-      "activeTabId": "tab-421120cb"
+      "activeTabId": "tab-a903ef45"
     }
   ],
   "legacySessionsMigrated": true,
