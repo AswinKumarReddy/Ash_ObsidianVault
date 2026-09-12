@@ -12,6 +12,8 @@
 - **SSD: 512GB + 1TB** :
 	- XPG GAMMIX S5 : 512GB
 	- PNY CS1030 1TB SSD : 1TB
+- Peripheral
+	- MSI MAG FORGE M100A
 
 
 
