@@ -8,6 +8,7 @@ tags:
 
 - [ ] Attack on Titan
 - [x] Chainsaw Man
+- [ ] Cahinsaw Man - The movie
 - [ ] My Hero Academia
 - [ ] Tokyo Revengers
 - [ ] Vinland Saga

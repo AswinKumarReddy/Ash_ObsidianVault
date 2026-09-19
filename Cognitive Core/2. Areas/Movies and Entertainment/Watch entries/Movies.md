@@ -3,3 +3,6 @@
 - [ ] Avatar part 3
 - [ ] Mission impossible final part
 - [ ] John wick 3
+- [ ] Spiderman across the spider verse
+- [ ] The Odyssey
+- [ ] Hail Mary
