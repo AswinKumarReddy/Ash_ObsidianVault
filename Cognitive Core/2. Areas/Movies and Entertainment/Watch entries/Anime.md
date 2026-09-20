@@ -11,6 +11,6 @@ tags:
 - [ ] Cahinsaw Man - The movie
 - [ ] My Hero Academia
 - [ ] Tokyo Revengers
-- [ ] Vinland Saga
+- [x] Vinland Saga
 - [ ] Wind Breaker
 - [x] Frieren season 2
