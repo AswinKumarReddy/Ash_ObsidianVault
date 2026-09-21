@@ -107,7 +107,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "Green",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -158,7 +158,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "046b289bd2cb6dde",
@@ -226,7 +226,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "159a8cbf2df0fcf9",
+  "active": "4881b1da633d639a",
   "lastOpenFiles": [
     "AI - Good bad and Ugly.md",
     "Cognitive Core/3. Resources/Profound Quotes.md",
