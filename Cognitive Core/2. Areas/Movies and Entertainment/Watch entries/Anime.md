@@ -7,6 +7,7 @@ tags:
 # Anime Watch List
 
 - [ ] Attack on Titan
+- [ ] Dr. Stone
 - [x] Chainsaw Man
 - [ ] Cahinsaw Man - The movie
 - [ ] My Hero Academia
