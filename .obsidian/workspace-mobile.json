@@ -68,12 +68,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cognitive Core/2. Areas/Cooking/Mom’s Mutton curry.md",
+                "file": "Cognitive Core/Spotify running podcasts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mom’s Mutton curry"
+              "title": "Spotify running podcasts"
             }
           }
         ],
@@ -226,10 +226,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "159a8cbf2df0fcf9",
+  "active": "aac0967e3d51356e",
   "lastOpenFiles": [
-    "Cognitive Core/2. Areas/Cooking/Gongura Chicken.md",
     "Cognitive Core/2. Areas/Cooking/Mom’s Mutton curry.md",
+    "Cognitive Core/2. Areas/Cooking/Gongura Chicken.md",
     "Cognitive Core/2. Areas/Cooking/Mom’s Chicken pallapalli.md",
     "Cognitive Core/3. Resources/Tax Filing/Resources/Tax Filing Learnings and Reference (Amazon SDE2).md",
     "AI - Good bad and Ugly.md",
