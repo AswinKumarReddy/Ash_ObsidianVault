@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Areas/Movies and Entertainment/Watch entries/Anime.md",
+                "file": "2. Areas/Movies and Entertainment/Watch entries/Movies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Anime"
+              "title": "Movies"
             }
           }
         ]
@@ -211,8 +211,8 @@
   },
   "active": "401ad2f8111c179d",
   "lastOpenFiles": [
-    "2. Areas/Movies and Entertainment/Watch entries/Movies.md",
     "2. Areas/Movies and Entertainment/Watch entries/Anime.md",
+    "2. Areas/Movies and Entertainment/Watch entries/Movies.md",
     "2. Areas/Cooking/Mom’s Mutton curry.md",
     "2. Areas/Cooking/Untitled.md",
     "2. Areas/Cooking/Mom’s Chicken pallapalli.md",
