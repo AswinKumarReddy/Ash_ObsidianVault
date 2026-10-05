@@ -1,0 +1,2 @@
+- He said, go venture far beyond the shores. Don't forsake this life of yours. I'll guide you home no matter where you are. 
+  - My thoughts as I am in between moving to London, moving away from my family, friends, and everything else 
