@@ -190,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -209,7 +209,7 @@
       "agent-console:Agent Console": false
     }
   },
-  "active": "401ad2f8111c179d",
+  "active": "1a62463e16a8e142",
   "lastOpenFiles": [
     "Spotify running podcasts.md",
     "conflict-files-obsidian-git.md",
