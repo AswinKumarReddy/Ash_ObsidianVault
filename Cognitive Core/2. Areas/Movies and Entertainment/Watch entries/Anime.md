@@ -1,4 +1,4 @@
----
+﻿---
 tags:
   - watchlist
   - anime
@@ -8,7 +8,7 @@ tags:
 
 - [ ] Attack on Titan
 - [ ] Arcane
-- [ ] Dr. Stone
+- [x] Dr. Stone
 - [x] Chainsaw Man
 - [ ] Cahinsaw Man - The movie
 - [ ] My Hero Academia

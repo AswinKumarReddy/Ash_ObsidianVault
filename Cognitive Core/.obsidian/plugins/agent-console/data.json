@@ -92,6 +92,22 @@
   },
   "savedSessions": [
     {
+      "sessionId": "2fc08cfa-4cd7-4ef6-aa52-e414dc05919a",
+      "agentId": "gemini-cli",
+      "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+      "title": "Greet user",
+      "createdAt": "2026-10-18T16:18:06.607Z",
+      "updatedAt": "2026-10-18T16:21:18.760Z"
+    },
+    {
+      "sessionId": "01a14fcd-d65f-7773-9113-52ede1e0d303",
+      "agentId": "codex-acp",
+      "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+      "title": "Hi",
+      "createdAt": "2026-10-18T16:17:39.598Z",
+      "updatedAt": "2026-10-18T16:17:46.280Z"
+    },
+    {
       "sessionId": "245cf641-45d0-4d40-99e3-924bd06bc64e",
       "agentId": "gemini-cli",
       "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
@@ -201,10 +217,16 @@
     "codex-acp": {
       "sessions": [
         {
+          "sessionId": "01a07ce6-dbf8-7080-85ea-289fba4b9eb8",
+          "cwd": "C:\\Users\\user",
+          "title": "CODEX_API_KEY",
+          "updatedAt": "2026-09-07T17:37:32.613+00:00"
+        },
+        {
           "sessionId": "01a07ce9-238e-7241-9ada-64df5f399f0d",
           "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
           "title": "[@MY PC specs](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/3. Resources/Custom PC/MY PC specs.md)hello",
-          "updatedAt": "2026-09-07T17:28:18.421+00:00"
+          "updatedAt": "2026-09-07T17:29:45.577+00:00"
         },
         {
           "sessionId": "01a07ce7-1100-7a70-be6b-9edd002cc188",
@@ -279,7 +301,7 @@
           "updatedAt": "2026-05-24T09:08:31.553+00:00"
         }
       ],
-      "syncedAt": "2026-09-07T17:29:39.726Z"
+      "syncedAt": "2026-10-18T16:17:38.642Z"
     },
     "gemini-cli": {
       "sessions": [
@@ -388,18 +410,18 @@
           "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
         },
         {
-          "tabId": "tab-a903ef45",
+          "tabId": "tab-c9d9181d",
           "agentId": "gemini-cli",
-          "label": "Review anime watch list",
+          "label": "Greet user",
           "labelIsCustom": false,
-          "sessionId": "245cf641-45d0-4d40-99e3-924bd06bc64e",
+          "sessionId": "2fc08cfa-4cd7-4ef6-aa52-e414dc05919a",
           "tabOrder": 1,
           "scrollPosition": 0,
           "draftText": "",
           "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
         }
       ],
-      "activeTabId": "tab-a903ef45"
+      "activeTabId": "tab-c9d9181d"
     }
   ],
   "legacySessionsMigrated": true,

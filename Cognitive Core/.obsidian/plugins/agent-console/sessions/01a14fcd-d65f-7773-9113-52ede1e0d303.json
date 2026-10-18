@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "sessionId": "01a14fcd-d65f-7773-9113-52ede1e0d303",
+  "agentId": "codex-acp",
+  "messages": [
+    {
+      "id": "f647eb75-d863-46ad-8d0a-2925f117c899",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Hi"
+        }
+      ],
+      "timestamp": "2026-10-18T16:17:38.582Z"
+    }
+  ],
+  "contextNotes": [],
+  "savedAt": "2026-10-18T16:17:46.283Z"
+}
