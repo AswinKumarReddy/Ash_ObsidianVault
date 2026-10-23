@@ -1,0 +1,8 @@
+- Universally suitable extensions box
+- Undrwear
+- Sports socks
+- Kitchen appliances
+  - pressure cooker
+  - Nonstick pan and tava
+  - Blender
+- 
