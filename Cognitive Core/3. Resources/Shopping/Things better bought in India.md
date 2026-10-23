@@ -5,4 +5,4 @@
   - pressure cooker
   - Nonstick pan and tava
   - Blender
-- 
+- OTT subscription
