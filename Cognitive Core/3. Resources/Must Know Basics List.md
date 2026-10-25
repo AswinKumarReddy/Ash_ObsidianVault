@@ -1,4 +1,4 @@
-Based on the video, here are the 10 essential skills Jeremy Siers identifies as fundamental for being capable and self-reliant:
+Ref Video: https://www.youtube.com/watch?v=Aqsr5erRTGg
 
 1.  **Basic Vehicle Maintenance** (01:34)
     *   Change a flat tire
