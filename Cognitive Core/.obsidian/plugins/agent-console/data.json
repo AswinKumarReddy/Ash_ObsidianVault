@@ -92,6 +92,14 @@
   },
   "savedSessions": [
     {
+      "sessionId": "4a4c73be-6ce0-4814-a938-ab16abbcf48e",
+      "agentId": "gemini-cli",
+      "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+      "title": "Review essential skills",
+      "createdAt": "2026-10-25T21:33:15.201Z",
+      "updatedAt": "2026-10-25T21:34:19.430Z"
+    },
+    {
       "sessionId": "2fc08cfa-4cd7-4ef6-aa52-e414dc05919a",
       "agentId": "gemini-cli",
       "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
@@ -217,10 +225,10 @@
     "codex-acp": {
       "sessions": [
         {
-          "sessionId": "01a07ce6-dbf8-7080-85ea-289fba4b9eb8",
-          "cwd": "C:\\Users\\user",
-          "title": "CODEX_API_KEY",
-          "updatedAt": "2026-09-07T17:37:32.613+00:00"
+          "sessionId": "01a14fcd-d65f-7773-9113-52ede1e0d303",
+          "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+          "title": "<obsidian_system_instruction> You are running inside Obsidian via the Agent Console plugin.  Your replies are shown t...",
+          "updatedAt": "2026-10-18T16:17:46.269+00:00"
         },
         {
           "sessionId": "01a07ce9-238e-7241-9ada-64df5f399f0d",
@@ -275,33 +283,9 @@
           "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
           "title": "[@Tamil Nādu Road Trip Checklist](file://D:\\Git\\Ash_ObsidianVault\\Cognitive Core/2. Areas/Travel log/Tamilnadu Trip J...",
           "updatedAt": "2026-06-18T17:18:54.765+00:00"
-        },
-        {
-          "sessionId": "019edaee-fb90-7c73-bd52-7742bcb5607f",
-          "cwd": "C:\\Users\\user",
-          "title": "im trying to connect codex in my Obsidain plugin - \"Agent Console\", it appreas in need to give an API key and path fo...",
-          "updatedAt": "2026-06-18T13:54:29.658+00:00"
-        },
-        {
-          "sessionId": "019edaec-6194-7c11-9992-145b68814147",
-          "cwd": "C:\\Users\\user",
-          "title": "which",
-          "updatedAt": "2026-06-18T13:30:21.707+00:00"
-        },
-        {
-          "sessionId": "019edae8-aff2-7280-9407-a05dc9c7f10e",
-          "cwd": "C:\\Users\\user",
-          "title": "hi",
-          "updatedAt": "2026-06-18T13:28:23.162+00:00"
-        },
-        {
-          "sessionId": "019e593b-6c99-78a2-8e59-07a81f189178",
-          "cwd": "C:\\Users\\user\\Documents\\Codex\\2026-05-24\\chekout-this-path-d-git-ash",
-          "title": "chekout this path D:\\Git\\Ash_ObsidianVault this contains my obsidian vault for all my text and markdown file sotreate...",
-          "updatedAt": "2026-05-24T09:08:31.553+00:00"
         }
       ],
-      "syncedAt": "2026-10-18T16:17:38.642Z"
+      "syncedAt": "2026-10-25T21:32:38.798Z"
     },
     "gemini-cli": {
       "sessions": [
@@ -399,29 +383,18 @@
       "leafId": "1063d13e22e29437",
       "tabs": [
         {
-          "tabId": "tab-cd81dfaa",
-          "agentId": "codex-acp",
-          "label": "HI",
-          "labelIsCustom": false,
-          "sessionId": "01a07ceb-0d29-7e91-accd-02e98936428d",
-          "tabOrder": 0,
-          "scrollPosition": 0,
-          "draftText": "",
-          "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
-        },
-        {
-          "tabId": "tab-c9d9181d",
+          "tabId": "tab-7849df60",
           "agentId": "gemini-cli",
-          "label": "Greet user",
+          "label": "Review essential skills",
           "labelIsCustom": false,
-          "sessionId": "2fc08cfa-4cd7-4ef6-aa52-e414dc05919a",
-          "tabOrder": 1,
+          "sessionId": "4a4c73be-6ce0-4814-a938-ab16abbcf48e",
+          "tabOrder": 0,
           "scrollPosition": 0,
           "draftText": "",
           "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
         }
       ],
-      "activeTabId": "tab-c9d9181d"
+      "activeTabId": "tab-7849df60"
     }
   ],
   "legacySessionsMigrated": true,
