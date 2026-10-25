@@ -49,7 +49,7 @@
     "defaultWorkingDirectory": ""
   },
   "customAgents": [],
-  "defaultAgentId": "codex-acp",
+  "defaultAgentId": "gemini-cli",
   "autoAllowPermissions": false,
   "activeNoteAsDefaultContext": true,
   "migrationNoticeShown": false,
@@ -97,7 +97,7 @@
       "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
       "title": "Review essential skills",
       "createdAt": "2026-10-25T21:33:15.201Z",
-      "updatedAt": "2026-10-25T21:34:19.430Z"
+      "updatedAt": "2026-10-25T21:38:56.304Z"
     },
     {
       "sessionId": "2fc08cfa-4cd7-4ef6-aa52-e414dc05919a",
@@ -285,7 +285,7 @@
           "updatedAt": "2026-06-18T17:18:54.765+00:00"
         }
       ],
-      "syncedAt": "2026-10-25T21:32:38.798Z"
+      "syncedAt": "2026-10-25T21:39:29.675Z"
     },
     "gemini-cli": {
       "sessions": [
@@ -392,9 +392,31 @@
           "scrollPosition": 0,
           "draftText": "",
           "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
+        },
+        {
+          "tabId": "tab-a2c0ad98",
+          "agentId": "gemini-cli",
+          "label": "codex-acp 09:39 PM",
+          "labelIsCustom": false,
+          "sessionId": null,
+          "tabOrder": 1,
+          "scrollPosition": 0,
+          "draftText": "",
+          "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
+        },
+        {
+          "tabId": "tab-7d8f036e",
+          "agentId": "codex-acp",
+          "label": "codex-acp 09:39 PM",
+          "labelIsCustom": false,
+          "sessionId": null,
+          "tabOrder": 2,
+          "scrollPosition": 0,
+          "draftText": "",
+          "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
         }
       ],
-      "activeTabId": "tab-7849df60"
+      "activeTabId": "tab-7d8f036e"
     }
   ],
   "legacySessionsMigrated": true,

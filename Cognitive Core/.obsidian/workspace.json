@@ -183,7 +183,7 @@
             "state": {
               "type": "agent-console-chat-view",
               "state": {
-                "initialAgentId": "gemini-cli"
+                "initialAgentId": "codex-acp"
               },
               "icon": "agent-console",
               "title": "Agent console"
