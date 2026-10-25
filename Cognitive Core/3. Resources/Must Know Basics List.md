@@ -39,12 +39,7 @@ Ref Video: https://www.youtube.com/watch?v=Aqsr5erRTGg
     *   Maintain cardiovascular health
     *   Emphasize being fit enough to handle daily tasks and unexpected physical demands
 
-9.  **Firearms Safety & Proficiency** (12:51)
-    *   Learn safe handling and storage
-    *   Determine if a firearm is loaded
-    *   Seek professional training and practice regularly
-
-10. **Gather & Prepare Food** (14:07)
+9.  **Gather & Prepare Food** (14:07)
     *   Learn the origins of your food (hunting, fishing, or gardening)
     *   Understand how to process and clean what you harvest
     *   Safely store and cook raw ingredients

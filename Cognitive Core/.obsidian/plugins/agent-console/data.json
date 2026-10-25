@@ -97,7 +97,7 @@
       "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
       "title": "Configure auto permissions",
       "createdAt": "2026-10-25T21:40:32.397Z",
-      "updatedAt": "2026-10-25T22:03:29.706Z"
+      "updatedAt": "2026-10-25T22:06:44.969Z"
     },
     {
       "sessionId": "4a4c73be-6ce0-4814-a938-ab16abbcf48e",
@@ -389,31 +389,8 @@
   "perLeafTabStates": [
     {
       "leafId": "1063d13e22e29437",
-      "tabs": [
-        {
-          "tabId": "tab-7849df60",
-          "agentId": "gemini-cli",
-          "label": "Review essential skills",
-          "labelIsCustom": false,
-          "sessionId": "4a4c73be-6ce0-4814-a938-ab16abbcf48e",
-          "tabOrder": 0,
-          "scrollPosition": 0,
-          "draftText": "",
-          "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
-        },
-        {
-          "tabId": "tab-c8b5035c",
-          "agentId": "gemini-cli",
-          "label": "Configure auto permissions",
-          "labelIsCustom": false,
-          "sessionId": "d283af83-01b0-4de2-a049-adb79f82ed1a",
-          "tabOrder": 1,
-          "scrollPosition": 0,
-          "draftText": "",
-          "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
-        }
-      ],
-      "activeTabId": "tab-c8b5035c"
+      "tabs": [],
+      "activeTabId": ""
     }
   ],
   "legacySessionsMigrated": true,
