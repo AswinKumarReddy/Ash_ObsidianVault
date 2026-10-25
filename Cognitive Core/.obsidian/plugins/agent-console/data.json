@@ -92,6 +92,14 @@
   },
   "savedSessions": [
     {
+      "sessionId": "d283af83-01b0-4de2-a049-adb79f82ed1a",
+      "agentId": "gemini-cli",
+      "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
+      "title": "Configure auto permissions",
+      "createdAt": "2026-10-25T21:40:32.397Z",
+      "updatedAt": "2026-10-25T21:44:41.709Z"
+    },
+    {
       "sessionId": "4a4c73be-6ce0-4814-a938-ab16abbcf48e",
       "agentId": "gemini-cli",
       "cwd": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core",
@@ -394,29 +402,18 @@
           "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
         },
         {
-          "tabId": "tab-a2c0ad98",
+          "tabId": "tab-c8b5035c",
           "agentId": "gemini-cli",
-          "label": "codex-acp 09:39 PM",
+          "label": "Configure auto permissions",
           "labelIsCustom": false,
-          "sessionId": null,
+          "sessionId": "d283af83-01b0-4de2-a049-adb79f82ed1a",
           "tabOrder": 1,
-          "scrollPosition": 0,
-          "draftText": "",
-          "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
-        },
-        {
-          "tabId": "tab-7d8f036e",
-          "agentId": "codex-acp",
-          "label": "codex-acp 09:39 PM",
-          "labelIsCustom": false,
-          "sessionId": null,
-          "tabOrder": 2,
           "scrollPosition": 0,
           "draftText": "",
           "workingDirectory": "D:\\Git\\Ash_ObsidianVault\\Cognitive Core"
         }
       ],
-      "activeTabId": "tab-7d8f036e"
+      "activeTabId": "tab-c8b5035c"
     }
   ],
   "legacySessionsMigrated": true,
