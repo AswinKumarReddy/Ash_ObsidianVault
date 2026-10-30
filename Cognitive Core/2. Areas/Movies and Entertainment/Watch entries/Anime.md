@@ -8,6 +8,7 @@ tags:
 
 - [ ] Attack on Titan
 - [ ] Arcane
+- [ ] Bleach
 - [x] Dr. Stone
 - [x] Chainsaw Man
 - [ ] Cahinsaw Man - The movie
