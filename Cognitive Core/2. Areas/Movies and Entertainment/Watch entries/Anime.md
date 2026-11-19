@@ -20,4 +20,5 @@ tags:
 - [ ] Mushoku Tensei: Jobless reincarnation
 - [ ] All devouring whale
 - [ ] dan da dan 2
+- [ ] lord of Mysteries
 - [ ] 
