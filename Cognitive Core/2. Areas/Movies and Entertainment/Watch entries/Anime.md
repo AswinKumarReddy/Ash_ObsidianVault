@@ -17,3 +17,5 @@ tags:
 - [x] Vinland Saga
 - [ ] Wind Breaker
 - [x] Frieren season 2
+- [ ] Mushoku Tensei: Jobless reincarnation
+- [ ] 
