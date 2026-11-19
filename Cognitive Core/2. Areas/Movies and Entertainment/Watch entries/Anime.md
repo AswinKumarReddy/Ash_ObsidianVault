@@ -18,4 +18,6 @@ tags:
 - [ ] Wind Breaker
 - [x] Frieren season 2
 - [ ] Mushoku Tensei: Jobless reincarnation
+- [ ] All devouring whale
+- [ ] dan da dan 2
 - [ ] 
