@@ -12,7 +12,7 @@ tags:
 - [x] Dr. Stone
 - [x] Chainsaw Man
 - [ ] Cahinsaw Man - The movie
-- [ ] My Hero Academia
+- [ ] My Hero Academia - Final season
 - [ ] Tokyo Revengers
 - [x] Vinland Saga
 - [ ] Wind Breaker
@@ -21,4 +21,4 @@ tags:
 - [ ] All devouring whale
 - [ ] dan da dan 2
 - [ ] lord of Mysteries
-- [ ] 
+- [ ] To be Hero X
