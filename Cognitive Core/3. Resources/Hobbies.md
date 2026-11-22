@@ -1,0 +1,1 @@
+- make a templated list of hobbies that develop you in diverse areas
