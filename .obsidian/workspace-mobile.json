@@ -68,12 +68,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cognitive Core/3. Resources/Hobbies.md",
-                "mode": "source",
+                "file": "Cognitive Core/2. Areas/Travel log/London Exploration/Greenwich.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hobbies"
+              "title": "Greenwich"
             }
           }
         ],
@@ -228,8 +228,13 @@
   },
   "active": "aac0967e3d51356e",
   "lastOpenFiles": [
-    "Cognitive Core/3. Resources/Shopping/Things better bought in India.md",
     "Cognitive Core/3. Resources/Hobbies.md",
+    "Cognitive Core/2. Areas/Travel log/London Exploration/Wembley.md",
+    "Cognitive Core/2. Areas/Travel log/London Exploration/Leicester Square.md",
+    "Cognitive Core/2. Areas/Travel log/London Exploration/Greenwich.md",
+    "Cognitive Core/2. Areas/Travel log/London Exploration/0. London Hub.md",
+    "Cognitive Core/2. Areas/Travel log/London Exploration",
+    "Cognitive Core/3. Resources/Shopping/Things better bought in India.md",
     "Cognitive Core/2. Areas/Movies and Entertainment/Watch entries/Anime.md",
     "Cognitive Core/3. Resources/Shopping",
     "Cognitive Core/2. Areas/Movies and Entertainment/Watch entries/Series.md",
@@ -253,17 +258,12 @@
     "Cognitive Core/2. Areas/Cooking/Drumstick Leaves Curry.md",
     "Cognitive Core/2. Areas/Movies and Entertainment/🎬 Watchlist Dashboard.md",
     "Cognitive Core/3. Resources/Obsidian Optimization/Obsidian Sync.md",
-    "Cognitive Core/iPhone Setup link capture setup with 'Shortcuts'.md",
-    "Cognitive Core/3. Resources/Tax Filing/Resources/Tax Filing Checklist (Amazon SDE2).md",
     "Cognitive Core/3. Resources/Tax Filing/Resources",
     "Cognitive Core/3. Resources/Tax Filing",
     "Cognitive Core/1. Projects/Perfumes",
-    "Cognitive Core/4. Archives/Personal Gallery Sync System/Data store sync - thoughts.md",
     "Cognitive Core/4. Archives/Personal Gallery Sync System",
-    "Cognitive Core/1. Projects/Video summary and notes agent - obsidian console/Video Summary Agent Project tracker.md",
     "Cognitive Core/1. Projects/Meghalaya Travel plan",
     "Cognitive Core/4. Archives/Uttarakhand Plan",
-    "Cognitive Core/1. Projects/Video summary and notes agent - obsidian console",
     "Cognitive Core/2. Areas/Travel log/Agra Visit March 2026/Attachments/pexels-artosuraj-28762053.jpg"
   ]
 }
