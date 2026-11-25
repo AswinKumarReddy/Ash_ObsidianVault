@@ -89,6 +89,6 @@ Wembley is **two completely different experiences** in one neighbourhood:
 ## Visit Log
 > Log each visit in one row and paste the link to that day's journal record (where your perspective, photos, and full day details live).
 
-| Date | Did / Highlights | Ate & Verdict | Journal Link |
+| Date | Did / Highlights | Journal Link | Personal Notes |
 | --- | --- | --- | --- |
-| YYYY-MM-DD | | | `[[Daily Note Link]]` |
+| YYYY-MM-DD | | `[[Daily Note Link]]` | |
