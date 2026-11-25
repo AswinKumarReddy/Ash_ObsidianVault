@@ -27,6 +27,7 @@ Greenwich has **two distinct pockets** that are easy to combine or explore separ
 1. **Greenwich Peninsula / The O2** (around **North Greenwich** station — where **Cineworld O2** is)
 2. **Historic Greenwich Town Centre** (around **Cutty Sark DLR** — market, park, observatory, riverside pubs)
 
+
 ---
 
 ## Quick Cheat Sheet
@@ -96,11 +97,9 @@ Greenwich has **two distinct pockets** that are easy to combine or explore separ
 
 ---
 
-## Visit Log & Notes
-> Keep it short for your future self: what you did, what you ate, tips for next time, and photo album link.
+## Visit Log
+> Log each visit in one row and link your **Daily Note** (where your full perspective, photos, and day details live).
 
-- **YYYY-MM-DD:**
-  - Did: 
-  - Ate: 
-  - Note for next time: 
-  - Photos: 
+| Daily Link       | Did / Highlights | Ate & Verdict | Note for Next Time |
+| ---------------- | ---------------- | ------------- | ------------------ |
+| `[[YYYY-MM-DD]]` |                  |               |                    |

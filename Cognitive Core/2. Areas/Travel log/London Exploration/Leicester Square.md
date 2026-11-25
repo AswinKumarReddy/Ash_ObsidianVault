@@ -97,11 +97,9 @@ Because Leicester Square sits right where **Chinatown, Soho, and Covent Garden**
 
 ---
 
-## Visit Log & Notes
-> Keep it short for your future self: what you did, what you ate, tips for next time, and photo album link.
+## Visit Log
+> Log each visit in one row and link your **Daily Note** (where your full perspective, photos, and day details live).
 
-- **YYYY-MM-DD:**
-  - Did: 
-  - Ate: 
-  - Note for next time: 
-  - Photos: 
+| Daily Link | Did / Highlights | Ate & Verdict | Note for Next Time |
+| --- | --- | --- | --- |
+| `[[YYYY-MM-DD]]` | | | |
