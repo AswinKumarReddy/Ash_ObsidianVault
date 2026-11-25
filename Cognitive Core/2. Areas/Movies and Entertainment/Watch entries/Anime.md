@@ -12,7 +12,7 @@ tags:
 - [ ] Cahinsaw Man - The movie
 - [ ] My Hero Academia - Final season
 - [ ] Tokyo Revengers
-- [ ] Wind Breaker
+- [x] Wind Breaker
 - [ ] Mushoku Tensei: Jobless reincarnation
 - [ ] All devouring whale
 - [ ] dan da dan 2
