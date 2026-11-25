@@ -100,6 +100,6 @@ Greenwich has **two distinct pockets** that are easy to combine or explore separ
 ## Visit Log
 > Log each visit in one row and paste the link to that day's journal record (where your perspective, photos, and full day details live).
 
-| Date       | Did / Highlights | Ate & Verdict | Journal Link                                      |
-| ---------- | ---------------- | ------------- | ------------------------------------------------- |
-| YYYY-MM-DD |                  |               | [Link](diarium://view?entryId=639310798430365740) |
+| Date       | Did / Highlights | Journal Link                                      | Personal Notes |
+| ---------- | ---------------- | ------------------------------------------------- | -------------- |
+| YYYY-MM-DD |                  | [Link](diarium://view?entryId=639310798430365740) |                |
