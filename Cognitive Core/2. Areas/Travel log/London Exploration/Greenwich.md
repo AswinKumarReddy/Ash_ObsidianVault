@@ -98,8 +98,8 @@ Greenwich has **two distinct pockets** that are easy to combine or explore separ
 ---
 
 ## Visit Log
-> Log each visit in one row and link your **Daily Note** (where your full perspective, photos, and day details live).
+> Log each visit in one row and paste the link to that day's journal record (where your perspective, photos, and full day details live).
 
-| Daily Link       | Did / Highlights | Ate & Verdict | Note for Next Time |
-| ---------------- | ---------------- | ------------- | ------------------ |
-| `[[YYYY-MM-DD]]` |                  |               |                    |
+| Date       | Did / Highlights | Ate & Verdict | Journal Link                                      |
+| ---------- | ---------------- | ------------- | ------------------------------------------------- |
+| YYYY-MM-DD |                  |               | [Link](diarium://view?entryId=639310798430365740) |

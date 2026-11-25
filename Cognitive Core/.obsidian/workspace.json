@@ -190,12 +190,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 399.5,
-    "collapsed": true
+    "width": 399.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,12 +209,12 @@
       "agent-console:Agent Console": false
     }
   },
-  "active": "401ad2f8111c179d",
+  "active": "1a62463e16a8e142",
   "lastOpenFiles": [
-    "2. Areas/Travel log/London Exploration/0. London Hub.md",
-    "2. Areas/Travel log/London Exploration/Greenwich.md",
-    "2. Areas/Travel log/London Exploration/Wembley.md",
     "2. Areas/Travel log/London Exploration/Leicester Square.md",
+    "2. Areas/Travel log/London Exploration/Greenwich.md",
+    "2. Areas/Travel log/London Exploration/0. London Hub.md",
+    "2. Areas/Travel log/London Exploration/Wembley.md",
     "2. Areas/Travel log/London Exploration/Untitled",
     "2. Areas/Movies and Entertainment/Watch entries/Anime.md",
     "2. Areas/Travel log/London Exploration/Leicester",
