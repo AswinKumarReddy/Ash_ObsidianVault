@@ -8,6 +8,7 @@ tags:
 
 - [ ] Attack on Titan
 - [ ] Arcane
+- [ ] The Apothecary diaries S3
 - [ ] Bleach
 - [ ] Cahinsaw Man - The movie
 - [ ] My Hero Academia - Final season
